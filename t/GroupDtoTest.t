@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::GroupDto');
+use_ok('CZERTAINLY::Object::GroupDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::GroupDto->new();
+#my $instance = CZERTAINLY::Object::GroupDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::GroupDto');
+#isa_ok($instance, 'CZERTAINLY::Object::GroupDto');
 
 
 done_testing();

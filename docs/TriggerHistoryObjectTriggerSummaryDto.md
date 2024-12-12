@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::TriggerHistoryObjectTriggerSummaryDto
+# CZERTAINLY::Object::TriggerHistoryObjectTriggerSummaryDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::TriggerHistoryObjectTriggerSummaryDto;
+use CZERTAINLY::Object::TriggerHistoryObjectTriggerSummaryDto;
 ```
 
 ## Properties

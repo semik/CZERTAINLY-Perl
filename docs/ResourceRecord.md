@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ResourceRecord
+# CZERTAINLY::Object::ResourceRecord
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ResourceRecord;
+use CZERTAINLY::Object::ResourceRecord;
 ```
 
 ## Properties

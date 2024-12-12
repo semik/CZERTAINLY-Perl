@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ComplianceRulesListResponseDto
+# CZERTAINLY::Object::ComplianceRulesListResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ComplianceRulesListResponseDto;
+use CZERTAINLY::Object::ComplianceRulesListResponseDto;
 ```
 
 ## Properties

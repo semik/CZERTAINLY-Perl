@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::BulkActionMessageDto
+# CZERTAINLY::Object::BulkActionMessageDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::BulkActionMessageDto;
+use CZERTAINLY::Object::BulkActionMessageDto;
 ```
 
 ## Properties

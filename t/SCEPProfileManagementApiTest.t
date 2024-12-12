@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::SCEPProfileManagementApi');
+use_ok('CZERTAINLY::SCEPProfileManagementApi');
 
-my $api = WWW::OpenAPIClient::SCEPProfileManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::SCEPProfileManagementApi');
+my $api = CZERTAINLY::SCEPProfileManagementApi->new();
+isa_ok($api, 'CZERTAINLY::SCEPProfileManagementApi');
 
 #
 # bulk_delete_scep_profile test

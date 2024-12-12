@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ExecutionDto
+# CZERTAINLY::Object::ExecutionDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ExecutionDto;
+use CZERTAINLY::Object::ExecutionDto;
 ```
 
 ## Properties

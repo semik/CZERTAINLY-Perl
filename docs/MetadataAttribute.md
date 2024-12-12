@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::MetadataAttribute
+# CZERTAINLY::Object::MetadataAttribute
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::MetadataAttribute;
+use CZERTAINLY::Object::MetadataAttribute;
 ```
 
 ## Properties

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::SearchFieldDataDto');
+use_ok('CZERTAINLY::Object::SearchFieldDataDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::SearchFieldDataDto->new();
+#my $instance = CZERTAINLY::Object::SearchFieldDataDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::SearchFieldDataDto');
+#isa_ok($instance, 'CZERTAINLY::Object::SearchFieldDataDto');
 
 
 done_testing();

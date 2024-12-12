@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ConnectRequestDto
+# CZERTAINLY::Object::ConnectRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ConnectRequestDto;
+use CZERTAINLY::Object::ConnectRequestDto;
 ```
 
 ## Properties

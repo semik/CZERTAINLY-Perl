@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ApprovalInventoryApi');
+use_ok('CZERTAINLY::ApprovalInventoryApi');
 
-my $api = WWW::OpenAPIClient::ApprovalInventoryApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ApprovalInventoryApi');
+my $api = CZERTAINLY::ApprovalInventoryApi->new();
+isa_ok($api, 'CZERTAINLY::ApprovalInventoryApi');
 
 #
 # approve_approval test

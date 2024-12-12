@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ScheduledJobHistoryDto
+# CZERTAINLY::Object::ScheduledJobHistoryDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ScheduledJobHistoryDto;
+use CZERTAINLY::Object::ScheduledJobHistoryDto;
 ```
 
 ## Properties

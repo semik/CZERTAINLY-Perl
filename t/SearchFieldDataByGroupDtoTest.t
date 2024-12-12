@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::SearchFieldDataByGroupDto');
+use_ok('CZERTAINLY::Object::SearchFieldDataByGroupDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::SearchFieldDataByGroupDto->new();
+#my $instance = CZERTAINLY::Object::SearchFieldDataByGroupDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::SearchFieldDataByGroupDto');
+#isa_ok($instance, 'CZERTAINLY::Object::SearchFieldDataByGroupDto');
 
 
 done_testing();

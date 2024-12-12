@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AddLocationRequestDto');
+use_ok('CZERTAINLY::Object::AddLocationRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AddLocationRequestDto->new();
+#my $instance = CZERTAINLY::Object::AddLocationRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AddLocationRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::AddLocationRequestDto');
 
 
 done_testing();

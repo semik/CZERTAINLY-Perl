@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ApprovalProfileInventoryApi
+# CZERTAINLY::ApprovalProfileInventoryApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ApprovalProfileInventoryApi;
+use CZERTAINLY::Object::ApprovalProfileInventoryApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -26,11 +26,11 @@ Create a Approval profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalProfileInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalProfileInventoryApi->new(
+use CZERTAINLY::ApprovalProfileInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalProfileInventoryApi->new(
 );
 
-my $approval_profile_request_dto = WWW::OpenAPIClient::Object::ApprovalProfileRequestDto->new(); # ApprovalProfileRequestDto | 
+my $approval_profile_request_dto = CZERTAINLY::Object::ApprovalProfileRequestDto->new(); # ApprovalProfileRequestDto | 
 
 eval {
     my $result = $api_instance->create_approval_profile(approval_profile_request_dto => $approval_profile_request_dto);
@@ -70,8 +70,8 @@ Delete an approval profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalProfileInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalProfileInventoryApi->new(
+use CZERTAINLY::ApprovalProfileInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalProfileInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval profile UUID
@@ -113,8 +113,8 @@ Disabling of Approval profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalProfileInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalProfileInventoryApi->new(
+use CZERTAINLY::ApprovalProfileInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalProfileInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval profile UUID
@@ -156,12 +156,12 @@ Edit an Approval profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalProfileInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalProfileInventoryApi->new(
+use CZERTAINLY::ApprovalProfileInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalProfileInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval profile UUID
-my $approval_profile_update_request_dto = WWW::OpenAPIClient::Object::ApprovalProfileUpdateRequestDto->new(); # ApprovalProfileUpdateRequestDto | 
+my $approval_profile_update_request_dto = CZERTAINLY::Object::ApprovalProfileUpdateRequestDto->new(); # ApprovalProfileUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_approval_profile(uuid => $uuid, approval_profile_update_request_dto => $approval_profile_update_request_dto);
@@ -202,8 +202,8 @@ Enabling of Approval profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalProfileInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalProfileInventoryApi->new(
+use CZERTAINLY::ApprovalProfileInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalProfileInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval profile UUID
@@ -245,12 +245,12 @@ Get Approval Profile Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalProfileInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalProfileInventoryApi->new(
+use CZERTAINLY::ApprovalProfileInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalProfileInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval profile UUID
-my $approval_profile_for_version_dto = new WWW::OpenAPIClient.ApprovalProfileForVersionDto(); # ApprovalProfileForVersionDto | Select specific version of the approval profile
+my $approval_profile_for_version_dto = new CZERTAINLY.ApprovalProfileForVersionDto(); # ApprovalProfileForVersionDto | Select specific version of the approval profile
 
 eval {
     my $result = $api_instance->get_approval_profile(uuid => $uuid, approval_profile_for_version_dto => $approval_profile_for_version_dto);
@@ -291,11 +291,11 @@ List Approval Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalProfileInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalProfileInventoryApi->new(
+use CZERTAINLY::ApprovalProfileInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalProfileInventoryApi->new(
 );
 
-my $pagination_request_dto = new WWW::OpenAPIClient.PaginationRequestDto(); # PaginationRequestDto | 
+my $pagination_request_dto = new CZERTAINLY.PaginationRequestDto(); # PaginationRequestDto | 
 
 eval {
     my $result = $api_instance->list_approval_profiles(pagination_request_dto => $pagination_request_dto);

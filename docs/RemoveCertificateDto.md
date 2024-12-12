@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RemoveCertificateDto
+# CZERTAINLY::Object::RemoveCertificateDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RemoveCertificateDto;
+use CZERTAINLY::Object::RemoveCertificateDto;
 ```
 
 ## Properties

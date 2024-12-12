@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CmpProfileDetailDto');
+use_ok('CZERTAINLY::Object::CmpProfileDetailDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CmpProfileDetailDto->new();
+#my $instance = CZERTAINLY::Object::CmpProfileDetailDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CmpProfileDetailDto');
+#isa_ok($instance, 'CZERTAINLY::Object::CmpProfileDetailDto');
 
 
 done_testing();

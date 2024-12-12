@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CertificateInventoryApi');
+use_ok('CZERTAINLY::CertificateInventoryApi');
 
-my $api = WWW::OpenAPIClient::CertificateInventoryApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CertificateInventoryApi');
+my $api = CZERTAINLY::CertificateInventoryApi->new();
+isa_ok($api, 'CZERTAINLY::CertificateInventoryApi');
 
 #
 # bulk_delete_certificate test

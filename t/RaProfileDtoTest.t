@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::RaProfileDto');
+use_ok('CZERTAINLY::Object::RaProfileDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::RaProfileDto->new();
+#my $instance = CZERTAINLY::Object::RaProfileDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::RaProfileDto');
+#isa_ok($instance, 'CZERTAINLY::Object::RaProfileDto');
 
 
 done_testing();

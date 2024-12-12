@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AcmeProfileEditRequestDto
+# CZERTAINLY::Object::AcmeProfileEditRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AcmeProfileEditRequestDto;
+use CZERTAINLY::Object::AcmeProfileEditRequestDto;
 ```
 
 ## Properties

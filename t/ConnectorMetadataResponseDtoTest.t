@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ConnectorMetadataResponseDto');
+use_ok('CZERTAINLY::Object::ConnectorMetadataResponseDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ConnectorMetadataResponseDto->new();
+#my $instance = CZERTAINLY::Object::ConnectorMetadataResponseDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ConnectorMetadataResponseDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ConnectorMetadataResponseDto');
 
 
 done_testing();

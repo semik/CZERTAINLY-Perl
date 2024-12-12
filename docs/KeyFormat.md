@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyFormat
+# CZERTAINLY::Object::KeyFormat
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyFormat;
+use CZERTAINLY::Object::KeyFormat;
 ```
 
 ## Properties

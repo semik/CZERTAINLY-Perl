@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CustomAttributeProperties
+# CZERTAINLY::Object::CustomAttributeProperties
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CustomAttributeProperties;
+use CZERTAINLY::Object::CustomAttributeProperties;
 ```
 
 ## Properties

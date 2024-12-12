@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CryptographicKeyResponseDto');
+use_ok('CZERTAINLY::Object::CryptographicKeyResponseDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CryptographicKeyResponseDto->new();
+#my $instance = CZERTAINLY::Object::CryptographicKeyResponseDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CryptographicKeyResponseDto');
+#isa_ok($instance, 'CZERTAINLY::Object::CryptographicKeyResponseDto');
 
 
 done_testing();

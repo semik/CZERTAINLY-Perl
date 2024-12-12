@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::SecretAttributeContentData');
+use_ok('CZERTAINLY::Object::SecretAttributeContentData');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::SecretAttributeContentData->new();
+#my $instance = CZERTAINLY::Object::SecretAttributeContentData->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::SecretAttributeContentData');
+#isa_ok($instance, 'CZERTAINLY::Object::SecretAttributeContentData');
 
 
 done_testing();

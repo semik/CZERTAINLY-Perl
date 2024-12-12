@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CodeBlockAttributeContentData
+# CZERTAINLY::Object::CodeBlockAttributeContentData
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CodeBlockAttributeContentData;
+use CZERTAINLY::Object::CodeBlockAttributeContentData;
 ```
 
 ## Properties

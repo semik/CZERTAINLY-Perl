@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AuditLogDto
+# CZERTAINLY::Object::AuditLogDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AuditLogDto;
+use CZERTAINLY::Object::AuditLogDto;
 ```
 
 ## Properties

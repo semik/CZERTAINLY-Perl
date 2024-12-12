@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::UserManagementApi');
+use_ok('CZERTAINLY::UserManagementApi');
 
-my $api = WWW::OpenAPIClient::UserManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::UserManagementApi');
+my $api = CZERTAINLY::UserManagementApi->new();
+isa_ok($api, 'CZERTAINLY::UserManagementApi');
 
 #
 # add_role test

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ClientCertificateRevocationDto
+# CZERTAINLY::Object::ClientCertificateRevocationDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ClientCertificateRevocationDto;
+use CZERTAINLY::Object::ClientCertificateRevocationDto;
 ```
 
 ## Properties

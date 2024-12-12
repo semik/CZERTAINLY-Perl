@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::DateAttributeContent
+# CZERTAINLY::Object::DateAttributeContent
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::DateAttributeContent;
+use CZERTAINLY::Object::DateAttributeContent;
 ```
 
 ## Properties

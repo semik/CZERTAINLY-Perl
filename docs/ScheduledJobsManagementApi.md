@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ScheduledJobsManagementApi
+# CZERTAINLY::ScheduledJobsManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ScheduledJobsManagementApi;
+use CZERTAINLY::Object::ScheduledJobsManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -26,8 +26,8 @@ Delete Scheduled job
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ScheduledJobsManagementApi;
-my $api_instance = WWW::OpenAPIClient::ScheduledJobsManagementApi->new(
+use CZERTAINLY::ScheduledJobsManagementApi;
+my $api_instance = CZERTAINLY::ScheduledJobsManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Scheduled job UUID
@@ -69,8 +69,8 @@ Disabling of Scheduled job
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ScheduledJobsManagementApi;
-my $api_instance = WWW::OpenAPIClient::ScheduledJobsManagementApi->new(
+use CZERTAINLY::ScheduledJobsManagementApi;
+my $api_instance = CZERTAINLY::ScheduledJobsManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Scheduled job UUID
@@ -112,8 +112,8 @@ Enabling of Scheduled job
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ScheduledJobsManagementApi;
-my $api_instance = WWW::OpenAPIClient::ScheduledJobsManagementApi->new(
+use CZERTAINLY::ScheduledJobsManagementApi;
+my $api_instance = CZERTAINLY::ScheduledJobsManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Scheduled job UUID
@@ -155,8 +155,8 @@ Scheduled job detail
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ScheduledJobsManagementApi;
-my $api_instance = WWW::OpenAPIClient::ScheduledJobsManagementApi->new(
+use CZERTAINLY::ScheduledJobsManagementApi;
+my $api_instance = CZERTAINLY::ScheduledJobsManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Scheduled job UUID
@@ -199,11 +199,11 @@ Scheduled job history
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ScheduledJobsManagementApi;
-my $api_instance = WWW::OpenAPIClient::ScheduledJobsManagementApi->new(
+use CZERTAINLY::ScheduledJobsManagementApi;
+my $api_instance = CZERTAINLY::ScheduledJobsManagementApi->new(
 );
 
-my $pagination = new WWW::OpenAPIClient.PaginationRequestDto(); # PaginationRequestDto | 
+my $pagination = new CZERTAINLY.PaginationRequestDto(); # PaginationRequestDto | 
 my $uuid = "uuid_example"; # string | Scheduled job UUID
 
 eval {
@@ -245,11 +245,11 @@ List of scheduled jobs
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ScheduledJobsManagementApi;
-my $api_instance = WWW::OpenAPIClient::ScheduledJobsManagementApi->new(
+use CZERTAINLY::ScheduledJobsManagementApi;
+my $api_instance = CZERTAINLY::ScheduledJobsManagementApi->new(
 );
 
-my $pagination = new WWW::OpenAPIClient.PaginationRequestDto(); # PaginationRequestDto | 
+my $pagination = new CZERTAINLY.PaginationRequestDto(); # PaginationRequestDto | 
 
 eval {
     my $result = $api_instance->list_scheduled_jobs(pagination => $pagination);
@@ -289,12 +289,12 @@ Edit Scheduled job
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ScheduledJobsManagementApi;
-my $api_instance = WWW::OpenAPIClient::ScheduledJobsManagementApi->new(
+use CZERTAINLY::ScheduledJobsManagementApi;
+my $api_instance = CZERTAINLY::ScheduledJobsManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Scheduled job UUID
-my $update_scheduled_job = WWW::OpenAPIClient::Object::UpdateScheduledJob->new(); # UpdateScheduledJob | 
+my $update_scheduled_job = CZERTAINLY::Object::UpdateScheduledJob->new(); # UpdateScheduledJob | 
 
 eval {
     my $result = $api_instance->update_scheduled_job(uuid => $uuid, update_scheduled_job => $update_scheduled_job);

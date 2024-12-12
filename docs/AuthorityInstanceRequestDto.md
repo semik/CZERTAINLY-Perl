@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AuthorityInstanceRequestDto
+# CZERTAINLY::Object::AuthorityInstanceRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AuthorityInstanceRequestDto;
+use CZERTAINLY::Object::AuthorityInstanceRequestDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CertificateRequestFormat
+# CZERTAINLY::Object::CertificateRequestFormat
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateRequestFormat;
+use CZERTAINLY::Object::CertificateRequestFormat;
 ```
 
 ## Properties

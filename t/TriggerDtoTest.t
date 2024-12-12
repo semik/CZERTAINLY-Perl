@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::TriggerDto');
+use_ok('CZERTAINLY::Object::TriggerDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::TriggerDto->new();
+#my $instance = CZERTAINLY::Object::TriggerDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::TriggerDto');
+#isa_ok($instance, 'CZERTAINLY::Object::TriggerDto');
 
 
 done_testing();

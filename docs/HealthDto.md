@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::HealthDto
+# CZERTAINLY::Object::HealthDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::HealthDto;
+use CZERTAINLY::Object::HealthDto;
 ```
 
 ## Properties

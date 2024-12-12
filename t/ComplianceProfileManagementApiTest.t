@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ComplianceProfileManagementApi');
+use_ok('CZERTAINLY::ComplianceProfileManagementApi');
 
-my $api = WWW::OpenAPIClient::ComplianceProfileManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ComplianceProfileManagementApi');
+my $api = CZERTAINLY::ComplianceProfileManagementApi->new();
+isa_ok($api, 'CZERTAINLY::ComplianceProfileManagementApi');
 
 #
 # add_group test

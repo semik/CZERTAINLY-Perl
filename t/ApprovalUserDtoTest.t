@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ApprovalUserDto');
+use_ok('CZERTAINLY::Object::ApprovalUserDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ApprovalUserDto->new();
+#my $instance = CZERTAINLY::Object::ApprovalUserDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ApprovalUserDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ApprovalUserDto');
 
 
 done_testing();

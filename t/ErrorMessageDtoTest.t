@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ErrorMessageDto');
+use_ok('CZERTAINLY::Object::ErrorMessageDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ErrorMessageDto->new();
+#my $instance = CZERTAINLY::Object::ErrorMessageDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ErrorMessageDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ErrorMessageDto');
 
 
 done_testing();

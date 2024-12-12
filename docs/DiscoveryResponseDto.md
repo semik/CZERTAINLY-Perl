@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::DiscoveryResponseDto
+# CZERTAINLY::Object::DiscoveryResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::DiscoveryResponseDto;
+use CZERTAINLY::Object::DiscoveryResponseDto;
 ```
 
 ## Properties

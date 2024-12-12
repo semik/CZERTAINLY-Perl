@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::SchedulerJobExecutionStatus
+# CZERTAINLY::Object::SchedulerJobExecutionStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::SchedulerJobExecutionStatus;
+use CZERTAINLY::Object::SchedulerJobExecutionStatus;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::FloatAttributeContent
+# CZERTAINLY::Object::FloatAttributeContent
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::FloatAttributeContent;
+use CZERTAINLY::Object::FloatAttributeContent;
 ```
 
 ## Properties

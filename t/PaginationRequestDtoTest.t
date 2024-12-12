@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::PaginationRequestDto');
+use_ok('CZERTAINLY::Object::PaginationRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::PaginationRequestDto->new();
+#my $instance = CZERTAINLY::Object::PaginationRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::PaginationRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::PaginationRequestDto');
 
 
 done_testing();

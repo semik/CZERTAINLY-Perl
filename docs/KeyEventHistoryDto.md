@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyEventHistoryDto
+# CZERTAINLY::Object::KeyEventHistoryDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyEventHistoryDto;
+use CZERTAINLY::Object::KeyEventHistoryDto;
 ```
 
 ## Properties

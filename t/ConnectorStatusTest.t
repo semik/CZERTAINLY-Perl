@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ConnectorStatus');
+use_ok('CZERTAINLY::Object::ConnectorStatus');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ConnectorStatus->new();
+#my $instance = CZERTAINLY::Object::ConnectorStatus->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ConnectorStatus');
+#isa_ok($instance, 'CZERTAINLY::Object::ConnectorStatus');
 
 
 done_testing();

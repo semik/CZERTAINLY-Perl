@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::TokenInstanceControllerApi
+# CZERTAINLY::TokenInstanceControllerApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::TokenInstanceControllerApi;
+use CZERTAINLY::Object::TokenInstanceControllerApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -30,12 +30,12 @@ Activate Token Instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Token Instance UUID
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->activate_token_instance(uuid => $uuid, request_attribute_dto => $request_attribute_dto);
@@ -75,11 +75,11 @@ Create a new Token Instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
-my $token_instance_request_dto = WWW::OpenAPIClient::Object::TokenInstanceRequestDto->new(); # TokenInstanceRequestDto | 
+my $token_instance_request_dto = CZERTAINLY::Object::TokenInstanceRequestDto->new(); # TokenInstanceRequestDto | 
 
 eval {
     my $result = $api_instance->create_token_instance(token_instance_request_dto => $token_instance_request_dto);
@@ -119,8 +119,8 @@ Deactivate Token Instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Token Instance UUID
@@ -164,8 +164,8 @@ Delete Token Instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Token Instance UUID
@@ -209,11 +209,11 @@ Delete multiple Token Instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Instance UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Instance UUIDs
 
 eval {
     $api_instance->delete_token_instance1(request_body => $request_body);
@@ -252,8 +252,8 @@ Get Token Instance Detail
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | UUID of the Token Instance
@@ -296,8 +296,8 @@ List Token activation Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Token Instance UUID
@@ -340,8 +340,8 @@ List Token Instances
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 
@@ -380,8 +380,8 @@ List Token Profile Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Token instance UUID
@@ -424,8 +424,8 @@ Reload Token Instance status
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | UUID of the Token Instance
@@ -468,12 +468,12 @@ Update Token Instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenInstanceControllerApi;
-my $api_instance = WWW::OpenAPIClient::TokenInstanceControllerApi->new(
+use CZERTAINLY::TokenInstanceControllerApi;
+my $api_instance = CZERTAINLY::TokenInstanceControllerApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Token Instance UUID
-my $token_instance_request_dto = WWW::OpenAPIClient::Object::TokenInstanceRequestDto->new(); # TokenInstanceRequestDto | 
+my $token_instance_request_dto = CZERTAINLY::Object::TokenInstanceRequestDto->new(); # TokenInstanceRequestDto | 
 
 eval {
     my $result = $api_instance->update_token_instance(uuid => $uuid, token_instance_request_dto => $token_instance_request_dto);

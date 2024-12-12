@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ClientCertificateRenewRequestDto
+# CZERTAINLY::Object::ClientCertificateRenewRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ClientCertificateRenewRequestDto;
+use CZERTAINLY::Object::ClientCertificateRenewRequestDto;
 ```
 
 ## Properties

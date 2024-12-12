@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ObjectPermissionsDto');
+use_ok('CZERTAINLY::Object::ObjectPermissionsDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ObjectPermissionsDto->new();
+#my $instance = CZERTAINLY::Object::ObjectPermissionsDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ObjectPermissionsDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ObjectPermissionsDto');
 
 
 done_testing();

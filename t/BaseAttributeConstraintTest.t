@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::BaseAttributeConstraint');
+use_ok('CZERTAINLY::Object::BaseAttributeConstraint');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::BaseAttributeConstraint->new();
+#my $instance = CZERTAINLY::Object::BaseAttributeConstraint->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::BaseAttributeConstraint');
+#isa_ok($instance, 'CZERTAINLY::Object::BaseAttributeConstraint');
 
 
 done_testing();

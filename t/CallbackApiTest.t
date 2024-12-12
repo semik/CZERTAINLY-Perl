@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CallbackApi');
+use_ok('CZERTAINLY::CallbackApi');
 
-my $api = WWW::OpenAPIClient::CallbackApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CallbackApi');
+my $api = CZERTAINLY::CallbackApi->new();
+isa_ok($api, 'CZERTAINLY::CallbackApi');
 
 #
 # callback test

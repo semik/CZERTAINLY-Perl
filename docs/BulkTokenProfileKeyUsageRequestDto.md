@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::BulkTokenProfileKeyUsageRequestDto
+# CZERTAINLY::Object::BulkTokenProfileKeyUsageRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::BulkTokenProfileKeyUsageRequestDto;
+use CZERTAINLY::Object::BulkTokenProfileKeyUsageRequestDto;
 ```
 
 ## Properties

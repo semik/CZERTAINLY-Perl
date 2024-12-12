@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AddTokenProfileRequestDto');
+use_ok('CZERTAINLY::Object::AddTokenProfileRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AddTokenProfileRequestDto->new();
+#my $instance = CZERTAINLY::Object::AddTokenProfileRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AddTokenProfileRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::AddTokenProfileRequestDto');
 
 
 done_testing();

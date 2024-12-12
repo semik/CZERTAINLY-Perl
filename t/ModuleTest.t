@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::Module');
+use_ok('CZERTAINLY::Object::Module');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::Module->new();
+#my $instance = CZERTAINLY::Object::Module->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::Module');
+#isa_ok($instance, 'CZERTAINLY::Object::Module');
 
 
 done_testing();

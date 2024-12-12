@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RuleDetailDto
+# CZERTAINLY::Object::RuleDetailDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RuleDetailDto;
+use CZERTAINLY::Object::RuleDetailDto;
 ```
 
 ## Properties

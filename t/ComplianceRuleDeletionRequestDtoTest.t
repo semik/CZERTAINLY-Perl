@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ComplianceRuleDeletionRequestDto');
+use_ok('CZERTAINLY::Object::ComplianceRuleDeletionRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ComplianceRuleDeletionRequestDto->new();
+#my $instance = CZERTAINLY::Object::ComplianceRuleDeletionRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ComplianceRuleDeletionRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ComplianceRuleDeletionRequestDto');
 
 
 done_testing();

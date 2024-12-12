@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ComplianceProfilesListDto
+# CZERTAINLY::Object::ComplianceProfilesListDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ComplianceProfilesListDto;
+use CZERTAINLY::Object::ComplianceProfilesListDto;
 ```
 
 ## Properties

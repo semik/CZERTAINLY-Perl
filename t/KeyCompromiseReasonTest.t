@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::KeyCompromiseReason');
+use_ok('CZERTAINLY::Object::KeyCompromiseReason');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::KeyCompromiseReason->new();
+#my $instance = CZERTAINLY::Object::KeyCompromiseReason->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::KeyCompromiseReason');
+#isa_ok($instance, 'CZERTAINLY::Object::KeyCompromiseReason');
 
 
 done_testing();

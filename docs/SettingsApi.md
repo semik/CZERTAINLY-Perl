@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::SettingsApi
+# CZERTAINLY::SettingsApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::SettingsApi;
+use CZERTAINLY::Object::SettingsApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -23,8 +23,8 @@ Get notification settings
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SettingsApi;
-my $api_instance = WWW::OpenAPIClient::SettingsApi->new(
+use CZERTAINLY::SettingsApi;
+my $api_instance = CZERTAINLY::SettingsApi->new(
 );
 
 
@@ -63,8 +63,8 @@ Get platform settings
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SettingsApi;
-my $api_instance = WWW::OpenAPIClient::SettingsApi->new(
+use CZERTAINLY::SettingsApi;
+my $api_instance = CZERTAINLY::SettingsApi->new(
 );
 
 
@@ -103,11 +103,11 @@ Update notifications setting
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SettingsApi;
-my $api_instance = WWW::OpenAPIClient::SettingsApi->new(
+use CZERTAINLY::SettingsApi;
+my $api_instance = CZERTAINLY::SettingsApi->new(
 );
 
-my $notification_settings_dto = WWW::OpenAPIClient::Object::NotificationSettingsDto->new(); # NotificationSettingsDto | 
+my $notification_settings_dto = CZERTAINLY::Object::NotificationSettingsDto->new(); # NotificationSettingsDto | 
 
 eval {
     $api_instance->update_notifications_settings(notification_settings_dto => $notification_settings_dto);
@@ -146,11 +146,11 @@ Update platform setting
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SettingsApi;
-my $api_instance = WWW::OpenAPIClient::SettingsApi->new(
+use CZERTAINLY::SettingsApi;
+my $api_instance = CZERTAINLY::SettingsApi->new(
 );
 
-my $platform_settings_dto = WWW::OpenAPIClient::Object::PlatformSettingsDto->new(); # PlatformSettingsDto | 
+my $platform_settings_dto = CZERTAINLY::Object::PlatformSettingsDto->new(); # PlatformSettingsDto | 
 
 eval {
     $api_instance->update_platform_settings(platform_settings_dto => $platform_settings_dto);

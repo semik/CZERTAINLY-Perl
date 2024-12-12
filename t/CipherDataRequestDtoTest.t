@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CipherDataRequestDto');
+use_ok('CZERTAINLY::Object::CipherDataRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CipherDataRequestDto->new();
+#my $instance = CZERTAINLY::Object::CipherDataRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CipherDataRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::CipherDataRequestDto');
 
 
 done_testing();

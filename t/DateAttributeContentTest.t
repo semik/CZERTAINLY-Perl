@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::DateAttributeContent');
+use_ok('CZERTAINLY::Object::DateAttributeContent');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::DateAttributeContent->new();
+#my $instance = CZERTAINLY::Object::DateAttributeContent->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::DateAttributeContent');
+#isa_ok($instance, 'CZERTAINLY::Object::DateAttributeContent');
 
 
 done_testing();

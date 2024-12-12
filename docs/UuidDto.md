@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::UuidDto
+# CZERTAINLY::Object::UuidDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::UuidDto;
+use CZERTAINLY::Object::UuidDto;
 ```
 
 ## Properties

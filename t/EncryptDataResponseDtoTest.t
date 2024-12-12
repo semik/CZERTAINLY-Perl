@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::EncryptDataResponseDto');
+use_ok('CZERTAINLY::Object::EncryptDataResponseDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::EncryptDataResponseDto->new();
+#my $instance = CZERTAINLY::Object::EncryptDataResponseDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::EncryptDataResponseDto');
+#isa_ok($instance, 'CZERTAINLY::Object::EncryptDataResponseDto');
 
 
 done_testing();

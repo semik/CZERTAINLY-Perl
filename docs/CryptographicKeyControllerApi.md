@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CryptographicKeyControllerApi
+# CZERTAINLY::CryptographicKeyControllerApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CryptographicKeyControllerApi;
+use CZERTAINLY::Object::CryptographicKeyControllerApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -49,13 +49,13 @@ If the request body is provided with the UUID of the items of Key, then only tho
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Key UUID
-my $compromise_key_request_dto = WWW::OpenAPIClient::Object::CompromiseKeyRequestDto->new(); # CompromiseKeyRequestDto | 
+my $compromise_key_request_dto = CZERTAINLY::Object::CompromiseKeyRequestDto->new(); # CompromiseKeyRequestDto | 
 
 eval {
     $api_instance->compromise_key(token_instance_uuid => $token_instance_uuid, uuid => $uuid, compromise_key_request_dto => $compromise_key_request_dto);
@@ -98,11 +98,11 @@ This API can be used to mark multiple keys items to be marked as compromised.
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $bulk_compromise_key_item_request_dto = WWW::OpenAPIClient::Object::BulkCompromiseKeyItemRequestDto->new(); # BulkCompromiseKeyItemRequestDto | 
+my $bulk_compromise_key_item_request_dto = CZERTAINLY::Object::BulkCompromiseKeyItemRequestDto->new(); # BulkCompromiseKeyItemRequestDto | 
 
 eval {
     $api_instance->compromise_key_items(bulk_compromise_key_item_request_dto => $bulk_compromise_key_item_request_dto);
@@ -143,11 +143,11 @@ This API can be used to mark multiple keys and its sub items to be marked as com
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $bulk_compromise_key_request_dto = WWW::OpenAPIClient::Object::BulkCompromiseKeyRequestDto->new(); # BulkCompromiseKeyRequestDto | 
+my $bulk_compromise_key_request_dto = CZERTAINLY::Object::BulkCompromiseKeyRequestDto->new(); # BulkCompromiseKeyRequestDto | 
 
 eval {
     $api_instance->compromise_keys(bulk_compromise_key_request_dto => $bulk_compromise_key_request_dto);
@@ -186,14 +186,14 @@ Create a new Cryptographic Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | UUID of the Token Instance
 my $token_profile_uuid = "token_profile_uuid_example"; # string | UUID of the Token Profile
-my $type = new WWW::OpenAPIClient.KeyRequestType(); # KeyRequestType | Type of the key to be created
-my $key_request_dto = WWW::OpenAPIClient::Object::KeyRequestDto->new(); # KeyRequestDto | 
+my $type = new CZERTAINLY.KeyRequestType(); # KeyRequestType | Type of the key to be created
+my $key_request_dto = CZERTAINLY::Object::KeyRequestDto->new(); # KeyRequestDto | 
 
 eval {
     my $result = $api_instance->create_key(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, type => $type, key_request_dto => $key_request_dto);
@@ -238,13 +238,13 @@ If the request body provided, only those key items will be deleted. If the reque
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Key UUID
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
 
 eval {
     $api_instance->delete_key(token_instance_uuid => $token_instance_uuid, uuid => $uuid, request_body => $request_body);
@@ -285,11 +285,11 @@ Delete Multiple Cryptographic Key Items
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Items UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Items UUIDs
 
 eval {
     $api_instance->delete_key_items(request_body => $request_body);
@@ -328,11 +328,11 @@ Delete Multiple Cryptographic Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
 
 eval {
     $api_instance->delete_keys(request_body => $request_body);
@@ -373,13 +373,13 @@ If the request body provided, only those key items will be destroyed. If the req
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Key UUID
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
 
 eval {
     $api_instance->destroy_key(token_instance_uuid => $token_instance_uuid, uuid => $uuid, request_body => $request_body);
@@ -420,11 +420,11 @@ Destroy Multiple Cryptographic Key items
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
 
 eval {
     $api_instance->destroy_key_items(request_body => $request_body);
@@ -463,11 +463,11 @@ Destroy Multiple Cryptographic Key and its items
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
 
 eval {
     $api_instance->destroy_keys(request_body => $request_body);
@@ -508,13 +508,13 @@ If the request body provided, only those key items will be disabled. If the requ
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Key UUID
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
 
 eval {
     $api_instance->disable_key(token_instance_uuid => $token_instance_uuid, uuid => $uuid, request_body => $request_body);
@@ -555,11 +555,11 @@ Disable multiple Key Items
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
 
 eval {
     $api_instance->disable_key_items(request_body => $request_body);
@@ -598,11 +598,11 @@ Disable multiple Keys
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
 
 eval {
     $api_instance->disable_keys(request_body => $request_body);
@@ -641,13 +641,13 @@ Edit Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Key UUID
-my $edit_key_request_dto = WWW::OpenAPIClient::Object::EditKeyRequestDto->new(); # EditKeyRequestDto | 
+my $edit_key_request_dto = CZERTAINLY::Object::EditKeyRequestDto->new(); # EditKeyRequestDto | 
 
 eval {
     my $result = $api_instance->edit_key(token_instance_uuid => $token_instance_uuid, uuid => $uuid, edit_key_request_dto => $edit_key_request_dto);
@@ -691,13 +691,13 @@ If the request body provided, only those key items will be enabled. If the reque
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Key UUID
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
 
 eval {
     $api_instance->enable_key(token_instance_uuid => $token_instance_uuid, uuid => $uuid, request_body => $request_body);
@@ -738,11 +738,11 @@ Enable multiple Key Items
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key Item UUIDs
 
 eval {
     $api_instance->enable_key_items(request_body => $request_body);
@@ -781,11 +781,11 @@ Enable multiple Keys
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Key UUIDs
 
 eval {
     $api_instance->enable_keys(request_body => $request_body);
@@ -824,8 +824,8 @@ Get Key Item event history
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
@@ -872,8 +872,8 @@ Get Cryptographic Key Detail
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | UUID of the Token Instance
@@ -918,8 +918,8 @@ Get Cryptographic Key Detail
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | UUID of the Token Instance
@@ -966,8 +966,8 @@ Get CryptographicKey searchable fields information
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 
@@ -1006,13 +1006,13 @@ List of Attributes to create a Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
-my $type = new WWW::OpenAPIClient.KeyRequestType(); # KeyRequestType | Type of the key to be created
+my $type = new CZERTAINLY.KeyRequestType(); # KeyRequestType | Type of the key to be created
 
 eval {
     my $result = $api_instance->list_create_key_attributes(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, type => $type);
@@ -1054,11 +1054,11 @@ List cryptographic keys
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $search_request_dto = WWW::OpenAPIClient::Object::SearchRequestDto->new(); # SearchRequestDto | 
+my $search_request_dto = CZERTAINLY::Object::SearchRequestDto->new(); # SearchRequestDto | 
 
 eval {
     my $result = $api_instance->list_cryptographic_keys(search_request_dto => $search_request_dto);
@@ -1100,8 +1100,8 @@ This API contains the logic to get the keys that contains the full key pair (pri
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_profile_uuid = "token_profile_uuid_example"; # string | 
@@ -1144,8 +1144,8 @@ Sync Keys from connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
@@ -1189,11 +1189,11 @@ Update the key usages for multiple keys Items
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $bulk_key_item_usage_request_dto = WWW::OpenAPIClient::Object::BulkKeyItemUsageRequestDto->new(); # BulkKeyItemUsageRequestDto | 
+my $bulk_key_item_usage_request_dto = CZERTAINLY::Object::BulkKeyItemUsageRequestDto->new(); # BulkKeyItemUsageRequestDto | 
 
 eval {
     $api_instance->update_key_item_usages(bulk_key_item_usage_request_dto => $bulk_key_item_usage_request_dto);
@@ -1234,13 +1234,13 @@ If the request body provided, only those key items will be updated. If the reque
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Key UUID
-my $update_key_usage_request_dto = WWW::OpenAPIClient::Object::UpdateKeyUsageRequestDto->new(); # UpdateKeyUsageRequestDto | 
+my $update_key_usage_request_dto = CZERTAINLY::Object::UpdateKeyUsageRequestDto->new(); # UpdateKeyUsageRequestDto | 
 
 eval {
     $api_instance->update_key_usages1(token_instance_uuid => $token_instance_uuid, uuid => $uuid, update_key_usage_request_dto => $update_key_usage_request_dto);
@@ -1283,11 +1283,11 @@ Update the key usages for multiple keys and all the items inside it
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicKeyControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicKeyControllerApi->new(
+use CZERTAINLY::CryptographicKeyControllerApi;
+my $api_instance = CZERTAINLY::CryptographicKeyControllerApi->new(
 );
 
-my $bulk_key_usage_request_dto = WWW::OpenAPIClient::Object::BulkKeyUsageRequestDto->new(); # BulkKeyUsageRequestDto | 
+my $bulk_key_usage_request_dto = CZERTAINLY::Object::BulkKeyUsageRequestDto->new(); # BulkKeyUsageRequestDto | 
 
 eval {
     $api_instance->update_keys_usages1(bulk_key_usage_request_dto => $bulk_key_usage_request_dto);

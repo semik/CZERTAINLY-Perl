@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CertificateInventoryApi
+# CZERTAINLY::CertificateInventoryApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateInventoryApi;
+use CZERTAINLY::Object::CertificateInventoryApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -40,11 +40,11 @@ In this operation, when the list of Certificate UUIDs are provided and the filte
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
-my $remove_certificate_dto = WWW::OpenAPIClient::Object::RemoveCertificateDto->new(); # RemoveCertificateDto | 
+my $remove_certificate_dto = CZERTAINLY::Object::RemoveCertificateDto->new(); # RemoveCertificateDto | 
 
 eval {
     my $result = $api_instance->bulk_delete_certificate(remove_certificate_dto => $remove_certificate_dto);
@@ -86,11 +86,11 @@ In this operation, when the list of Certificate UUIDs are provided and the filte
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
-my $multiple_certificate_object_update_dto = WWW::OpenAPIClient::Object::MultipleCertificateObjectUpdateDto->new(); # MultipleCertificateObjectUpdateDto | 
+my $multiple_certificate_object_update_dto = CZERTAINLY::Object::MultipleCertificateObjectUpdateDto->new(); # MultipleCertificateObjectUpdateDto | 
 
 eval {
     $api_instance->bulk_update_certificate_objects(multiple_certificate_object_update_dto => $multiple_certificate_object_update_dto);
@@ -129,11 +129,11 @@ Initiate Certificate Compliance Check
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
-my $certificate_compliance_check_dto = WWW::OpenAPIClient::Object::CertificateComplianceCheckDto->new(); # CertificateComplianceCheckDto | 
+my $certificate_compliance_check_dto = CZERTAINLY::Object::CertificateComplianceCheckDto->new(); # CertificateComplianceCheckDto | 
 
 eval {
     $api_instance->check_certificates_compliance(certificate_compliance_check_dto => $certificate_compliance_check_dto);
@@ -172,8 +172,8 @@ Delete a certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
@@ -215,13 +215,13 @@ Download Certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
-my $certificate_format = new WWW::OpenAPIClient.CertificateFormat(); # CertificateFormat | Certificate format
-my $encoding = new WWW::OpenAPIClient.CertificateFormatEncoding(); # CertificateFormatEncoding | 
+my $certificate_format = new CZERTAINLY.CertificateFormat(); # CertificateFormat | Certificate format
+my $encoding = new CZERTAINLY.CertificateFormatEncoding(); # CertificateFormatEncoding | 
 
 eval {
     my $result = $api_instance->download_certificate(uuid => $uuid, certificate_format => $certificate_format, encoding => $encoding);
@@ -263,13 +263,13 @@ Download Certificate Chain in chosen format
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
-my $certificate_format = new WWW::OpenAPIClient.CertificateFormat(); # CertificateFormat | Certificate format
-my $encoding = new WWW::OpenAPIClient.CertificateFormatEncoding(); # CertificateFormatEncoding | 
+my $certificate_format = new CZERTAINLY.CertificateFormat(); # CertificateFormat | Certificate format
+my $encoding = new CZERTAINLY.CertificateFormatEncoding(); # CertificateFormatEncoding | 
 my $with_end_certificate = null; # boolean | 
 
 eval {
@@ -313,8 +313,8 @@ Get Certificate Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
@@ -359,8 +359,8 @@ Get certificate chain for the certificate with the given UUID. The certificate c
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
@@ -405,11 +405,11 @@ Get Certificate Content
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Certificate UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Certificate UUIDs
 
 eval {
     my $result = $api_instance->get_certificate_content(request_body => $request_body);
@@ -449,8 +449,8 @@ Get Certificate event history
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
@@ -493,8 +493,8 @@ Get Certificate Validation Result
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
@@ -537,8 +537,8 @@ Get CSR Generation Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 
@@ -577,8 +577,8 @@ Get Certificate searchable fields information
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 
@@ -617,12 +617,12 @@ List Certificates Approvals
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
-my $pagination_request_dto = new WWW::OpenAPIClient.PaginationRequestDto(); # PaginationRequestDto | 
+my $pagination_request_dto = new CZERTAINLY.PaginationRequestDto(); # PaginationRequestDto | 
 
 eval {
     my $result = $api_instance->list_certificate_approvals(uuid => $uuid, pagination_request_dto => $pagination_request_dto);
@@ -663,8 +663,8 @@ List of available Locations for the Certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $certificate_uuid = "certificate_uuid_example"; # string | Certificate UUID
@@ -707,11 +707,11 @@ List Certificates
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
-my $search_request_dto = WWW::OpenAPIClient::Object::SearchRequestDto->new(); # SearchRequestDto | 
+my $search_request_dto = CZERTAINLY::Object::SearchRequestDto->new(); # SearchRequestDto | 
 
 eval {
     my $result = $api_instance->list_certificates(search_request_dto => $search_request_dto);
@@ -751,11 +751,11 @@ Submit certificate request
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
-my $client_certificate_request_dto = WWW::OpenAPIClient::Object::ClientCertificateRequestDto->new(); # ClientCertificateRequestDto | 
+my $client_certificate_request_dto = CZERTAINLY::Object::ClientCertificateRequestDto->new(); # ClientCertificateRequestDto | 
 
 eval {
     my $result = $api_instance->submit_certificate_request(client_certificate_request_dto => $client_certificate_request_dto);
@@ -795,12 +795,12 @@ Update Certificate Objects
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Certificate UUID
-my $certificate_update_objects_dto = WWW::OpenAPIClient::Object::CertificateUpdateObjectsDto->new(); # CertificateUpdateObjectsDto | 
+my $certificate_update_objects_dto = CZERTAINLY::Object::CertificateUpdateObjectsDto->new(); # CertificateUpdateObjectsDto | 
 
 eval {
     $api_instance->update_certificate_objects(uuid => $uuid, certificate_update_objects_dto => $certificate_update_objects_dto);
@@ -840,11 +840,11 @@ Upload a new Certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateInventoryApi;
-my $api_instance = WWW::OpenAPIClient::CertificateInventoryApi->new(
+use CZERTAINLY::CertificateInventoryApi;
+my $api_instance = CZERTAINLY::CertificateInventoryApi->new(
 );
 
-my $upload_certificate_request_dto = WWW::OpenAPIClient::Object::UploadCertificateRequestDto->new(); # UploadCertificateRequestDto | 
+my $upload_certificate_request_dto = CZERTAINLY::Object::UploadCertificateRequestDto->new(); # UploadCertificateRequestDto | 
 
 eval {
     my $result = $api_instance->upload(upload_certificate_request_dto => $upload_certificate_request_dto);

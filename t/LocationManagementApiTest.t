@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::LocationManagementApi');
+use_ok('CZERTAINLY::LocationManagementApi');
 
-my $api = WWW::OpenAPIClient::LocationManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::LocationManagementApi');
+my $api = CZERTAINLY::LocationManagementApi->new();
+isa_ok($api, 'CZERTAINLY::LocationManagementApi');
 
 #
 # add_location test

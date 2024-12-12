@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ConnectorAuthenticationApi
+# CZERTAINLY::ConnectorAuthenticationApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ConnectorAuthenticationApi;
+use CZERTAINLY::Object::ConnectorAuthenticationApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -28,8 +28,8 @@ Get API Key auth Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
 
@@ -68,8 +68,8 @@ Get list of Authentication Types
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
 
@@ -108,8 +108,8 @@ Get basic auth Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
 
@@ -148,8 +148,8 @@ Get Attributes for certificate auth
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
 
@@ -188,8 +188,8 @@ Get JWT auth Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
 
@@ -228,11 +228,11 @@ Validate API Key Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_api_key_auth_attributes(request_attribute_dto => $request_attribute_dto);
@@ -271,11 +271,11 @@ Validate basic auth Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_basic_auth_attributes(request_attribute_dto => $request_attribute_dto);
@@ -314,11 +314,11 @@ Validate certificate auth Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_certificate_attributes(request_attribute_dto => $request_attribute_dto);
@@ -357,11 +357,11 @@ Validate JWT auth Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorAuthenticationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorAuthenticationApi->new(
+use CZERTAINLY::ConnectorAuthenticationApi;
+my $api_instance = CZERTAINLY::ConnectorAuthenticationApi->new(
 );
 
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_jwt_auth_attributes(request_attribute_dto => $request_attribute_dto);

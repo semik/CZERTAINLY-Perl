@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::FilterConditionOperator');
+use_ok('CZERTAINLY::Object::FilterConditionOperator');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::FilterConditionOperator->new();
+#my $instance = CZERTAINLY::Object::FilterConditionOperator->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::FilterConditionOperator');
+#isa_ok($instance, 'CZERTAINLY::Object::FilterConditionOperator');
 
 
 done_testing();

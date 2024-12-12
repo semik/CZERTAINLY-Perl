@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyAssociationDto
+# CZERTAINLY::Object::KeyAssociationDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyAssociationDto;
+use CZERTAINLY::Object::KeyAssociationDto;
 ```
 
 ## Properties

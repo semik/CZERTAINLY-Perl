@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CallbackApi
+# CZERTAINLY::CallbackApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CallbackApi;
+use CZERTAINLY::Object::CallbackApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -23,14 +23,14 @@ API to trigger the Callback for Connector.
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CallbackApi;
-my $api_instance = WWW::OpenAPIClient::CallbackApi->new(
+use CZERTAINLY::CallbackApi;
+my $api_instance = CZERTAINLY::CallbackApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
 my $function_group = "function_group_example"; # string | Function Group
 my $kind = "kind_example"; # string | Kind
-my $request_attribute_callback = WWW::OpenAPIClient::Object::RequestAttributeCallback->new(); # RequestAttributeCallback | 
+my $request_attribute_callback = CZERTAINLY::Object::RequestAttributeCallback->new(); # RequestAttributeCallback | 
 
 eval {
     my $result = $api_instance->callback(uuid => $uuid, function_group => $function_group, kind => $kind, request_attribute_callback => $request_attribute_callback);
@@ -75,13 +75,13 @@ API to trigger the Callback for resource.
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CallbackApi;
-my $api_instance = WWW::OpenAPIClient::CallbackApi->new(
+use CZERTAINLY::CallbackApi;
+my $api_instance = CZERTAINLY::CallbackApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | Name of the resource
+my $resource = new CZERTAINLY.Resource(); # Resource | Name of the resource
 my $parent_object_uuid = "parent_object_uuid_example"; # string | Parent Object UUID
-my $request_attribute_callback = WWW::OpenAPIClient::Object::RequestAttributeCallback->new(); # RequestAttributeCallback | 
+my $request_attribute_callback = CZERTAINLY::Object::RequestAttributeCallback->new(); # RequestAttributeCallback | 
 
 eval {
     my $result = $api_instance->resource_callback(resource => $resource, parent_object_uuid => $parent_object_uuid, request_attribute_callback => $request_attribute_callback);

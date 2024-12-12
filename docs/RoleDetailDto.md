@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RoleDetailDto
+# CZERTAINLY::Object::RoleDetailDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RoleDetailDto;
+use CZERTAINLY::Object::RoleDetailDto;
 ```
 
 ## Properties

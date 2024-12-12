@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::GroupAttribute');
+use_ok('CZERTAINLY::Object::GroupAttribute');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::GroupAttribute->new();
+#my $instance = CZERTAINLY::Object::GroupAttribute->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::GroupAttribute');
+#isa_ok($instance, 'CZERTAINLY::Object::GroupAttribute');
 
 
 done_testing();

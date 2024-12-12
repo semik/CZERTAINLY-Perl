@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CustomAttributesApi');
+use_ok('CZERTAINLY::CustomAttributesApi');
 
-my $api = WWW::OpenAPIClient::CustomAttributesApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CustomAttributesApi');
+my $api = CZERTAINLY::CustomAttributesApi->new();
+isa_ok($api, 'CZERTAINLY::CustomAttributesApi');
 
 #
 # bulk_delete_custom_attributes test

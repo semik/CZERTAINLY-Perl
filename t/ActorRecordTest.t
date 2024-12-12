@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ActorRecord');
+use_ok('CZERTAINLY::Object::ActorRecord');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ActorRecord->new();
+#my $instance = CZERTAINLY::Object::ActorRecord->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ActorRecord');
+#isa_ok($instance, 'CZERTAINLY::Object::ActorRecord');
 
 
 done_testing();

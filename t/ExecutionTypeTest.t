@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ExecutionType');
+use_ok('CZERTAINLY::Object::ExecutionType');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ExecutionType->new();
+#my $instance = CZERTAINLY::Object::ExecutionType->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ExecutionType');
+#isa_ok($instance, 'CZERTAINLY::Object::ExecutionType');
 
 
 done_testing();

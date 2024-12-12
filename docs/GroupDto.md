@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::GroupDto
+# CZERTAINLY::Object::GroupDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::GroupDto;
+use CZERTAINLY::Object::GroupDto;
 ```
 
 ## Properties

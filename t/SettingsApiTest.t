@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::SettingsApi');
+use_ok('CZERTAINLY::SettingsApi');
 
-my $api = WWW::OpenAPIClient::SettingsApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::SettingsApi');
+my $api = CZERTAINLY::SettingsApi->new();
+isa_ok($api, 'CZERTAINLY::SettingsApi');
 
 #
 # get_notifications_settings test

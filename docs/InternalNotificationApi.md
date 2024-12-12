@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::InternalNotificationApi
+# CZERTAINLY::InternalNotificationApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::InternalNotificationApi;
+use CZERTAINLY::Object::InternalNotificationApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -24,11 +24,11 @@ Delete a list of notifications for logged user
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::InternalNotificationApi;
-my $api_instance = WWW::OpenAPIClient::InternalNotificationApi->new(
+use CZERTAINLY::InternalNotificationApi;
+my $api_instance = CZERTAINLY::InternalNotificationApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Notifications UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Notifications UUIDs
 
 eval {
     $api_instance->bulk_delete_notification(request_body => $request_body);
@@ -67,11 +67,11 @@ Mark a list of notifications as read for logged user
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::InternalNotificationApi;
-my $api_instance = WWW::OpenAPIClient::InternalNotificationApi->new(
+use CZERTAINLY::InternalNotificationApi;
+my $api_instance = CZERTAINLY::InternalNotificationApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Notifications UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Notifications UUIDs
 
 eval {
     $api_instance->bulk_mark_notification_as_read(request_body => $request_body);
@@ -110,8 +110,8 @@ Delete a notification for logged user
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::InternalNotificationApi;
-my $api_instance = WWW::OpenAPIClient::InternalNotificationApi->new(
+use CZERTAINLY::InternalNotificationApi;
+my $api_instance = CZERTAINLY::InternalNotificationApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Notification UUID
@@ -153,11 +153,11 @@ List notifications for logged user
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::InternalNotificationApi;
-my $api_instance = WWW::OpenAPIClient::InternalNotificationApi->new(
+use CZERTAINLY::InternalNotificationApi;
+my $api_instance = CZERTAINLY::InternalNotificationApi->new(
 );
 
-my $request = new WWW::OpenAPIClient.NotificationRequestDto(); # NotificationRequestDto | Show only unread notifications
+my $request = new CZERTAINLY.NotificationRequestDto(); # NotificationRequestDto | Show only unread notifications
 
 eval {
     my $result = $api_instance->list_notifications(request => $request);
@@ -197,8 +197,8 @@ Mark notification as read for logged user
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::InternalNotificationApi;
-my $api_instance = WWW::OpenAPIClient::InternalNotificationApi->new(
+use CZERTAINLY::InternalNotificationApi;
+my $api_instance = CZERTAINLY::InternalNotificationApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Notification UUID

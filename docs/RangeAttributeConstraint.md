@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RangeAttributeConstraint
+# CZERTAINLY::Object::RangeAttributeConstraint
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RangeAttributeConstraint;
+use CZERTAINLY::Object::RangeAttributeConstraint;
 ```
 
 ## Properties

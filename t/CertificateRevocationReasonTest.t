@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CertificateRevocationReason');
+use_ok('CZERTAINLY::Object::CertificateRevocationReason');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CertificateRevocationReason->new();
+#my $instance = CZERTAINLY::Object::CertificateRevocationReason->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CertificateRevocationReason');
+#isa_ok($instance, 'CZERTAINLY::Object::CertificateRevocationReason');
 
 
 done_testing();

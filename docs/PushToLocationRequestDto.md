@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::PushToLocationRequestDto
+# CZERTAINLY::Object::PushToLocationRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::PushToLocationRequestDto;
+use CZERTAINLY::Object::PushToLocationRequestDto;
 ```
 
 ## Properties

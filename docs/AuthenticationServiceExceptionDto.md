@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AuthenticationServiceExceptionDto
+# CZERTAINLY::Object::AuthenticationServiceExceptionDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AuthenticationServiceExceptionDto;
+use CZERTAINLY::Object::AuthenticationServiceExceptionDto;
 ```
 
 ## Properties

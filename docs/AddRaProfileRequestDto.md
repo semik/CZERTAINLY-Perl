@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AddRaProfileRequestDto
+# CZERTAINLY::Object::AddRaProfileRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AddRaProfileRequestDto;
+use CZERTAINLY::Object::AddRaProfileRequestDto;
 ```
 
 ## Properties

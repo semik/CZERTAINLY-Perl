@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::EnumItemDto
+# CZERTAINLY::Object::EnumItemDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::EnumItemDto;
+use CZERTAINLY::Object::EnumItemDto;
 ```
 
 ## Properties

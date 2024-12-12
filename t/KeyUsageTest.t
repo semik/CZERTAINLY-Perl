@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::KeyUsage');
+use_ok('CZERTAINLY::Object::KeyUsage');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::KeyUsage->new();
+#my $instance = CZERTAINLY::Object::KeyUsage->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::KeyUsage');
+#isa_ok($instance, 'CZERTAINLY::Object::KeyUsage');
 
 
 done_testing();

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::EnumItemDto');
+use_ok('CZERTAINLY::Object::EnumItemDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::EnumItemDto->new();
+#my $instance = CZERTAINLY::Object::EnumItemDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::EnumItemDto');
+#isa_ok($instance, 'CZERTAINLY::Object::EnumItemDto');
 
 
 done_testing();

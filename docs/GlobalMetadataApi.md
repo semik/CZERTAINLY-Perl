@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::GlobalMetadataApi
+# CZERTAINLY::GlobalMetadataApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::GlobalMetadataApi;
+use CZERTAINLY::Object::GlobalMetadataApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -27,11 +27,11 @@ Delete multiple Global Metadata
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Global Metadata UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Global Metadata UUIDs
 
 eval {
     $api_instance->bulk_delete_global_metadata(request_body => $request_body);
@@ -70,11 +70,11 @@ Create Global Metadata
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
-my $global_metadata_create_request_dto = WWW::OpenAPIClient::Object::GlobalMetadataCreateRequestDto->new(); # GlobalMetadataCreateRequestDto | 
+my $global_metadata_create_request_dto = CZERTAINLY::Object::GlobalMetadataCreateRequestDto->new(); # GlobalMetadataCreateRequestDto | 
 
 eval {
     my $result = $api_instance->create_global_metadata(global_metadata_create_request_dto => $global_metadata_create_request_dto);
@@ -114,8 +114,8 @@ Delete Global Metadata
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Global Metadata UUID
@@ -157,12 +157,12 @@ Edit Global Metadata
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Global Metadata UUID
-my $global_metadata_update_request_dto = WWW::OpenAPIClient::Object::GlobalMetadataUpdateRequestDto->new(); # GlobalMetadataUpdateRequestDto | 
+my $global_metadata_update_request_dto = CZERTAINLY::Object::GlobalMetadataUpdateRequestDto->new(); # GlobalMetadataUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_global_metadata(uuid => $uuid, global_metadata_update_request_dto => $global_metadata_update_request_dto);
@@ -203,8 +203,8 @@ Get Available Connector Metadata
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
 my $connector_uuid = "connector_uuid_example"; # string | 
@@ -247,8 +247,8 @@ Global Metadata details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
 my $uuid = "uuid_example"; # string | 
@@ -291,8 +291,8 @@ List Global Metadata
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
 
@@ -331,11 +331,11 @@ Promote Connector Metadata to Global Metadata
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::GlobalMetadataApi;
-my $api_instance = WWW::OpenAPIClient::GlobalMetadataApi->new(
+use CZERTAINLY::GlobalMetadataApi;
+my $api_instance = CZERTAINLY::GlobalMetadataApi->new(
 );
 
-my $connector_metadata_promotion_request_dto = WWW::OpenAPIClient::Object::ConnectorMetadataPromotionRequestDto->new(); # ConnectorMetadataPromotionRequestDto | 
+my $connector_metadata_promotion_request_dto = CZERTAINLY::Object::ConnectorMetadataPromotionRequestDto->new(); # ConnectorMetadataPromotionRequestDto | 
 
 eval {
     my $result = $api_instance->promote_connector_metadata(connector_metadata_promotion_request_dto => $connector_metadata_promotion_request_dto);

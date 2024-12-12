@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ProgrammingLanguageEnum');
+use_ok('CZERTAINLY::Object::ProgrammingLanguageEnum');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ProgrammingLanguageEnum->new();
+#my $instance = CZERTAINLY::Object::ProgrammingLanguageEnum->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ProgrammingLanguageEnum');
+#isa_ok($instance, 'CZERTAINLY::Object::ProgrammingLanguageEnum');
 
 
 done_testing();

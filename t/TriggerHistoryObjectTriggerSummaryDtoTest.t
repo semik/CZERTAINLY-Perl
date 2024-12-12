@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::TriggerHistoryObjectTriggerSummaryDto');
+use_ok('CZERTAINLY::Object::TriggerHistoryObjectTriggerSummaryDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::TriggerHistoryObjectTriggerSummaryDto->new();
+#my $instance = CZERTAINLY::Object::TriggerHistoryObjectTriggerSummaryDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::TriggerHistoryObjectTriggerSummaryDto');
+#isa_ok($instance, 'CZERTAINLY::Object::TriggerHistoryObjectTriggerSummaryDto');
 
 
 done_testing();

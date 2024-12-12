@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AccountStatus');
+use_ok('CZERTAINLY::Object::AccountStatus');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AccountStatus->new();
+#my $instance = CZERTAINLY::Object::AccountStatus->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AccountStatus');
+#isa_ok($instance, 'CZERTAINLY::Object::AccountStatus');
 
 
 done_testing();

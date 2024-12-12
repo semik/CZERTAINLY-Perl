@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::TriggerRequestDto
+# CZERTAINLY::Object::TriggerRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::TriggerRequestDto;
+use CZERTAINLY::Object::TriggerRequestDto;
 ```
 
 ## Properties

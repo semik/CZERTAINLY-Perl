@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::AuthenticationManagementApi
+# CZERTAINLY::AuthenticationManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::AuthenticationManagementApi;
+use CZERTAINLY::Object::AuthenticationManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -23,8 +23,8 @@ Get Auth Resources
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthenticationManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthenticationManagementApi->new(
+use CZERTAINLY::AuthenticationManagementApi;
+my $api_instance = CZERTAINLY::AuthenticationManagementApi->new(
 );
 
 
@@ -63,11 +63,11 @@ Get List of objects for Object Access
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthenticationManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthenticationManagementApi->new(
+use CZERTAINLY::AuthenticationManagementApi;
+my $api_instance = CZERTAINLY::AuthenticationManagementApi->new(
 );
 
-my $resource_name = new WWW::OpenAPIClient.Resource(); # Resource | Resource Name
+my $resource_name = new CZERTAINLY.Resource(); # Resource | Resource Name
 
 eval {
     my $result = $api_instance->get_objects_for_resource(resource_name => $resource_name);
@@ -107,8 +107,8 @@ Profile Authorization
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthenticationManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthenticationManagementApi->new(
+use CZERTAINLY::AuthenticationManagementApi;
+my $api_instance = CZERTAINLY::AuthenticationManagementApi->new(
 );
 
 
@@ -147,11 +147,11 @@ Update User Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthenticationManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthenticationManagementApi->new(
+use CZERTAINLY::AuthenticationManagementApi;
+my $api_instance = CZERTAINLY::AuthenticationManagementApi->new(
 );
 
-my $update_user_request_dto = WWW::OpenAPIClient::Object::UpdateUserRequestDto->new(); # UpdateUserRequestDto | 
+my $update_user_request_dto = CZERTAINLY::Object::UpdateUserRequestDto->new(); # UpdateUserRequestDto | 
 
 eval {
     my $result = $api_instance->update_user_profile(update_user_request_dto => $update_user_request_dto);

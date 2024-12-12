@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::TriggerType');
+use_ok('CZERTAINLY::Object::TriggerType');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::TriggerType->new();
+#my $instance = CZERTAINLY::Object::TriggerType->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::TriggerType');
+#isa_ok($instance, 'CZERTAINLY::Object::TriggerType');
 
 
 done_testing();

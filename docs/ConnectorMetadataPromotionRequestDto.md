@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ConnectorMetadataPromotionRequestDto
+# CZERTAINLY::Object::ConnectorMetadataPromotionRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ConnectorMetadataPromotionRequestDto;
+use CZERTAINLY::Object::ConnectorMetadataPromotionRequestDto;
 ```
 
 ## Properties

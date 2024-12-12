@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ConnectorManagementApi
+# CZERTAINLY::ConnectorManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ConnectorManagementApi;
+use CZERTAINLY::Object::ConnectorManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -35,8 +35,8 @@ Approve a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
@@ -78,11 +78,11 @@ Approve multiple Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
 
 eval {
     $api_instance->bulk_approve(request_body => $request_body);
@@ -121,11 +121,11 @@ Delete multiple Connectors
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
 
 eval {
     my $result = $api_instance->bulk_delete_connector(request_body => $request_body);
@@ -165,11 +165,11 @@ Reconnect multiple Connectors
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
 
 eval {
     $api_instance->bulk_reconnect(request_body => $request_body);
@@ -208,8 +208,8 @@ Check Health of a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
@@ -252,11 +252,11 @@ Connect to a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
-my $connect_request_dto = WWW::OpenAPIClient::Object::ConnectRequestDto->new(); # ConnectRequestDto | 
+my $connect_request_dto = CZERTAINLY::Object::ConnectRequestDto->new(); # ConnectRequestDto | 
 
 eval {
     my $result = $api_instance->connect(connect_request_dto => $connect_request_dto);
@@ -296,11 +296,11 @@ Create a new Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
-my $connector_request_dto = WWW::OpenAPIClient::Object::ConnectorRequestDto->new(); # ConnectorRequestDto | 
+my $connector_request_dto = CZERTAINLY::Object::ConnectorRequestDto->new(); # ConnectorRequestDto | 
 
 eval {
     my $result = $api_instance->create_connector(connector_request_dto => $connector_request_dto);
@@ -340,8 +340,8 @@ Delete a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
@@ -383,12 +383,12 @@ Edit a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
-my $connector_update_request_dto = WWW::OpenAPIClient::Object::ConnectorUpdateRequestDto->new(); # ConnectorUpdateRequestDto | 
+my $connector_update_request_dto = CZERTAINLY::Object::ConnectorUpdateRequestDto->new(); # ConnectorUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_connector(uuid => $uuid, connector_update_request_dto => $connector_update_request_dto);
@@ -429,11 +429,11 @@ Force Delete multiple Connectors
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Connector UUIDs
 
 eval {
     my $result = $api_instance->force_delete_connector(request_body => $request_body);
@@ -473,12 +473,12 @@ Get Attributes from a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
-my $function_group = new WWW::OpenAPIClient.FunctionGroupCode(); # FunctionGroupCode | Function Group name
+my $function_group = new CZERTAINLY.FunctionGroupCode(); # FunctionGroupCode | Function Group name
 my $kind = "kind_example"; # string | Kind
 
 eval {
@@ -521,8 +521,8 @@ Get attributes of all Function Groups
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
@@ -565,8 +565,8 @@ Get details of a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
@@ -609,13 +609,13 @@ List Connectors by Function Group and Kind
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
-my $function_group = new WWW::OpenAPIClient.FunctionGroupCode(); # FunctionGroupCode | 
+my $function_group = new CZERTAINLY.FunctionGroupCode(); # FunctionGroupCode | 
 my $kind = "kind_example"; # string | 
-my $status = new WWW::OpenAPIClient.ConnectorStatus(); # ConnectorStatus | 
+my $status = new CZERTAINLY.ConnectorStatus(); # ConnectorStatus | 
 
 eval {
     my $result = $api_instance->list_connectors(function_group => $function_group, kind => $kind, status => $status);
@@ -657,8 +657,8 @@ Reconnect to a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
@@ -701,14 +701,14 @@ Validate Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorManagementApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorManagementApi->new(
+use CZERTAINLY::ConnectorManagementApi;
+my $api_instance = CZERTAINLY::ConnectorManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Connector UUID
 my $function_group = "function_group_example"; # string | Function Group name
 my $kind = "kind_example"; # string | Kind
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_attributes(uuid => $uuid, function_group => $function_group, kind => $kind, request_attribute_dto => $request_attribute_dto);

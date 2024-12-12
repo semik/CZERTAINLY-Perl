@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::IntegerAttributeContent
+# CZERTAINLY::Object::IntegerAttributeContent
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::IntegerAttributeContent;
+use CZERTAINLY::Object::IntegerAttributeContent;
 ```
 
 ## Properties

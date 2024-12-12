@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AttributeConstraintType
+# CZERTAINLY::Object::AttributeConstraintType
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AttributeConstraintType;
+use CZERTAINLY::Object::AttributeConstraintType;
 ```
 
 ## Properties

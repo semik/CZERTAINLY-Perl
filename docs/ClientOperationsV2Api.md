@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ClientOperationsV2Api
+# CZERTAINLY::ClientOperationsV2Api
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ClientOperationsV2Api;
+use CZERTAINLY::Object::ClientOperationsV2Api;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -28,13 +28,13 @@ Issue Certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
-my $client_certificate_sign_request_dto = WWW::OpenAPIClient::Object::ClientCertificateSignRequestDto->new(); # ClientCertificateSignRequestDto | 
+my $client_certificate_sign_request_dto = CZERTAINLY::Object::ClientCertificateSignRequestDto->new(); # ClientCertificateSignRequestDto | 
 
 eval {
     my $result = $api_instance->issue_certificate(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, client_certificate_sign_request_dto => $client_certificate_sign_request_dto);
@@ -76,8 +76,8 @@ Issue existing certificate with status Requested
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -124,8 +124,8 @@ Get issue Certificate Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -170,8 +170,8 @@ Get revocation Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -216,14 +216,14 @@ Rekey Certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
 my $certificate_uuid = "certificate_uuid_example"; # string | Certificate UUID
-my $client_certificate_rekey_request_dto = WWW::OpenAPIClient::Object::ClientCertificateRekeyRequestDto->new(); # ClientCertificateRekeyRequestDto | 
+my $client_certificate_rekey_request_dto = CZERTAINLY::Object::ClientCertificateRekeyRequestDto->new(); # ClientCertificateRekeyRequestDto | 
 
 eval {
     my $result = $api_instance->rekey_certificate(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, certificate_uuid => $certificate_uuid, client_certificate_rekey_request_dto => $client_certificate_rekey_request_dto);
@@ -266,14 +266,14 @@ Renew Certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
 my $certificate_uuid = "certificate_uuid_example"; # string | Certificate UUID
-my $client_certificate_renew_request_dto = WWW::OpenAPIClient::Object::ClientCertificateRenewRequestDto->new(); # ClientCertificateRenewRequestDto | 
+my $client_certificate_renew_request_dto = CZERTAINLY::Object::ClientCertificateRenewRequestDto->new(); # ClientCertificateRenewRequestDto | 
 
 eval {
     my $result = $api_instance->renew_certificate(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, certificate_uuid => $certificate_uuid, client_certificate_renew_request_dto => $client_certificate_renew_request_dto);
@@ -316,14 +316,14 @@ Revoke Certificate
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
 my $certificate_uuid = "certificate_uuid_example"; # string | Certificate UUID
-my $client_certificate_revocation_dto = WWW::OpenAPIClient::Object::ClientCertificateRevocationDto->new(); # ClientCertificateRevocationDto | 
+my $client_certificate_revocation_dto = CZERTAINLY::Object::ClientCertificateRevocationDto->new(); # ClientCertificateRevocationDto | 
 
 eval {
     $api_instance->revoke_certificate(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, certificate_uuid => $certificate_uuid, client_certificate_revocation_dto => $client_certificate_revocation_dto);
@@ -365,13 +365,13 @@ Validate issue Certificate Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_issue_certificate_attributes(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, request_attribute_dto => $request_attribute_dto);
@@ -412,13 +412,13 @@ Validate revocation Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ClientOperationsV2Api;
-my $api_instance = WWW::OpenAPIClient::ClientOperationsV2Api->new(
+use CZERTAINLY::ClientOperationsV2Api;
+my $api_instance = CZERTAINLY::ClientOperationsV2Api->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_revoke_certificate_attributes(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, request_attribute_dto => $request_attribute_dto);

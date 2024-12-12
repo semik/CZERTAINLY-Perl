@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AttributeCallbackMapping
+# CZERTAINLY::Object::AttributeCallbackMapping
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AttributeCallbackMapping;
+use CZERTAINLY::Object::AttributeCallbackMapping;
 ```
 
 ## Properties

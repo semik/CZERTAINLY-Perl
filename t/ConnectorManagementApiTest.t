@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ConnectorManagementApi');
+use_ok('CZERTAINLY::ConnectorManagementApi');
 
-my $api = WWW::OpenAPIClient::ConnectorManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ConnectorManagementApi');
+my $api = CZERTAINLY::ConnectorManagementApi->new();
+isa_ok($api, 'CZERTAINLY::ConnectorManagementApi');
 
 #
 # approve test

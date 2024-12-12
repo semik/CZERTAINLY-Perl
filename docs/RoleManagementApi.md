@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::RoleManagementApi
+# CZERTAINLY::RoleManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::RoleManagementApi;
+use CZERTAINLY::Object::RoleManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -33,13 +33,13 @@ Add Resource Objects to a Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
 my $resource_uuid = "resource_uuid_example"; # string | Resource UUID
-my $object_permissions_request_dto = [WWW::OpenAPIClient::Object::ARRAY[ObjectPermissionsRequestDto]->new()]; # ARRAY[ObjectPermissionsRequestDto] | 
+my $object_permissions_request_dto = [CZERTAINLY::Object::ARRAY[ObjectPermissionsRequestDto]->new()]; # ARRAY[ObjectPermissionsRequestDto] | 
 
 eval {
     $api_instance->add_resource_permission_objects(role_uuid => $role_uuid, resource_uuid => $resource_uuid, object_permissions_request_dto => $object_permissions_request_dto);
@@ -80,11 +80,11 @@ Create Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
-my $role_request_dto = WWW::OpenAPIClient::Object::RoleRequestDto->new(); # RoleRequestDto | 
+my $role_request_dto = CZERTAINLY::Object::RoleRequestDto->new(); # RoleRequestDto | 
 
 eval {
     my $result = $api_instance->create_role(role_request_dto => $role_request_dto);
@@ -124,8 +124,8 @@ Delete Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
@@ -167,8 +167,8 @@ Get Resource Objects of a Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
@@ -213,8 +213,8 @@ Get role details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
@@ -257,8 +257,8 @@ Get Permissions of a Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
@@ -301,8 +301,8 @@ Get Resources of a Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
@@ -347,8 +347,8 @@ Get Role Users
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
@@ -391,8 +391,8 @@ List Roles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 
@@ -431,8 +431,8 @@ Update Resource Objects to a Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
@@ -478,12 +478,12 @@ Add permissions to Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
-my $role_permissions_request_dto = WWW::OpenAPIClient::Object::RolePermissionsRequestDto->new(); # RolePermissionsRequestDto | 
+my $role_permissions_request_dto = CZERTAINLY::Object::RolePermissionsRequestDto->new(); # RolePermissionsRequestDto | 
 
 eval {
     my $result = $api_instance->save_permissions(role_uuid => $role_uuid, role_permissions_request_dto => $role_permissions_request_dto);
@@ -524,14 +524,14 @@ Update Resource Objects to a Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
 my $resource_uuid = "resource_uuid_example"; # string | Resource UUID
 my $object_uuid = "object_uuid_example"; # string | Object UUID
-my $object_permissions_request_dto = WWW::OpenAPIClient::Object::ObjectPermissionsRequestDto->new(); # ObjectPermissionsRequestDto | 
+my $object_permissions_request_dto = CZERTAINLY::Object::ObjectPermissionsRequestDto->new(); # ObjectPermissionsRequestDto | 
 
 eval {
     $api_instance->update_resource_permission_objects(role_uuid => $role_uuid, resource_uuid => $resource_uuid, object_uuid => $object_uuid, object_permissions_request_dto => $object_permissions_request_dto);
@@ -573,12 +573,12 @@ Update Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
-my $role_request_dto = WWW::OpenAPIClient::Object::RoleRequestDto->new(); # RoleRequestDto | 
+my $role_request_dto = CZERTAINLY::Object::RoleRequestDto->new(); # RoleRequestDto | 
 
 eval {
     my $result = $api_instance->update_role(role_uuid => $role_uuid, role_request_dto => $role_request_dto);
@@ -619,12 +619,12 @@ Add users to Role
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RoleManagementApi;
-my $api_instance = WWW::OpenAPIClient::RoleManagementApi->new(
+use CZERTAINLY::RoleManagementApi;
+my $api_instance = CZERTAINLY::RoleManagementApi->new(
 );
 
 my $role_uuid = "role_uuid_example"; # string | Role UUID
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | User UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | User UUIDs
 
 eval {
     my $result = $api_instance->update_users(role_uuid => $role_uuid, request_body => $request_body);

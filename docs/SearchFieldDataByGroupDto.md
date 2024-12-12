@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::SearchFieldDataByGroupDto
+# CZERTAINLY::Object::SearchFieldDataByGroupDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::SearchFieldDataByGroupDto;
+use CZERTAINLY::Object::SearchFieldDataByGroupDto;
 ```
 
 ## Properties

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ActorType');
+use_ok('CZERTAINLY::Object::ActorType');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ActorType->new();
+#my $instance = CZERTAINLY::Object::ActorType->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ActorType');
+#isa_ok($instance, 'CZERTAINLY::Object::ActorType');
 
 
 done_testing();

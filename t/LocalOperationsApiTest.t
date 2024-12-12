@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::LocalOperationsApi');
+use_ok('CZERTAINLY::LocalOperationsApi');
 
-my $api = WWW::OpenAPIClient::LocalOperationsApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::LocalOperationsApi');
+my $api = CZERTAINLY::LocalOperationsApi->new();
+isa_ok($api, 'CZERTAINLY::LocalOperationsApi');
 
 #
 # add_admin test

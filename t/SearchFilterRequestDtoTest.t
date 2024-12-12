@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::SearchFilterRequestDto');
+use_ok('CZERTAINLY::Object::SearchFilterRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::SearchFilterRequestDto->new();
+#my $instance = CZERTAINLY::Object::SearchFilterRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::SearchFilterRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::SearchFilterRequestDto');
 
 
 done_testing();

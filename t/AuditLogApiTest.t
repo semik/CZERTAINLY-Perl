@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::AuditLogApi');
+use_ok('CZERTAINLY::AuditLogApi');
 
-my $api = WWW::OpenAPIClient::AuditLogApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::AuditLogApi');
+my $api = CZERTAINLY::AuditLogApi->new();
+isa_ok($api, 'CZERTAINLY::AuditLogApi');
 
 #
 # export_audit_logs test

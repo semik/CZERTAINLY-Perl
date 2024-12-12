@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::SCEPProfileManagementApi
+# CZERTAINLY::SCEPProfileManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::SCEPProfileManagementApi;
+use CZERTAINLY::Object::SCEPProfileManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -32,11 +32,11 @@ Delete multiple SCEP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
 
 eval {
     my $result = $api_instance->bulk_delete_scep_profile(request_body => $request_body);
@@ -76,11 +76,11 @@ Disable multiple SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
 
 eval {
     $api_instance->bulk_disable_scep_profile(request_body => $request_body);
@@ -119,11 +119,11 @@ Enable multiple SCEP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
 
 eval {
     $api_instance->bulk_enable_scep_profile(request_body => $request_body);
@@ -162,11 +162,11 @@ Create SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
-my $scep_profile_request_dto = WWW::OpenAPIClient::Object::ScepProfileRequestDto->new(); # ScepProfileRequestDto | 
+my $scep_profile_request_dto = CZERTAINLY::Object::ScepProfileRequestDto->new(); # ScepProfileRequestDto | 
 
 eval {
     my $result = $api_instance->create_scep_profile(scep_profile_request_dto => $scep_profile_request_dto);
@@ -206,8 +206,8 @@ Delete SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | SCEP Profile UUID
@@ -249,8 +249,8 @@ Disable SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | SCEP Profile UUID
@@ -292,12 +292,12 @@ Edit SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | SCEP Profile UUID
-my $scep_profile_edit_request_dto = WWW::OpenAPIClient::Object::ScepProfileEditRequestDto->new(); # ScepProfileEditRequestDto | 
+my $scep_profile_edit_request_dto = CZERTAINLY::Object::ScepProfileEditRequestDto->new(); # ScepProfileEditRequestDto | 
 
 eval {
     my $result = $api_instance->edit_scep_profile(uuid => $uuid, scep_profile_edit_request_dto => $scep_profile_edit_request_dto);
@@ -338,8 +338,8 @@ Enable SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | SCEP Profile UUID
@@ -381,11 +381,11 @@ Force delete multiple SCEP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | SCEP Profile UUIDs
 
 eval {
     my $result = $api_instance->force_delete_scep_profiles(request_body => $request_body);
@@ -425,8 +425,8 @@ Get details of SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | SCEP Profile UUID
@@ -469,8 +469,8 @@ Get list of certificates eligible for CA certificate of SCEP requests
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 my $intune_enabled = null; # boolean | flag to return certificates that are eligible for Intune integration
@@ -513,8 +513,8 @@ Get list of SCEP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 
@@ -553,8 +553,8 @@ Update RA Profile for SCEP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::SCEPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::SCEPProfileManagementApi->new(
+use CZERTAINLY::SCEPProfileManagementApi;
+my $api_instance = CZERTAINLY::SCEPProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | SCEP Profile UUID

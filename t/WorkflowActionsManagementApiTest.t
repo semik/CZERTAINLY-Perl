@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::WorkflowActionsManagementApi');
+use_ok('CZERTAINLY::WorkflowActionsManagementApi');
 
-my $api = WWW::OpenAPIClient::WorkflowActionsManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::WorkflowActionsManagementApi');
+my $api = CZERTAINLY::WorkflowActionsManagementApi->new();
+isa_ok($api, 'CZERTAINLY::WorkflowActionsManagementApi');
 
 #
 # create_action test

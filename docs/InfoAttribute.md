@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::InfoAttribute
+# CZERTAINLY::Object::InfoAttribute
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::InfoAttribute;
+use CZERTAINLY::Object::InfoAttribute;
 ```
 
 ## Properties

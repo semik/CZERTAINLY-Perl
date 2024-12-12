@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::DateTimeAttributeConstraint
+# CZERTAINLY::Object::DateTimeAttributeConstraint
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::DateTimeAttributeConstraint;
+use CZERTAINLY::Object::DateTimeAttributeConstraint;
 ```
 
 ## Properties

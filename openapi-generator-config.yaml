@@ -1,0 +1,4 @@
+# java -jar ../openapi-generator-cli.jar generate -i ../doc-openapi-czertainly-core.yaml --config openapi-generator-config.yaml
+generatorName: perl
+outputDir: .
+moduleName: CZERTAINLY

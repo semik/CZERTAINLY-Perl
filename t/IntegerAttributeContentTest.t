@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::IntegerAttributeContent');
+use_ok('CZERTAINLY::Object::IntegerAttributeContent');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::IntegerAttributeContent->new();
+#my $instance = CZERTAINLY::Object::IntegerAttributeContent->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::IntegerAttributeContent');
+#isa_ok($instance, 'CZERTAINLY::Object::IntegerAttributeContent');
 
 
 done_testing();

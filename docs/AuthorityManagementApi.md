@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::AuthorityManagementApi
+# CZERTAINLY::AuthorityManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::AuthorityManagementApi;
+use CZERTAINLY::Object::AuthorityManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -31,11 +31,11 @@ Delete multiple Authority instances
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Authority Instance UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Authority Instance UUIDs
 
 eval {
     my $result = $api_instance->bulk_delete_authority_instance(request_body => $request_body);
@@ -75,11 +75,11 @@ Add Authority instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
-my $authority_instance_request_dto = WWW::OpenAPIClient::Object::AuthorityInstanceRequestDto->new(); # AuthorityInstanceRequestDto | 
+my $authority_instance_request_dto = CZERTAINLY::Object::AuthorityInstanceRequestDto->new(); # AuthorityInstanceRequestDto | 
 
 eval {
     my $result = $api_instance->create_authority_instance(authority_instance_request_dto => $authority_instance_request_dto);
@@ -119,8 +119,8 @@ Delete Authority instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
@@ -162,12 +162,12 @@ Edit Authority instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
-my $authority_instance_update_request_dto = WWW::OpenAPIClient::Object::AuthorityInstanceUpdateRequestDto->new(); # AuthorityInstanceUpdateRequestDto | 
+my $authority_instance_update_request_dto = CZERTAINLY::Object::AuthorityInstanceUpdateRequestDto->new(); # AuthorityInstanceUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_authority_instance(uuid => $uuid, authority_instance_update_request_dto => $authority_instance_update_request_dto);
@@ -208,11 +208,11 @@ Force delete multiple Authority instances
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | 
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | 
 
 eval {
     my $result = $api_instance->force_delete_authority_instances(request_body => $request_body);
@@ -252,8 +252,8 @@ Details of an Authority instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
@@ -296,8 +296,8 @@ List of available Authority instances
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 
@@ -336,8 +336,8 @@ No authorization required
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
@@ -382,8 +382,8 @@ No authorization required
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
@@ -428,8 +428,8 @@ No authorization required
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
@@ -472,8 +472,8 @@ List RA Profile Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
@@ -516,12 +516,12 @@ Validate RA Profile Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuthorityManagementApi;
-my $api_instance = WWW::OpenAPIClient::AuthorityManagementApi->new(
+use CZERTAINLY::AuthorityManagementApi;
+my $api_instance = CZERTAINLY::AuthorityManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Authority instance UUID
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_ra_profile_attributes(uuid => $uuid, request_attribute_dto => $request_attribute_dto);

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::DiscoveryCertificateDto
+# CZERTAINLY::Object::DiscoveryCertificateDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::DiscoveryCertificateDto;
+use CZERTAINLY::Object::DiscoveryCertificateDto;
 ```
 
 ## Properties

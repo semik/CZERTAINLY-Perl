@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::BulkOperationResponse');
+use_ok('CZERTAINLY::Object::BulkOperationResponse');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::BulkOperationResponse->new();
+#my $instance = CZERTAINLY::Object::BulkOperationResponse->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::BulkOperationResponse');
+#isa_ok($instance, 'CZERTAINLY::Object::BulkOperationResponse');
 
 
 done_testing();

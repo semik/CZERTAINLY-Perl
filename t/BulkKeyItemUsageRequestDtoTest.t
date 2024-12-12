@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::BulkKeyItemUsageRequestDto');
+use_ok('CZERTAINLY::Object::BulkKeyItemUsageRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::BulkKeyItemUsageRequestDto->new();
+#my $instance = CZERTAINLY::Object::BulkKeyItemUsageRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::BulkKeyItemUsageRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::BulkKeyItemUsageRequestDto');
 
 
 done_testing();

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::EntityManagementApi
+# CZERTAINLY::EntityManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::EntityManagementApi;
+use CZERTAINLY::Object::EntityManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -27,11 +27,11 @@ Add Entity instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
-my $entity_instance_request_dto = WWW::OpenAPIClient::Object::EntityInstanceRequestDto->new(); # EntityInstanceRequestDto | 
+my $entity_instance_request_dto = CZERTAINLY::Object::EntityInstanceRequestDto->new(); # EntityInstanceRequestDto | 
 
 eval {
     my $result = $api_instance->create_entity_instance(entity_instance_request_dto => $entity_instance_request_dto);
@@ -71,8 +71,8 @@ Delete Entity instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity instance UUID
@@ -114,12 +114,12 @@ Edit Entity instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity instance UUID
-my $entity_instance_update_request_dto = WWW::OpenAPIClient::Object::EntityInstanceUpdateRequestDto->new(); # EntityInstanceUpdateRequestDto | 
+my $entity_instance_update_request_dto = CZERTAINLY::Object::EntityInstanceUpdateRequestDto->new(); # EntityInstanceUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_entity_instance(entity_uuid => $entity_uuid, entity_instance_update_request_dto => $entity_instance_update_request_dto);
@@ -160,8 +160,8 @@ Get Entity instance details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity instance UUID
@@ -204,8 +204,8 @@ Get Entities searchable fields information
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
 
@@ -244,11 +244,11 @@ List Entity instances
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
-my $search_request_dto = WWW::OpenAPIClient::Object::SearchRequestDto->new(); # SearchRequestDto | 
+my $search_request_dto = CZERTAINLY::Object::SearchRequestDto->new(); # SearchRequestDto | 
 
 eval {
     my $result = $api_instance->list_entity_instances(search_request_dto => $search_request_dto);
@@ -288,8 +288,8 @@ List Location Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity instance UUID
@@ -332,12 +332,12 @@ Validate Location Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EntityManagementApi;
-my $api_instance = WWW::OpenAPIClient::EntityManagementApi->new(
+use CZERTAINLY::EntityManagementApi;
+my $api_instance = CZERTAINLY::EntityManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity instance UUID
-my $request_attribute_dto = [WWW::OpenAPIClient::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
+my $request_attribute_dto = [CZERTAINLY::Object::ARRAY[RequestAttributeDto]->new()]; # ARRAY[RequestAttributeDto] | 
 
 eval {
     $api_instance->validate_location_attributes(entity_uuid => $entity_uuid, request_attribute_dto => $request_attribute_dto);

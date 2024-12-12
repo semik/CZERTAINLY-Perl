@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::StatisticsDto
+# CZERTAINLY::Object::StatisticsDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::StatisticsDto;
+use CZERTAINLY::Object::StatisticsDto;
 ```
 
 ## Properties

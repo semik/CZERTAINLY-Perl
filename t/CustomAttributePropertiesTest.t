@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CustomAttributeProperties');
+use_ok('CZERTAINLY::Object::CustomAttributeProperties');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CustomAttributeProperties->new();
+#my $instance = CZERTAINLY::Object::CustomAttributeProperties->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CustomAttributeProperties');
+#isa_ok($instance, 'CZERTAINLY::Object::CustomAttributeProperties');
 
 
 done_testing();

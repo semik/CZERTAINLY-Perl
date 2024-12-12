@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ResponseMetadataDto
+# CZERTAINLY::Object::ResponseMetadataDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ResponseMetadataDto;
+use CZERTAINLY::Object::ResponseMetadataDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ActorRecord
+# CZERTAINLY::Object::ActorRecord
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ActorRecord;
+use CZERTAINLY::Object::ActorRecord;
 ```
 
 ## Properties

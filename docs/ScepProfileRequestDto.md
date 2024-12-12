@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ScepProfileRequestDto
+# CZERTAINLY::Object::ScepProfileRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ScepProfileRequestDto;
+use CZERTAINLY::Object::ScepProfileRequestDto;
 ```
 
 ## Properties

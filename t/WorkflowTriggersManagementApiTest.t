@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::WorkflowTriggersManagementApi');
+use_ok('CZERTAINLY::WorkflowTriggersManagementApi');
 
-my $api = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::WorkflowTriggersManagementApi');
+my $api = CZERTAINLY::WorkflowTriggersManagementApi->new();
+isa_ok($api, 'CZERTAINLY::WorkflowTriggersManagementApi');
 
 #
 # create_trigger test

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AccountStatus
+# CZERTAINLY::Object::AccountStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AccountStatus;
+use CZERTAINLY::Object::AccountStatus;
 ```
 
 ## Properties

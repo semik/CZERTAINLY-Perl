@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::RAProfileManagementApi');
+use_ok('CZERTAINLY::RAProfileManagementApi');
 
-my $api = WWW::OpenAPIClient::RAProfileManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::RAProfileManagementApi');
+my $api = CZERTAINLY::RAProfileManagementApi->new();
+isa_ok($api, 'CZERTAINLY::RAProfileManagementApi');
 
 #
 # activate_acme_for_ra_profile test

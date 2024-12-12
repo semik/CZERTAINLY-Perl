@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CodeBlockAttributeContent');
+use_ok('CZERTAINLY::Object::CodeBlockAttributeContent');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CodeBlockAttributeContent->new();
+#my $instance = CZERTAINLY::Object::CodeBlockAttributeContent->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CodeBlockAttributeContent');
+#isa_ok($instance, 'CZERTAINLY::Object::CodeBlockAttributeContent');
 
 
 done_testing();

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AcmeAccountResponseDto
+# CZERTAINLY::Object::AcmeAccountResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AcmeAccountResponseDto;
+use CZERTAINLY::Object::AcmeAccountResponseDto;
 ```
 
 ## Properties

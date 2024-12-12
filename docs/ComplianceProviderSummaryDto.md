@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ComplianceProviderSummaryDto
+# CZERTAINLY::Object::ComplianceProviderSummaryDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ComplianceProviderSummaryDto;
+use CZERTAINLY::Object::ComplianceProviderSummaryDto;
 ```
 
 ## Properties

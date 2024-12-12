@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::WorkflowTriggersManagementApi
+# CZERTAINLY::WorkflowTriggersManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::WorkflowTriggersManagementApi;
+use CZERTAINLY::Object::WorkflowTriggersManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -26,11 +26,11 @@ Create Trigger
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowTriggersManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new(
+use CZERTAINLY::WorkflowTriggersManagementApi;
+my $api_instance = CZERTAINLY::WorkflowTriggersManagementApi->new(
 );
 
-my $trigger_request_dto = WWW::OpenAPIClient::Object::TriggerRequestDto->new(); # TriggerRequestDto | 
+my $trigger_request_dto = CZERTAINLY::Object::TriggerRequestDto->new(); # TriggerRequestDto | 
 
 eval {
     my $result = $api_instance->create_trigger(trigger_request_dto => $trigger_request_dto);
@@ -70,8 +70,8 @@ Delete Trigger
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowTriggersManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new(
+use CZERTAINLY::WorkflowTriggersManagementApi;
+my $api_instance = CZERTAINLY::WorkflowTriggersManagementApi->new(
 );
 
 my $trigger_uuid = "trigger_uuid_example"; # string | Trigger UUID
@@ -113,8 +113,8 @@ Get Trigger details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowTriggersManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new(
+use CZERTAINLY::WorkflowTriggersManagementApi;
+my $api_instance = CZERTAINLY::WorkflowTriggersManagementApi->new(
 );
 
 my $trigger_uuid = "trigger_uuid_example"; # string | Trigger UUID
@@ -157,8 +157,8 @@ Get Trigger History
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowTriggersManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new(
+use CZERTAINLY::WorkflowTriggersManagementApi;
+my $api_instance = CZERTAINLY::WorkflowTriggersManagementApi->new(
 );
 
 my $trigger_uuid = "trigger_uuid_example"; # string | Trigger UUID
@@ -203,8 +203,8 @@ Get Trigger History Summary
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowTriggersManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new(
+use CZERTAINLY::WorkflowTriggersManagementApi;
+my $api_instance = CZERTAINLY::WorkflowTriggersManagementApi->new(
 );
 
 my $association_object_uuid = "association_object_uuid_example"; # string | Trigger Association Object UUID
@@ -247,12 +247,12 @@ List Triggers
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowTriggersManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new(
+use CZERTAINLY::WorkflowTriggersManagementApi;
+my $api_instance = CZERTAINLY::WorkflowTriggersManagementApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | 
-my $event_resource = new WWW::OpenAPIClient.Resource(); # Resource | 
+my $resource = new CZERTAINLY.Resource(); # Resource | 
+my $event_resource = new CZERTAINLY.Resource(); # Resource | 
 
 eval {
     my $result = $api_instance->list_triggers(resource => $resource, event_resource => $event_resource);
@@ -293,12 +293,12 @@ Update Trigger
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowTriggersManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowTriggersManagementApi->new(
+use CZERTAINLY::WorkflowTriggersManagementApi;
+my $api_instance = CZERTAINLY::WorkflowTriggersManagementApi->new(
 );
 
 my $trigger_uuid = "trigger_uuid_example"; # string | Trigger UUID
-my $update_trigger_request_dto = WWW::OpenAPIClient::Object::UpdateTriggerRequestDto->new(); # UpdateTriggerRequestDto | 
+my $update_trigger_request_dto = CZERTAINLY::Object::UpdateTriggerRequestDto->new(); # UpdateTriggerRequestDto | 
 
 eval {
     my $result = $api_instance->update_trigger(trigger_uuid => $trigger_uuid, update_trigger_request_dto => $update_trigger_request_dto);

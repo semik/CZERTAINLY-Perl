@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyCompromiseReason
+# CZERTAINLY::Object::KeyCompromiseReason
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyCompromiseReason;
+use CZERTAINLY::Object::KeyCompromiseReason;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ScheduledJobDto
+# CZERTAINLY::Object::ScheduledJobDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ScheduledJobDto;
+use CZERTAINLY::Object::ScheduledJobDto;
 ```
 
 ## Properties

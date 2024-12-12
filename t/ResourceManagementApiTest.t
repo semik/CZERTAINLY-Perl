@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ResourceManagementApi');
+use_ok('CZERTAINLY::ResourceManagementApi');
 
-my $api = WWW::OpenAPIClient::ResourceManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ResourceManagementApi');
+my $api = CZERTAINLY::ResourceManagementApi->new();
+isa_ok($api, 'CZERTAINLY::ResourceManagementApi');
 
 #
 # list_resource_events test

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::AuthorityManagementApi');
+use_ok('CZERTAINLY::AuthorityManagementApi');
 
-my $api = WWW::OpenAPIClient::AuthorityManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::AuthorityManagementApi');
+my $api = CZERTAINLY::AuthorityManagementApi->new();
+isa_ok($api, 'CZERTAINLY::AuthorityManagementApi');
 
 #
 # bulk_delete_authority_instance test

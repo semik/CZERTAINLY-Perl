@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::SourceRecord');
+use_ok('CZERTAINLY::Object::SourceRecord');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::SourceRecord->new();
+#my $instance = CZERTAINLY::Object::SourceRecord->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::SourceRecord');
+#isa_ok($instance, 'CZERTAINLY::Object::SourceRecord');
 
 
 done_testing();

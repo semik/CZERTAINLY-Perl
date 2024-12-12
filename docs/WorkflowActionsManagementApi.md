@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::WorkflowActionsManagementApi
+# CZERTAINLY::WorkflowActionsManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::WorkflowActionsManagementApi;
+use CZERTAINLY::Object::WorkflowActionsManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -29,11 +29,11 @@ Create Action
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
-my $action_request_dto = WWW::OpenAPIClient::Object::ActionRequestDto->new(); # ActionRequestDto | 
+my $action_request_dto = CZERTAINLY::Object::ActionRequestDto->new(); # ActionRequestDto | 
 
 eval {
     my $result = $api_instance->create_action(action_request_dto => $action_request_dto);
@@ -73,11 +73,11 @@ Create Execution
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
-my $execution_request_dto = WWW::OpenAPIClient::Object::ExecutionRequestDto->new(); # ExecutionRequestDto | 
+my $execution_request_dto = CZERTAINLY::Object::ExecutionRequestDto->new(); # ExecutionRequestDto | 
 
 eval {
     my $result = $api_instance->create_execution(execution_request_dto => $execution_request_dto);
@@ -117,8 +117,8 @@ Delete Action
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
 my $action_uuid = "action_uuid_example"; # string | Action UUID
@@ -160,8 +160,8 @@ Delete Execution
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
 my $execution_uuid = "execution_uuid_example"; # string | Execution UUID
@@ -203,8 +203,8 @@ Get Action Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
 my $action_uuid = "action_uuid_example"; # string | Action UUID
@@ -247,8 +247,8 @@ Get Execution Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
 my $execution_uuid = "execution_uuid_example"; # string | Execution UUID
@@ -291,11 +291,11 @@ List Actions
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | 
+my $resource = new CZERTAINLY.Resource(); # Resource | 
 
 eval {
     my $result = $api_instance->list_actions(resource => $resource);
@@ -335,11 +335,11 @@ List executions
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | 
+my $resource = new CZERTAINLY.Resource(); # Resource | 
 
 eval {
     my $result = $api_instance->list_executions(resource => $resource);
@@ -379,12 +379,12 @@ Update Action
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
 my $action_uuid = "action_uuid_example"; # string | Action UUID
-my $update_action_request_dto = WWW::OpenAPIClient::Object::UpdateActionRequestDto->new(); # UpdateActionRequestDto | 
+my $update_action_request_dto = CZERTAINLY::Object::UpdateActionRequestDto->new(); # UpdateActionRequestDto | 
 
 eval {
     my $result = $api_instance->update_action(action_uuid => $action_uuid, update_action_request_dto => $update_action_request_dto);
@@ -425,12 +425,12 @@ Update Execution
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowActionsManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowActionsManagementApi->new(
+use CZERTAINLY::WorkflowActionsManagementApi;
+my $api_instance = CZERTAINLY::WorkflowActionsManagementApi->new(
 );
 
 my $execution_uuid = "execution_uuid_example"; # string | Execution UUID
-my $update_execution_request_dto = WWW::OpenAPIClient::Object::UpdateExecutionRequestDto->new(); # UpdateExecutionRequestDto | 
+my $update_execution_request_dto = CZERTAINLY::Object::UpdateExecutionRequestDto->new(); # UpdateExecutionRequestDto | 
 
 eval {
     my $result = $api_instance->update_execution(execution_uuid => $execution_uuid, update_execution_request_dto => $update_execution_request_dto);

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CertificateRequestFormat');
+use_ok('CZERTAINLY::Object::CertificateRequestFormat');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CertificateRequestFormat->new();
+#my $instance = CZERTAINLY::Object::CertificateRequestFormat->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CertificateRequestFormat');
+#isa_ok($instance, 'CZERTAINLY::Object::CertificateRequestFormat');
 
 
 done_testing();

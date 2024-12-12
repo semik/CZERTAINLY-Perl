@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ScheduledJobDetailDto');
+use_ok('CZERTAINLY::Object::ScheduledJobDetailDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ScheduledJobDetailDto->new();
+#my $instance = CZERTAINLY::Object::ScheduledJobDetailDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ScheduledJobDetailDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ScheduledJobDetailDto');
 
 
 done_testing();

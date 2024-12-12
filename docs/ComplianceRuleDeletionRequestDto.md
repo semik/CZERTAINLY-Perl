@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ComplianceRuleDeletionRequestDto
+# CZERTAINLY::Object::ComplianceRuleDeletionRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ComplianceRuleDeletionRequestDto;
+use CZERTAINLY::Object::ComplianceRuleDeletionRequestDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ScheduleDiscoveryDto
+# CZERTAINLY::Object::ScheduleDiscoveryDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ScheduleDiscoveryDto;
+use CZERTAINLY::Object::ScheduleDiscoveryDto;
 ```
 
 ## Properties

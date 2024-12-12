@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::FunctionGroupDto
+# CZERTAINLY::Object::FunctionGroupDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::FunctionGroupDto;
+use CZERTAINLY::Object::FunctionGroupDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ConnectorRegistrationApi
+# CZERTAINLY::ConnectorRegistrationApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ConnectorRegistrationApi;
+use CZERTAINLY::Object::ConnectorRegistrationApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -20,11 +20,11 @@ Register a Connector
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ConnectorRegistrationApi;
-my $api_instance = WWW::OpenAPIClient::ConnectorRegistrationApi->new(
+use CZERTAINLY::ConnectorRegistrationApi;
+my $api_instance = CZERTAINLY::ConnectorRegistrationApi->new(
 );
 
-my $connector_request_dto = WWW::OpenAPIClient::Object::ConnectorRequestDto->new(); # ConnectorRequestDto | 
+my $connector_request_dto = CZERTAINLY::Object::ConnectorRequestDto->new(); # ConnectorRequestDto | 
 
 eval {
     my $result = $api_instance->register(connector_request_dto => $connector_request_dto);

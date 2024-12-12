@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ComplianceRulesListResponseDto');
+use_ok('CZERTAINLY::Object::ComplianceRulesListResponseDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ComplianceRulesListResponseDto->new();
+#my $instance = CZERTAINLY::Object::ComplianceRulesListResponseDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ComplianceRulesListResponseDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ComplianceRulesListResponseDto');
 
 
 done_testing();

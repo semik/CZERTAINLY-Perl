@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::PlatformEnum
+# CZERTAINLY::Object::PlatformEnum
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::PlatformEnum;
+use CZERTAINLY::Object::PlatformEnum;
 ```
 
 ## Properties

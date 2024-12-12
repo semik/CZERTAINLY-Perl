@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AcmeProfileListDto
+# CZERTAINLY::Object::AcmeProfileListDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AcmeProfileListDto;
+use CZERTAINLY::Object::AcmeProfileListDto;
 ```
 
 ## Properties

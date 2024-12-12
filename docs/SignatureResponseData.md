@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::SignatureResponseData
+# CZERTAINLY::Object::SignatureResponseData
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::SignatureResponseData;
+use CZERTAINLY::Object::SignatureResponseData;
 ```
 
 ## Properties

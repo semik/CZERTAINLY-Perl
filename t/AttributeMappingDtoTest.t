@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AttributeMappingDto');
+use_ok('CZERTAINLY::Object::AttributeMappingDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AttributeMappingDto->new();
+#my $instance = CZERTAINLY::Object::AttributeMappingDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AttributeMappingDto');
+#isa_ok($instance, 'CZERTAINLY::Object::AttributeMappingDto');
 
 
 done_testing();

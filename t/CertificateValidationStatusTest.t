@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CertificateValidationStatus');
+use_ok('CZERTAINLY::Object::CertificateValidationStatus');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CertificateValidationStatus->new();
+#my $instance = CZERTAINLY::Object::CertificateValidationStatus->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CertificateValidationStatus');
+#isa_ok($instance, 'CZERTAINLY::Object::CertificateValidationStatus');
 
 
 done_testing();

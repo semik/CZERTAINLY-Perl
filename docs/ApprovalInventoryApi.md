@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ApprovalInventoryApi
+# CZERTAINLY::ApprovalInventoryApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ApprovalInventoryApi;
+use CZERTAINLY::Object::ApprovalInventoryApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -26,8 +26,8 @@ Approving of the Approval
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalInventoryApi->new(
+use CZERTAINLY::ApprovalInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval UUID
@@ -69,12 +69,12 @@ Approving of Recipient of the Approval
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalInventoryApi->new(
+use CZERTAINLY::ApprovalInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval UUID
-my $user_approval_dto = WWW::OpenAPIClient::Object::UserApprovalDto->new(); # UserApprovalDto | 
+my $user_approval_dto = CZERTAINLY::Object::UserApprovalDto->new(); # UserApprovalDto | 
 
 eval {
     $api_instance->approve_approval_recipient(uuid => $uuid, user_approval_dto => $user_approval_dto);
@@ -114,8 +114,8 @@ Get Approval Detail
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalInventoryApi->new(
+use CZERTAINLY::ApprovalInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval UUID
@@ -158,11 +158,11 @@ List of Approvals
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalInventoryApi->new(
+use CZERTAINLY::ApprovalInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalInventoryApi->new(
 );
 
-my $pagination_request_dto = new WWW::OpenAPIClient.PaginationRequestDto(); # PaginationRequestDto | 
+my $pagination_request_dto = new CZERTAINLY.PaginationRequestDto(); # PaginationRequestDto | 
 
 eval {
     my $result = $api_instance->list_approvals(pagination_request_dto => $pagination_request_dto);
@@ -202,12 +202,12 @@ List of User's Approvals
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalInventoryApi->new(
+use CZERTAINLY::ApprovalInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalInventoryApi->new(
 );
 
-my $pagination_request_dto = new WWW::OpenAPIClient.PaginationRequestDto(); # PaginationRequestDto | 
-my $approval_user_dto = new WWW::OpenAPIClient.ApprovalUserDto(); # ApprovalUserDto | Select if you want to list all history of approvals by user
+my $pagination_request_dto = new CZERTAINLY.PaginationRequestDto(); # PaginationRequestDto | 
+my $approval_user_dto = new CZERTAINLY.ApprovalUserDto(); # ApprovalUserDto | Select if you want to list all history of approvals by user
 
 eval {
     my $result = $api_instance->list_user_approvals(pagination_request_dto => $pagination_request_dto, approval_user_dto => $approval_user_dto);
@@ -248,8 +248,8 @@ Rejecting of the Approval
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalInventoryApi->new(
+use CZERTAINLY::ApprovalInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval UUID
@@ -291,12 +291,12 @@ Rejecting of Recipient of the Approval
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ApprovalInventoryApi;
-my $api_instance = WWW::OpenAPIClient::ApprovalInventoryApi->new(
+use CZERTAINLY::ApprovalInventoryApi;
+my $api_instance = CZERTAINLY::ApprovalInventoryApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Approval UUID
-my $user_approval_dto = WWW::OpenAPIClient::Object::UserApprovalDto->new(); # UserApprovalDto | 
+my $user_approval_dto = CZERTAINLY::Object::UserApprovalDto->new(); # UserApprovalDto | 
 
 eval {
     $api_instance->reject_approval_recipient(uuid => $uuid, user_approval_dto => $user_approval_dto);

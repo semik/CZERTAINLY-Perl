@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CertificateKeyGroupApi');
+use_ok('CZERTAINLY::CertificateKeyGroupApi');
 
-my $api = WWW::OpenAPIClient::CertificateKeyGroupApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CertificateKeyGroupApi');
+my $api = CZERTAINLY::CertificateKeyGroupApi->new();
+isa_ok($api, 'CZERTAINLY::CertificateKeyGroupApi');
 
 #
 # bulk_delete_group test

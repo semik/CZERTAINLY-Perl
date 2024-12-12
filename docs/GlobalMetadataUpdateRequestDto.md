@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::GlobalMetadataUpdateRequestDto
+# CZERTAINLY::Object::GlobalMetadataUpdateRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::GlobalMetadataUpdateRequestDto;
+use CZERTAINLY::Object::GlobalMetadataUpdateRequestDto;
 ```
 
 ## Properties

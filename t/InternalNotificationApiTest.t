@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::InternalNotificationApi');
+use_ok('CZERTAINLY::InternalNotificationApi');
 
-my $api = WWW::OpenAPIClient::InternalNotificationApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::InternalNotificationApi');
+my $api = CZERTAINLY::InternalNotificationApi->new();
+isa_ok($api, 'CZERTAINLY::InternalNotificationApi');
 
 #
 # bulk_delete_notification test

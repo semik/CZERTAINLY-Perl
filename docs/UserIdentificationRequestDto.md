@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::UserIdentificationRequestDto
+# CZERTAINLY::Object::UserIdentificationRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::UserIdentificationRequestDto;
+use CZERTAINLY::Object::UserIdentificationRequestDto;
 ```
 
 ## Properties

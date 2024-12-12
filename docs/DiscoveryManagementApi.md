@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::DiscoveryManagementApi
+# CZERTAINLY::DiscoveryManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::DiscoveryManagementApi;
+use CZERTAINLY::Object::DiscoveryManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -27,11 +27,11 @@ Delete Multiple Discoveries
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Discovery UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Discovery UUIDs
 
 eval {
     $api_instance->bulk_delete_discovery(request_body => $request_body);
@@ -70,11 +70,11 @@ Create Discovery
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
-my $discovery_dto = WWW::OpenAPIClient::Object::DiscoveryDto->new(); # DiscoveryDto | 
+my $discovery_dto = CZERTAINLY::Object::DiscoveryDto->new(); # DiscoveryDto | 
 
 eval {
     my $result = $api_instance->create_discovery(discovery_dto => $discovery_dto);
@@ -114,8 +114,8 @@ Delete Discovery
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Discovery UUID
@@ -157,8 +157,8 @@ Discovery Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Discovery UUID
@@ -201,8 +201,8 @@ Discovery Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Discovery UUID
@@ -251,8 +251,8 @@ Get Discovery searchable fields information
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
 
@@ -291,11 +291,11 @@ List Discovery
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
-my $search_request_dto = WWW::OpenAPIClient::Object::SearchRequestDto->new(); # SearchRequestDto | 
+my $search_request_dto = CZERTAINLY::Object::SearchRequestDto->new(); # SearchRequestDto | 
 
 eval {
     my $result = $api_instance->list_discoveries(search_request_dto => $search_request_dto);
@@ -335,11 +335,11 @@ Schedule Discovery
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::DiscoveryManagementApi;
-my $api_instance = WWW::OpenAPIClient::DiscoveryManagementApi->new(
+use CZERTAINLY::DiscoveryManagementApi;
+my $api_instance = CZERTAINLY::DiscoveryManagementApi->new(
 );
 
-my $schedule_discovery_dto = WWW::OpenAPIClient::Object::ScheduleDiscoveryDto->new(); # ScheduleDiscoveryDto | 
+my $schedule_discovery_dto = CZERTAINLY::Object::ScheduleDiscoveryDto->new(); # ScheduleDiscoveryDto | 
 
 eval {
     my $result = $api_instance->schedule_discovery(schedule_discovery_dto => $schedule_discovery_dto);

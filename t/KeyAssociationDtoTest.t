@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::KeyAssociationDto');
+use_ok('CZERTAINLY::Object::KeyAssociationDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::KeyAssociationDto->new();
+#my $instance = CZERTAINLY::Object::KeyAssociationDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::KeyAssociationDto');
+#isa_ok($instance, 'CZERTAINLY::Object::KeyAssociationDto');
 
 
 done_testing();

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::UserManagementApi
+# CZERTAINLY::UserManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::UserManagementApi;
+use CZERTAINLY::Object::UserManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -32,8 +32,8 @@ Add role to User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -78,11 +78,11 @@ Create User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
-my $add_user_request_dto = WWW::OpenAPIClient::Object::AddUserRequestDto->new(); # AddUserRequestDto | 
+my $add_user_request_dto = CZERTAINLY::Object::AddUserRequestDto->new(); # AddUserRequestDto | 
 
 eval {
     my $result = $api_instance->create_user(add_user_request_dto => $add_user_request_dto);
@@ -122,8 +122,8 @@ Delete User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -165,8 +165,8 @@ Disable User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -209,8 +209,8 @@ Enable User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -253,8 +253,8 @@ Get User permissions
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -297,8 +297,8 @@ Get user details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -341,8 +341,8 @@ Get User Roles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -385,11 +385,11 @@ Identify User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
-my $user_identification_request_dto = WWW::OpenAPIClient::Object::UserIdentificationRequestDto->new(); # UserIdentificationRequestDto | 
+my $user_identification_request_dto = CZERTAINLY::Object::UserIdentificationRequestDto->new(); # UserIdentificationRequestDto | 
 
 eval {
     my $result = $api_instance->identify_user(user_identification_request_dto => $user_identification_request_dto);
@@ -429,8 +429,8 @@ List Users
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 
@@ -469,8 +469,8 @@ Remove role from User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
@@ -515,12 +515,12 @@ Add roles to User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Role UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Role UUIDs
 
 eval {
     my $result = $api_instance->update_roles(user_uuid => $user_uuid, request_body => $request_body);
@@ -561,12 +561,12 @@ Update User
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::UserManagementApi;
-my $api_instance = WWW::OpenAPIClient::UserManagementApi->new(
+use CZERTAINLY::UserManagementApi;
+my $api_instance = CZERTAINLY::UserManagementApi->new(
 );
 
 my $user_uuid = "user_uuid_example"; # string | User UUID
-my $update_user_request_dto = WWW::OpenAPIClient::Object::UpdateUserRequestDto->new(); # UpdateUserRequestDto | 
+my $update_user_request_dto = CZERTAINLY::Object::UpdateUserRequestDto->new(); # UpdateUserRequestDto | 
 
 eval {
     my $result = $api_instance->update_user(user_uuid => $user_uuid, update_user_request_dto => $update_user_request_dto);

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::TokenInstanceStatus
+# CZERTAINLY::Object::TokenInstanceStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::TokenInstanceStatus;
+use CZERTAINLY::Object::TokenInstanceStatus;
 ```
 
 ## Properties

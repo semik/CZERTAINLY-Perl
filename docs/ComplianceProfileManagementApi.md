@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ComplianceProfileManagementApi
+# CZERTAINLY::ComplianceProfileManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ComplianceProfileManagementApi;
+use CZERTAINLY::Object::ComplianceProfileManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -35,12 +35,12 @@ Add group to a Compliance Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
-my $compliance_group_request_dto = WWW::OpenAPIClient::Object::ComplianceGroupRequestDto->new(); # ComplianceGroupRequestDto | 
+my $compliance_group_request_dto = CZERTAINLY::Object::ComplianceGroupRequestDto->new(); # ComplianceGroupRequestDto | 
 
 eval {
     $api_instance->add_group(uuid => $uuid, compliance_group_request_dto => $compliance_group_request_dto);
@@ -80,12 +80,12 @@ Add rule to a Compliance Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
-my $compliance_rule_addition_request_dto = WWW::OpenAPIClient::Object::ComplianceRuleAdditionRequestDto->new(); # ComplianceRuleAdditionRequestDto | 
+my $compliance_rule_addition_request_dto = CZERTAINLY::Object::ComplianceRuleAdditionRequestDto->new(); # ComplianceRuleAdditionRequestDto | 
 
 eval {
     my $result = $api_instance->add_rule(uuid => $uuid, compliance_rule_addition_request_dto => $compliance_rule_addition_request_dto);
@@ -126,12 +126,12 @@ Associate Compliance Profile to RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
-my $ra_profile_association_request_dto = WWW::OpenAPIClient::Object::RaProfileAssociationRequestDto->new(); # RaProfileAssociationRequestDto | 
+my $ra_profile_association_request_dto = CZERTAINLY::Object::RaProfileAssociationRequestDto->new(); # RaProfileAssociationRequestDto | 
 
 eval {
     $api_instance->associate_profiles(uuid => $uuid, ra_profile_association_request_dto => $ra_profile_association_request_dto);
@@ -171,11 +171,11 @@ Delete multiple Compliance Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Compliance Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Compliance Profile UUIDs
 
 eval {
     my $result = $api_instance->bulk_delete_compliance_profiles(request_body => $request_body);
@@ -215,11 +215,11 @@ Initiate Certificate Compliance Check
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
 
 eval {
     $api_instance->check_compliance(request_body => $request_body);
@@ -258,11 +258,11 @@ Add Compliance Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
-my $compliance_profile_request_dto = WWW::OpenAPIClient::Object::ComplianceProfileRequestDto->new(); # ComplianceProfileRequestDto | 
+my $compliance_profile_request_dto = CZERTAINLY::Object::ComplianceProfileRequestDto->new(); # ComplianceProfileRequestDto | 
 
 eval {
     my $result = $api_instance->create_compliance_profile(compliance_profile_request_dto => $compliance_profile_request_dto);
@@ -302,8 +302,8 @@ Delete Compliance Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
@@ -345,12 +345,12 @@ Disassociate Compliance Profile to RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
-my $ra_profile_association_request_dto = WWW::OpenAPIClient::Object::RaProfileAssociationRequestDto->new(); # RaProfileAssociationRequestDto | 
+my $ra_profile_association_request_dto = CZERTAINLY::Object::RaProfileAssociationRequestDto->new(); # RaProfileAssociationRequestDto | 
 
 eval {
     $api_instance->disassociate_profiles(uuid => $uuid, ra_profile_association_request_dto => $ra_profile_association_request_dto);
@@ -390,11 +390,11 @@ Force delete Compliance Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | 
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | 
 
 eval {
     my $result = $api_instance->force_delete_compliance_profiles(request_body => $request_body);
@@ -434,8 +434,8 @@ Get RA Profiles for a Compliance Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
@@ -478,8 +478,8 @@ Get Compliance groups
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $compliance_provider = "compliance_provider_example"; # string | 
@@ -524,8 +524,8 @@ Details of a Compliance Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
@@ -568,13 +568,13 @@ Get Compliance rules
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $compliance_provider = "compliance_provider_example"; # string | 
 my $kind = "kind_example"; # string | 
-my $certificate_type = [(new WWW::OpenAPIClient.CertificateType())]; # ARRAY[CertificateType] | 
+my $certificate_type = [(new CZERTAINLY.CertificateType())]; # ARRAY[CertificateType] | 
 
 eval {
     my $result = $api_instance->get_compliance_rules(compliance_provider => $compliance_provider, kind => $kind, certificate_type => $certificate_type);
@@ -616,8 +616,8 @@ List of available Compliance Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 
@@ -656,12 +656,12 @@ Delete group from a Compliance Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
-my $compliance_group_request_dto = WWW::OpenAPIClient::Object::ComplianceGroupRequestDto->new(); # ComplianceGroupRequestDto | 
+my $compliance_group_request_dto = CZERTAINLY::Object::ComplianceGroupRequestDto->new(); # ComplianceGroupRequestDto | 
 
 eval {
     $api_instance->remove_group(uuid => $uuid, compliance_group_request_dto => $compliance_group_request_dto);
@@ -701,12 +701,12 @@ Delete rule from a Compliance Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ComplianceProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ComplianceProfileManagementApi->new(
+use CZERTAINLY::ComplianceProfileManagementApi;
+my $api_instance = CZERTAINLY::ComplianceProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Compliance Profile UUID
-my $compliance_rule_deletion_request_dto = WWW::OpenAPIClient::Object::ComplianceRuleDeletionRequestDto->new(); # ComplianceRuleDeletionRequestDto | 
+my $compliance_rule_deletion_request_dto = CZERTAINLY::Object::ComplianceRuleDeletionRequestDto->new(); # ComplianceRuleDeletionRequestDto | 
 
 eval {
     $api_instance->remove_rule(uuid => $uuid, compliance_rule_deletion_request_dto => $compliance_rule_deletion_request_dto);

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ConnectorRegistrationApi');
+use_ok('CZERTAINLY::ConnectorRegistrationApi');
 
-my $api = WWW::OpenAPIClient::ConnectorRegistrationApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ConnectorRegistrationApi');
+my $api = CZERTAINLY::ConnectorRegistrationApi->new();
+isa_ok($api, 'CZERTAINLY::ConnectorRegistrationApi');
 
 #
 # register test

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::EnumsApi');
+use_ok('CZERTAINLY::EnumsApi');
 
-my $api = WWW::OpenAPIClient::EnumsApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::EnumsApi');
+my $api = CZERTAINLY::EnumsApi->new();
+isa_ok($api, 'CZERTAINLY::EnumsApi');
 
 #
 # get_platform_enums test

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::VerifyDataRequestDto');
+use_ok('CZERTAINLY::Object::VerifyDataRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::VerifyDataRequestDto->new();
+#my $instance = CZERTAINLY::Object::VerifyDataRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::VerifyDataRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::VerifyDataRequestDto');
 
 
 done_testing();

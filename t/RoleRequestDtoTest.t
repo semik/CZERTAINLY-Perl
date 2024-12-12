@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::RoleRequestDto');
+use_ok('CZERTAINLY::Object::RoleRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::RoleRequestDto->new();
+#my $instance = CZERTAINLY::Object::RoleRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::RoleRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::RoleRequestDto');
 
 
 done_testing();

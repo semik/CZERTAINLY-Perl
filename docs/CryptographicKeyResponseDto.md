@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CryptographicKeyResponseDto
+# CZERTAINLY::Object::CryptographicKeyResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CryptographicKeyResponseDto;
+use CZERTAINLY::Object::CryptographicKeyResponseDto;
 ```
 
 ## Properties

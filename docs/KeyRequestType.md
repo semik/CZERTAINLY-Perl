@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyRequestType
+# CZERTAINLY::Object::KeyRequestType
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyRequestType;
+use CZERTAINLY::Object::KeyRequestType;
 ```
 
 ## Properties

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::RoleManagementApi');
+use_ok('CZERTAINLY::RoleManagementApi');
 
-my $api = WWW::OpenAPIClient::RoleManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::RoleManagementApi');
+my $api = CZERTAINLY::RoleManagementApi->new();
+isa_ok($api, 'CZERTAINLY::RoleManagementApi');
 
 #
 # add_resource_permission_objects test

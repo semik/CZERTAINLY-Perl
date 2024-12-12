@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CipherResponseData
+# CZERTAINLY::Object::CipherResponseData
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CipherResponseData;
+use CZERTAINLY::Object::CipherResponseData;
 ```
 
 ## Properties

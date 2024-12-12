@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ExecutionType
+# CZERTAINLY::Object::ExecutionType
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ExecutionType;
+use CZERTAINLY::Object::ExecutionType;
 ```
 
 ## Properties

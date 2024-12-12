@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RaProfileScepDetailResponseDto
+# CZERTAINLY::Object::RaProfileScepDetailResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RaProfileScepDetailResponseDto;
+use CZERTAINLY::Object::RaProfileScepDetailResponseDto;
 ```
 
 ## Properties

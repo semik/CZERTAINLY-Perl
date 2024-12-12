@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AddTokenProfileRequestDto
+# CZERTAINLY::Object::AddTokenProfileRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AddTokenProfileRequestDto;
+use CZERTAINLY::Object::AddTokenProfileRequestDto;
 ```
 
 ## Properties

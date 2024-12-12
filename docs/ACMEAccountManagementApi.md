@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ACMEAccountManagementApi
+# CZERTAINLY::ACMEAccountManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ACMEAccountManagementApi;
+use CZERTAINLY::Object::ACMEAccountManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -27,11 +27,11 @@ Disable multiple ACME Accounts
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Account UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Account UUIDs
 
 eval {
     $api_instance->bulk_disable_acme_account(request_body => $request_body);
@@ -70,11 +70,11 @@ Enable multiple ACME Accounts
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Account UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Account UUIDs
 
 eval {
     $api_instance->bulk_enable_acme_account(request_body => $request_body);
@@ -113,11 +113,11 @@ Revoke multiple ACME Accounts
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Account UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Account UUIDs
 
 eval {
     $api_instance->bulk_revoke_acme_account(request_body => $request_body);
@@ -156,8 +156,8 @@ Disable ACME Account
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
 my $acme_profile_uuid = "acme_profile_uuid_example"; # string | ACME Profile UUID
@@ -201,8 +201,8 @@ Enable ACME Account
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
 my $acme_profile_uuid = "acme_profile_uuid_example"; # string | ACME Profile UUID
@@ -246,8 +246,8 @@ Details of ACME Account
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
 my $acme_profile_uuid = "acme_profile_uuid_example"; # string | ACME Profile UUID
@@ -292,8 +292,8 @@ List ACME Accounts
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
 
@@ -332,8 +332,8 @@ Revoke ACME Account
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEAccountManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEAccountManagementApi->new(
+use CZERTAINLY::ACMEAccountManagementApi;
+my $api_instance = CZERTAINLY::ACMEAccountManagementApi->new(
 );
 
 my $acme_profile_uuid = "acme_profile_uuid_example"; # string | ACME Profile UUID

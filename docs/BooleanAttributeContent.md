@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::BooleanAttributeContent
+# CZERTAINLY::Object::BooleanAttributeContent
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::BooleanAttributeContent;
+use CZERTAINLY::Object::BooleanAttributeContent;
 ```
 
 ## Properties

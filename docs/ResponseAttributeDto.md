@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ResponseAttributeDto
+# CZERTAINLY::Object::ResponseAttributeDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ResponseAttributeDto;
+use CZERTAINLY::Object::ResponseAttributeDto;
 ```
 
 ## Properties

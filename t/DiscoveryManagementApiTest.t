@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::DiscoveryManagementApi');
+use_ok('CZERTAINLY::DiscoveryManagementApi');
 
-my $api = WWW::OpenAPIClient::DiscoveryManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::DiscoveryManagementApi');
+my $api = CZERTAINLY::DiscoveryManagementApi->new();
+isa_ok($api, 'CZERTAINLY::DiscoveryManagementApi');
 
 #
 # bulk_delete_discovery test

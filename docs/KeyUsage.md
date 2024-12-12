@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyUsage
+# CZERTAINLY::Object::KeyUsage
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyUsage;
+use CZERTAINLY::Object::KeyUsage;
 ```
 
 ## Properties

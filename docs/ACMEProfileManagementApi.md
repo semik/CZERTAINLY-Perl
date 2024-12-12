@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ACMEProfileManagementApi
+# CZERTAINLY::ACMEProfileManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ACMEProfileManagementApi;
+use CZERTAINLY::Object::ACMEProfileManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -31,11 +31,11 @@ Delete multiple ACME Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
 
 eval {
     my $result = $api_instance->bulk_delete_acme_profile(request_body => $request_body);
@@ -75,11 +75,11 @@ Disable multiple ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
 
 eval {
     $api_instance->bulk_disable_acme_profile(request_body => $request_body);
@@ -118,11 +118,11 @@ Enable multiple ACME Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
 
 eval {
     $api_instance->bulk_enable_acme_profile(request_body => $request_body);
@@ -161,11 +161,11 @@ Create ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
-my $acme_profile_request_dto = WWW::OpenAPIClient::Object::AcmeProfileRequestDto->new(); # AcmeProfileRequestDto | 
+my $acme_profile_request_dto = CZERTAINLY::Object::AcmeProfileRequestDto->new(); # AcmeProfileRequestDto | 
 
 eval {
     my $result = $api_instance->create_acme_profile(acme_profile_request_dto => $acme_profile_request_dto);
@@ -205,8 +205,8 @@ Delete ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | ACME Profile UUID
@@ -248,8 +248,8 @@ Disable ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | ACME Profile UUID
@@ -291,12 +291,12 @@ Edit ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | ACME Profile UUID
-my $acme_profile_edit_request_dto = WWW::OpenAPIClient::Object::AcmeProfileEditRequestDto->new(); # AcmeProfileEditRequestDto | 
+my $acme_profile_edit_request_dto = CZERTAINLY::Object::AcmeProfileEditRequestDto->new(); # AcmeProfileEditRequestDto | 
 
 eval {
     my $result = $api_instance->edit_acme_profile(uuid => $uuid, acme_profile_edit_request_dto => $acme_profile_edit_request_dto);
@@ -337,8 +337,8 @@ Enable ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | ACME Profile UUID
@@ -380,11 +380,11 @@ Force delete multiple ACME Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | ACME Profile UUIDs
 
 eval {
     my $result = $api_instance->force_delete_acme_profiles(request_body => $request_body);
@@ -424,8 +424,8 @@ Get details of ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | ACME Profile UUID
@@ -468,8 +468,8 @@ Get list of ACME Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
 
@@ -508,8 +508,8 @@ Update RA Profile for ACME Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ACMEProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::ACMEProfileManagementApi->new(
+use CZERTAINLY::ACMEProfileManagementApi;
+my $api_instance = CZERTAINLY::ACMEProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | ACME Profile UUID

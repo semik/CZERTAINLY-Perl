@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CertificateValidationStatus
+# CZERTAINLY::Object::CertificateValidationStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateValidationStatus;
+use CZERTAINLY::Object::CertificateValidationStatus;
 ```
 
 ## Properties

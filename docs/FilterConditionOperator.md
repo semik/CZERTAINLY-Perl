@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::FilterConditionOperator
+# CZERTAINLY::Object::FilterConditionOperator
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::FilterConditionOperator;
+use CZERTAINLY::Object::FilterConditionOperator;
 ```
 
 ## Properties

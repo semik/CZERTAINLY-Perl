@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AcmeAccountListResponseDto');
+use_ok('CZERTAINLY::Object::AcmeAccountListResponseDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AcmeAccountListResponseDto->new();
+#my $instance = CZERTAINLY::Object::AcmeAccountListResponseDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AcmeAccountListResponseDto');
+#isa_ok($instance, 'CZERTAINLY::Object::AcmeAccountListResponseDto');
 
 
 done_testing();

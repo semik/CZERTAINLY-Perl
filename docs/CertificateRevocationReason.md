@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CertificateRevocationReason
+# CZERTAINLY::Object::CertificateRevocationReason
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateRevocationReason;
+use CZERTAINLY::Object::CertificateRevocationReason;
 ```
 
 ## Properties

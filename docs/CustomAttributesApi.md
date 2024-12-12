@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CustomAttributesApi
+# CZERTAINLY::CustomAttributesApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CustomAttributesApi;
+use CZERTAINLY::Object::CustomAttributesApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -34,11 +34,11 @@ Delete multiple Custom Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Attribute UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Attribute UUIDs
 
 eval {
     $api_instance->bulk_delete_custom_attributes(request_body => $request_body);
@@ -77,11 +77,11 @@ Disable multiple Custom Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Attribute UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Attribute UUIDs
 
 eval {
     $api_instance->bulk_disable_custom_attributes(request_body => $request_body);
@@ -120,11 +120,11 @@ Enable multiple Custom Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Attribute UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Attribute UUIDs
 
 eval {
     $api_instance->bulk_enable_custom_attributes(request_body => $request_body);
@@ -163,11 +163,11 @@ Create Custom Attribute
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $custom_attribute_create_request_dto = WWW::OpenAPIClient::Object::CustomAttributeCreateRequestDto->new(); # CustomAttributeCreateRequestDto | 
+my $custom_attribute_create_request_dto = CZERTAINLY::Object::CustomAttributeCreateRequestDto->new(); # CustomAttributeCreateRequestDto | 
 
 eval {
     my $result = $api_instance->create_custom_attribute(custom_attribute_create_request_dto => $custom_attribute_create_request_dto);
@@ -207,11 +207,11 @@ Delete Value of a Custom Attribute for a Resource
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $resource_name = new WWW::OpenAPIClient.Resource(); # Resource | Resource Type
+my $resource_name = new CZERTAINLY.Resource(); # Resource | Resource Type
 my $object_uuid = "object_uuid_example"; # string | Object UUID
 my $attribute_uuid = "attribute_uuid_example"; # string | Custom Attribute UUID
 
@@ -255,8 +255,8 @@ Delete Custom Attribute
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Custom Attribute UUID
@@ -298,8 +298,8 @@ Disable Custom Attribute
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Custom Attribute UUID
@@ -341,12 +341,12 @@ Edit Custom Attribute
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Attribute UUID
-my $custom_attribute_update_request_dto = WWW::OpenAPIClient::Object::CustomAttributeUpdateRequestDto->new(); # CustomAttributeUpdateRequestDto | 
+my $custom_attribute_update_request_dto = CZERTAINLY::Object::CustomAttributeUpdateRequestDto->new(); # CustomAttributeUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_custom_attribute(uuid => $uuid, custom_attribute_update_request_dto => $custom_attribute_update_request_dto);
@@ -387,8 +387,8 @@ Enable Custom Attribute
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Custom Attribute UUID
@@ -430,8 +430,8 @@ Custom Attribute details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
 my $uuid = "uuid_example"; # string | 
@@ -474,11 +474,11 @@ Get Custom Attributes for a resource
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | Resource Name
+my $resource = new CZERTAINLY.Resource(); # Resource | Resource Name
 
 eval {
     my $result = $api_instance->get_resource_custom_attributes(resource => $resource);
@@ -518,8 +518,8 @@ Get available resources for Custom Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
 
@@ -558,11 +558,11 @@ List Custom Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $attribute_content_type = new WWW::OpenAPIClient.AttributeContentType(); # AttributeContentType | 
+my $attribute_content_type = new CZERTAINLY.AttributeContentType(); # AttributeContentType | 
 
 eval {
     my $result = $api_instance->list_custom_attributes(attribute_content_type => $attribute_content_type);
@@ -602,14 +602,14 @@ Update Value of a Custom Attribute for a Resource
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
-my $resource_name = new WWW::OpenAPIClient.Resource(); # Resource | Resource Type
+my $resource_name = new CZERTAINLY.Resource(); # Resource | Resource Type
 my $object_uuid = "object_uuid_example"; # string | Object UUID
 my $attribute_uuid = "attribute_uuid_example"; # string | Custom Attribute UUID
-my $base_attribute_content_dto = [WWW::OpenAPIClient::Object::ARRAY[BaseAttributeContentDto]->new()]; # ARRAY[BaseAttributeContentDto] | 
+my $base_attribute_content_dto = [CZERTAINLY::Object::ARRAY[BaseAttributeContentDto]->new()]; # ARRAY[BaseAttributeContentDto] | 
 
 eval {
     my $result = $api_instance->update_attribute_content_for_resource(resource_name => $resource_name, object_uuid => $object_uuid, attribute_uuid => $attribute_uuid, base_attribute_content_dto => $base_attribute_content_dto);
@@ -652,12 +652,12 @@ Associate Custom Attribute to Resource
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CustomAttributesApi;
-my $api_instance = WWW::OpenAPIClient::CustomAttributesApi->new(
+use CZERTAINLY::CustomAttributesApi;
+my $api_instance = CZERTAINLY::CustomAttributesApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Custom Attribute UUID
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | List of Resources
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | List of Resources
 
 eval {
     $api_instance->update_resources(uuid => $uuid, request_body => $request_body);

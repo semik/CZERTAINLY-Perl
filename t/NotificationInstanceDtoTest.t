@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::NotificationInstanceDto');
+use_ok('CZERTAINLY::Object::NotificationInstanceDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::NotificationInstanceDto->new();
+#my $instance = CZERTAINLY::Object::NotificationInstanceDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::NotificationInstanceDto');
+#isa_ok($instance, 'CZERTAINLY::Object::NotificationInstanceDto');
 
 
 done_testing();

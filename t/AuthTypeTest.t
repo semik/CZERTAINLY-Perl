@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AuthType');
+use_ok('CZERTAINLY::Object::AuthType');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AuthType->new();
+#my $instance = CZERTAINLY::Object::AuthType->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AuthType');
+#isa_ok($instance, 'CZERTAINLY::Object::AuthType');
 
 
 done_testing();

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::TokenProfileManagementApi');
+use_ok('CZERTAINLY::TokenProfileManagementApi');
 
-my $api = WWW::OpenAPIClient::TokenProfileManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::TokenProfileManagementApi');
+my $api = CZERTAINLY::TokenProfileManagementApi->new();
+isa_ok($api, 'CZERTAINLY::TokenProfileManagementApi');
 
 #
 # create_token_profile test

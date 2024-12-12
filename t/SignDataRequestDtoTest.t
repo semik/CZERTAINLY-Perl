@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::SignDataRequestDto');
+use_ok('CZERTAINLY::Object::SignDataRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::SignDataRequestDto->new();
+#my $instance = CZERTAINLY::Object::SignDataRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::SignDataRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::SignDataRequestDto');
 
 
 done_testing();

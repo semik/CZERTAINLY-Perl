@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CertificateEventHistoryDto');
+use_ok('CZERTAINLY::Object::CertificateEventHistoryDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CertificateEventHistoryDto->new();
+#my $instance = CZERTAINLY::Object::CertificateEventHistoryDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CertificateEventHistoryDto');
+#isa_ok($instance, 'CZERTAINLY::Object::CertificateEventHistoryDto');
 
 
 done_testing();

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ResourceEventDto
+# CZERTAINLY::Object::ResourceEventDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ResourceEventDto;
+use CZERTAINLY::Object::ResourceEventDto;
 ```
 
 ## Properties

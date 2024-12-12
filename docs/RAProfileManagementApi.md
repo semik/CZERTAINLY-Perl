@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::RAProfileManagementApi
+# CZERTAINLY::RAProfileManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::RAProfileManagementApi;
+use CZERTAINLY::Object::RAProfileManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -48,14 +48,14 @@ Activate ACME for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
 my $acme_profile_uuid = "acme_profile_uuid_example"; # string | ACME Profile UUID
-my $activate_acme_for_ra_profile_request_dto = WWW::OpenAPIClient::Object::ActivateAcmeForRaProfileRequestDto->new(); # ActivateAcmeForRaProfileRequestDto | 
+my $activate_acme_for_ra_profile_request_dto = CZERTAINLY::Object::ActivateAcmeForRaProfileRequestDto->new(); # ActivateAcmeForRaProfileRequestDto | 
 
 eval {
     my $result = $api_instance->activate_acme_for_ra_profile(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, acme_profile_uuid => $acme_profile_uuid, activate_acme_for_ra_profile_request_dto => $activate_acme_for_ra_profile_request_dto);
@@ -98,14 +98,14 @@ Activate CMP for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
 my $cmp_profile_uuid = "cmp_profile_uuid_example"; # string | CMP Profile UUID
-my $activate_cmp_for_ra_profile_request_dto = WWW::OpenAPIClient::Object::ActivateCmpForRaProfileRequestDto->new(); # ActivateCmpForRaProfileRequestDto | 
+my $activate_cmp_for_ra_profile_request_dto = CZERTAINLY::Object::ActivateCmpForRaProfileRequestDto->new(); # ActivateCmpForRaProfileRequestDto | 
 
 eval {
     my $result = $api_instance->activate_cmp_for_ra_profile(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, cmp_profile_uuid => $cmp_profile_uuid, activate_cmp_for_ra_profile_request_dto => $activate_cmp_for_ra_profile_request_dto);
@@ -148,14 +148,14 @@ Activate SCEP for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
 my $scep_profile_uuid = "scep_profile_uuid_example"; # string | SCEP Profile UUID
-my $activate_scep_for_ra_profile_request_dto = WWW::OpenAPIClient::Object::ActivateScepForRaProfileRequestDto->new(); # ActivateScepForRaProfileRequestDto | 
+my $activate_scep_for_ra_profile_request_dto = CZERTAINLY::Object::ActivateScepForRaProfileRequestDto->new(); # ActivateScepForRaProfileRequestDto | 
 
 eval {
     my $result = $api_instance->activate_scep_for_ra_profile(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, scep_profile_uuid => $scep_profile_uuid, activate_scep_for_ra_profile_request_dto => $activate_scep_for_ra_profile_request_dto);
@@ -198,8 +198,8 @@ Associated RA profile with the Approval profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority instance UUID
@@ -245,11 +245,11 @@ Delete multiple RA Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
 
 eval {
     $api_instance->bulk_delete_ra_profile(request_body => $request_body);
@@ -288,11 +288,11 @@ Disable multiple RA Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
 
 eval {
     $api_instance->bulk_disable_ra_profile(request_body => $request_body);
@@ -331,11 +331,11 @@ Enable multiple RA Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
 
 eval {
     $api_instance->bulk_enable_ra_profile(request_body => $request_body);
@@ -374,11 +374,11 @@ Initiate Certificate Compliance Check
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | RA Profile UUIDs
 
 eval {
     $api_instance->check_ra_profile_compliance(request_body => $request_body);
@@ -417,12 +417,12 @@ Create RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
-my $add_ra_profile_request_dto = WWW::OpenAPIClient::Object::AddRaProfileRequestDto->new(); # AddRaProfileRequestDto | 
+my $add_ra_profile_request_dto = CZERTAINLY::Object::AddRaProfileRequestDto->new(); # AddRaProfileRequestDto | 
 
 eval {
     my $result = $api_instance->create_ra_profile(authority_uuid => $authority_uuid, add_ra_profile_request_dto => $add_ra_profile_request_dto);
@@ -463,8 +463,8 @@ Deactivate ACME for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -508,8 +508,8 @@ Deactivate CMP for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -553,8 +553,8 @@ Deactivate SCEP for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -598,8 +598,8 @@ Delete RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -643,8 +643,8 @@ Delete RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
@@ -686,8 +686,8 @@ Disable RA Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -731,8 +731,8 @@ Disassociated RA profile with the Approval profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority instance UUID
@@ -778,13 +778,13 @@ Edit RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
-my $edit_ra_profile_request_dto = WWW::OpenAPIClient::Object::EditRaProfileRequestDto->new(); # EditRaProfileRequestDto | 
+my $edit_ra_profile_request_dto = CZERTAINLY::Object::EditRaProfileRequestDto->new(); # EditRaProfileRequestDto | 
 
 eval {
     my $result = $api_instance->edit_ra_profile(authority_uuid => $authority_uuid, ra_profile_uuid => $ra_profile_uuid, edit_ra_profile_request_dto => $edit_ra_profile_request_dto);
@@ -826,8 +826,8 @@ Enable RA Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -871,8 +871,8 @@ Get ACME details for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -917,8 +917,8 @@ List of Approval profiles associated with the RAProfile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority instance UUID
@@ -963,8 +963,8 @@ Get Compliance Profiles for an RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority UUID
@@ -1009,8 +1009,8 @@ Retrieve certificates of authority belonging to RA profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority instance UUID
@@ -1055,8 +1055,8 @@ Get CMP details for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -1101,8 +1101,8 @@ Details of RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -1147,8 +1147,8 @@ Details of RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $ra_profile_uuid = "ra_profile_uuid_example"; # string | RA Profile UUID
@@ -1191,8 +1191,8 @@ Get SCEP details for RA Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -1237,8 +1237,8 @@ Get issue Certificate Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -1283,8 +1283,8 @@ Get revocation Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $authority_uuid = "authority_uuid_example"; # string | Authority Instance UUID
@@ -1329,8 +1329,8 @@ List of available RA Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::RAProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::RAProfileManagementApi->new(
+use CZERTAINLY::RAProfileManagementApi;
+my $api_instance = CZERTAINLY::RAProfileManagementApi->new(
 );
 
 my $enabled = null; # boolean | 

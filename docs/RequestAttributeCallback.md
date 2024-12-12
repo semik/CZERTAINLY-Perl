@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RequestAttributeCallback
+# CZERTAINLY::Object::RequestAttributeCallback
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RequestAttributeCallback;
+use CZERTAINLY::Object::RequestAttributeCallback;
 ```
 
 ## Properties

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::EntityManagementApi');
+use_ok('CZERTAINLY::EntityManagementApi');
 
-my $api = WWW::OpenAPIClient::EntityManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::EntityManagementApi');
+my $api = CZERTAINLY::EntityManagementApi->new();
+isa_ok($api, 'CZERTAINLY::EntityManagementApi');
 
 #
 # create_entity_instance test

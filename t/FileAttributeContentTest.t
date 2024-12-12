@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::FileAttributeContent');
+use_ok('CZERTAINLY::Object::FileAttributeContent');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::FileAttributeContent->new();
+#my $instance = CZERTAINLY::Object::FileAttributeContent->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::FileAttributeContent');
+#isa_ok($instance, 'CZERTAINLY::Object::FileAttributeContent');
 
 
 done_testing();

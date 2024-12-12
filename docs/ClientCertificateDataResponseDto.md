@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ClientCertificateDataResponseDto
+# CZERTAINLY::Object::ClientCertificateDataResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ClientCertificateDataResponseDto;
+use CZERTAINLY::Object::ClientCertificateDataResponseDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CredentialDto
+# CZERTAINLY::Object::CredentialDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CredentialDto;
+use CZERTAINLY::Object::CredentialDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::DiscoveryHistoryDetailDto
+# CZERTAINLY::Object::DiscoveryHistoryDetailDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::DiscoveryHistoryDetailDto;
+use CZERTAINLY::Object::DiscoveryHistoryDetailDto;
 ```
 
 ## Properties

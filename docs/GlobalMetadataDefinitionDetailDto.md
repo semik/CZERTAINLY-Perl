@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::GlobalMetadataDefinitionDetailDto
+# CZERTAINLY::Object::GlobalMetadataDefinitionDetailDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::GlobalMetadataDefinitionDetailDto;
+use CZERTAINLY::Object::GlobalMetadataDefinitionDetailDto;
 ```
 
 ## Properties

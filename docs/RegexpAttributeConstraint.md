@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RegexpAttributeConstraint
+# CZERTAINLY::Object::RegexpAttributeConstraint
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RegexpAttributeConstraint;
+use CZERTAINLY::Object::RegexpAttributeConstraint;
 ```
 
 ## Properties

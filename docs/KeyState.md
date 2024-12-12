@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyState
+# CZERTAINLY::Object::KeyState
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyState;
+use CZERTAINLY::Object::KeyState;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::EntityInstanceDto
+# CZERTAINLY::Object::EntityInstanceDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::EntityInstanceDto;
+use CZERTAINLY::Object::EntityInstanceDto;
 ```
 
 ## Properties

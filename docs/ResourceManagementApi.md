@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ResourceManagementApi
+# CZERTAINLY::ResourceManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ResourceManagementApi;
+use CZERTAINLY::Object::ResourceManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -22,11 +22,11 @@ Retrieve a list of all events that can be triggered by a resource
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ResourceManagementApi;
-my $api_instance = WWW::OpenAPIClient::ResourceManagementApi->new(
+use CZERTAINLY::ResourceManagementApi;
+my $api_instance = CZERTAINLY::ResourceManagementApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | Resource
+my $resource = new CZERTAINLY.Resource(); # Resource | Resource
 
 eval {
     my $result = $api_instance->list_resource_events(resource => $resource);
@@ -66,11 +66,11 @@ Retrieve filter fields that can be used for creating rule conditions and actions
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ResourceManagementApi;
-my $api_instance = WWW::OpenAPIClient::ResourceManagementApi->new(
+use CZERTAINLY::ResourceManagementApi;
+my $api_instance = CZERTAINLY::ResourceManagementApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | Resource
+my $resource = new CZERTAINLY.Resource(); # Resource | Resource
 my $settable = null; # boolean | 
 
 eval {
@@ -112,8 +112,8 @@ Retrieve list of resources with information and settings
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ResourceManagementApi;
-my $api_instance = WWW::OpenAPIClient::ResourceManagementApi->new(
+use CZERTAINLY::ResourceManagementApi;
+my $api_instance = CZERTAINLY::ResourceManagementApi->new(
 );
 
 

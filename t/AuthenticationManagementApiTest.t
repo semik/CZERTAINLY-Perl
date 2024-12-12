@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::AuthenticationManagementApi');
+use_ok('CZERTAINLY::AuthenticationManagementApi');
 
-my $api = WWW::OpenAPIClient::AuthenticationManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::AuthenticationManagementApi');
+my $api = CZERTAINLY::AuthenticationManagementApi->new();
+isa_ok($api, 'CZERTAINLY::AuthenticationManagementApi');
 
 #
 # get_auth_resources test

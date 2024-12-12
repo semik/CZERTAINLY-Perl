@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ScepProfileEditRequestDto');
+use_ok('CZERTAINLY::Object::ScepProfileEditRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ScepProfileEditRequestDto->new();
+#my $instance = CZERTAINLY::Object::ScepProfileEditRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ScepProfileEditRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ScepProfileEditRequestDto');
 
 
 done_testing();

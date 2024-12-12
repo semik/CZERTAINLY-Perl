@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CMPProfileManagementApi
+# CZERTAINLY::CMPProfileManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CMPProfileManagementApi;
+use CZERTAINLY::Object::CMPProfileManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -32,11 +32,11 @@ Delete multiple CMP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
 
 eval {
     my $result = $api_instance->bulk_delete_cmp_profile(request_body => $request_body);
@@ -76,11 +76,11 @@ Disable multiple CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
 
 eval {
     $api_instance->bulk_disable_cmp_profile(request_body => $request_body);
@@ -119,11 +119,11 @@ Enable multiple CMP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
 
 eval {
     $api_instance->bulk_enable_cmp_profile(request_body => $request_body);
@@ -162,11 +162,11 @@ Create CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
-my $cmp_profile_request_dto = WWW::OpenAPIClient::Object::CmpProfileRequestDto->new(); # CmpProfileRequestDto | 
+my $cmp_profile_request_dto = CZERTAINLY::Object::CmpProfileRequestDto->new(); # CmpProfileRequestDto | 
 
 eval {
     my $result = $api_instance->create_cmp_profile(cmp_profile_request_dto => $cmp_profile_request_dto);
@@ -206,8 +206,8 @@ Delete CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 my $cmp_profile_uuid = "cmp_profile_uuid_example"; # string | CMP Profile UUID
@@ -249,8 +249,8 @@ Disable CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 my $cmp_profile_uuid = "cmp_profile_uuid_example"; # string | CMP Profile UUID
@@ -292,12 +292,12 @@ Edit CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 my $cmp_profile_uuid = "cmp_profile_uuid_example"; # string | CMP Profile UUID
-my $cmp_profile_edit_request_dto = WWW::OpenAPIClient::Object::CmpProfileEditRequestDto->new(); # CmpProfileEditRequestDto | 
+my $cmp_profile_edit_request_dto = CZERTAINLY::Object::CmpProfileEditRequestDto->new(); # CmpProfileEditRequestDto | 
 
 eval {
     my $result = $api_instance->edit_cmp_profile(cmp_profile_uuid => $cmp_profile_uuid, cmp_profile_edit_request_dto => $cmp_profile_edit_request_dto);
@@ -338,8 +338,8 @@ Enable CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 my $cmp_profile_uuid = "cmp_profile_uuid_example"; # string | CMP Profile UUID
@@ -381,11 +381,11 @@ Force delete multiple CMP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | CMP Profile UUIDs
 
 eval {
     my $result = $api_instance->force_delete_cmp_profiles(request_body => $request_body);
@@ -425,8 +425,8 @@ Get details of CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 my $cmp_profile_uuid = "cmp_profile_uuid_example"; # string | CMP Profile UUID
@@ -469,8 +469,8 @@ Get list of CMP Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 
@@ -509,8 +509,8 @@ Get list of certificates eligible for signing of CMP responses
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 
@@ -549,8 +549,8 @@ Update RA Profile for CMP Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CMPProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::CMPProfileManagementApi->new(
+use CZERTAINLY::CMPProfileManagementApi;
+my $api_instance = CZERTAINLY::CMPProfileManagementApi->new(
 );
 
 my $cmp_profile_uuid = "cmp_profile_uuid_example"; # string | CMP Profile UUID

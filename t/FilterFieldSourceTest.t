@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::FilterFieldSource');
+use_ok('CZERTAINLY::Object::FilterFieldSource');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::FilterFieldSource->new();
+#my $instance = CZERTAINLY::Object::FilterFieldSource->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::FilterFieldSource');
+#isa_ok($instance, 'CZERTAINLY::Object::FilterFieldSource');
 
 
 done_testing();

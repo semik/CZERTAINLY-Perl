@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CompromiseKeyRequestDto
+# CZERTAINLY::Object::CompromiseKeyRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CompromiseKeyRequestDto;
+use CZERTAINLY::Object::CompromiseKeyRequestDto;
 ```
 
 ## Properties

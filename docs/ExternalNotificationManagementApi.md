@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::ExternalNotificationManagementApi
+# CZERTAINLY::ExternalNotificationManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::ExternalNotificationManagementApi;
+use CZERTAINLY::Object::ExternalNotificationManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -25,11 +25,11 @@ Add Notification instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ExternalNotificationManagementApi;
-my $api_instance = WWW::OpenAPIClient::ExternalNotificationManagementApi->new(
+use CZERTAINLY::ExternalNotificationManagementApi;
+my $api_instance = CZERTAINLY::ExternalNotificationManagementApi->new(
 );
 
-my $notification_instance_request_dto = WWW::OpenAPIClient::Object::NotificationInstanceRequestDto->new(); # NotificationInstanceRequestDto | 
+my $notification_instance_request_dto = CZERTAINLY::Object::NotificationInstanceRequestDto->new(); # NotificationInstanceRequestDto | 
 
 eval {
     my $result = $api_instance->create_notification_instance(notification_instance_request_dto => $notification_instance_request_dto);
@@ -69,8 +69,8 @@ Delete Notification instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ExternalNotificationManagementApi;
-my $api_instance = WWW::OpenAPIClient::ExternalNotificationManagementApi->new(
+use CZERTAINLY::ExternalNotificationManagementApi;
+my $api_instance = CZERTAINLY::ExternalNotificationManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Notification instance UUID
@@ -112,12 +112,12 @@ Edit Notification instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ExternalNotificationManagementApi;
-my $api_instance = WWW::OpenAPIClient::ExternalNotificationManagementApi->new(
+use CZERTAINLY::ExternalNotificationManagementApi;
+my $api_instance = CZERTAINLY::ExternalNotificationManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Notification instance UUID
-my $notification_instance_update_request_dto = WWW::OpenAPIClient::Object::NotificationInstanceUpdateRequestDto->new(); # NotificationInstanceUpdateRequestDto | 
+my $notification_instance_update_request_dto = CZERTAINLY::Object::NotificationInstanceUpdateRequestDto->new(); # NotificationInstanceUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_notification_instance(uuid => $uuid, notification_instance_update_request_dto => $notification_instance_update_request_dto);
@@ -158,8 +158,8 @@ Details of an Notification instance
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ExternalNotificationManagementApi;
-my $api_instance = WWW::OpenAPIClient::ExternalNotificationManagementApi->new(
+use CZERTAINLY::ExternalNotificationManagementApi;
+my $api_instance = CZERTAINLY::ExternalNotificationManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Notification instance UUID
@@ -202,8 +202,8 @@ List of mapping attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ExternalNotificationManagementApi;
-my $api_instance = WWW::OpenAPIClient::ExternalNotificationManagementApi->new(
+use CZERTAINLY::ExternalNotificationManagementApi;
+my $api_instance = CZERTAINLY::ExternalNotificationManagementApi->new(
 );
 
 my $connector_uuid = "connector_uuid_example"; # string | Connector UUID
@@ -248,8 +248,8 @@ List of available Notification instances
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::ExternalNotificationManagementApi;
-my $api_instance = WWW::OpenAPIClient::ExternalNotificationManagementApi->new(
+use CZERTAINLY::ExternalNotificationManagementApi;
+my $api_instance = CZERTAINLY::ExternalNotificationManagementApi->new(
 );
 
 

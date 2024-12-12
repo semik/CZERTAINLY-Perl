@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::MetadataAttribute');
+use_ok('CZERTAINLY::Object::MetadataAttribute');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::MetadataAttribute->new();
+#my $instance = CZERTAINLY::Object::MetadataAttribute->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::MetadataAttribute');
+#isa_ok($instance, 'CZERTAINLY::Object::MetadataAttribute');
 
 
 done_testing();

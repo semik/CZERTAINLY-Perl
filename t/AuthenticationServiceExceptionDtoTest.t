@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AuthenticationServiceExceptionDto');
+use_ok('CZERTAINLY::Object::AuthenticationServiceExceptionDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AuthenticationServiceExceptionDto->new();
+#my $instance = CZERTAINLY::Object::AuthenticationServiceExceptionDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AuthenticationServiceExceptionDto');
+#isa_ok($instance, 'CZERTAINLY::Object::AuthenticationServiceExceptionDto');
 
 
 done_testing();

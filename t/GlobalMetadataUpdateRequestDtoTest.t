@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::GlobalMetadataUpdateRequestDto');
+use_ok('CZERTAINLY::Object::GlobalMetadataUpdateRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::GlobalMetadataUpdateRequestDto->new();
+#my $instance = CZERTAINLY::Object::GlobalMetadataUpdateRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::GlobalMetadataUpdateRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::GlobalMetadataUpdateRequestDto');
 
 
 done_testing();

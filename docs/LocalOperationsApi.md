@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::LocalOperationsApi
+# CZERTAINLY::LocalOperationsApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::LocalOperationsApi;
+use CZERTAINLY::Object::LocalOperationsApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -20,11 +20,11 @@ Create Administrator
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocalOperationsApi;
-my $api_instance = WWW::OpenAPIClient::LocalOperationsApi->new(
+use CZERTAINLY::LocalOperationsApi;
+my $api_instance = CZERTAINLY::LocalOperationsApi->new(
 );
 
-my $add_user_request_dto = WWW::OpenAPIClient::Object::AddUserRequestDto->new(); # AddUserRequestDto | 
+my $add_user_request_dto = CZERTAINLY::Object::AddUserRequestDto->new(); # AddUserRequestDto | 
 
 eval {
     my $result = $api_instance->add_admin(add_user_request_dto => $add_user_request_dto);

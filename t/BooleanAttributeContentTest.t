@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::BooleanAttributeContent');
+use_ok('CZERTAINLY::Object::BooleanAttributeContent');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::BooleanAttributeContent->new();
+#my $instance = CZERTAINLY::Object::BooleanAttributeContent->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::BooleanAttributeContent');
+#isa_ok($instance, 'CZERTAINLY::Object::BooleanAttributeContent');
 
 
 done_testing();

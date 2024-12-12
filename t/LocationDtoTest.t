@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::LocationDto');
+use_ok('CZERTAINLY::Object::LocationDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::LocationDto->new();
+#my $instance = CZERTAINLY::Object::LocationDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::LocationDto');
+#isa_ok($instance, 'CZERTAINLY::Object::LocationDto');
 
 
 done_testing();

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CredentialManagementApi');
+use_ok('CZERTAINLY::CredentialManagementApi');
 
-my $api = WWW::OpenAPIClient::CredentialManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CredentialManagementApi');
+my $api = CZERTAINLY::CredentialManagementApi->new();
+isa_ok($api, 'CZERTAINLY::CredentialManagementApi');
 
 #
 # bulk_delete_credential test

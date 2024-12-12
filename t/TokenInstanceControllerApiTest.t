@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::TokenInstanceControllerApi');
+use_ok('CZERTAINLY::TokenInstanceControllerApi');
 
-my $api = WWW::OpenAPIClient::TokenInstanceControllerApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::TokenInstanceControllerApi');
+my $api = CZERTAINLY::TokenInstanceControllerApi->new();
+isa_ok($api, 'CZERTAINLY::TokenInstanceControllerApi');
 
 #
 # activate_token_instance test

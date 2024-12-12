@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::RegexpAttributeConstraint');
+use_ok('CZERTAINLY::Object::RegexpAttributeConstraint');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::RegexpAttributeConstraint->new();
+#my $instance = CZERTAINLY::Object::RegexpAttributeConstraint->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::RegexpAttributeConstraint');
+#isa_ok($instance, 'CZERTAINLY::Object::RegexpAttributeConstraint');
 
 
 done_testing();

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::UtilsSettingsDto
+# CZERTAINLY::Object::UtilsSettingsDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::UtilsSettingsDto;
+use CZERTAINLY::Object::UtilsSettingsDto;
 ```
 
 ## Properties

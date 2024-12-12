@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::KeyAlgorithm');
+use_ok('CZERTAINLY::Object::KeyAlgorithm');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::KeyAlgorithm->new();
+#my $instance = CZERTAINLY::Object::KeyAlgorithm->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::KeyAlgorithm');
+#isa_ok($instance, 'CZERTAINLY::Object::KeyAlgorithm');
 
 
 done_testing();

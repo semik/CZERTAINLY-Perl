@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::DiscoveryStatus
+# CZERTAINLY::Object::DiscoveryStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::DiscoveryStatus;
+use CZERTAINLY::Object::DiscoveryStatus;
 ```
 
 ## Properties

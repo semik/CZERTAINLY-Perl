@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::VerificationResponseData');
+use_ok('CZERTAINLY::Object::VerificationResponseData');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::VerificationResponseData->new();
+#my $instance = CZERTAINLY::Object::VerificationResponseData->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::VerificationResponseData');
+#isa_ok($instance, 'CZERTAINLY::Object::VerificationResponseData');
 
 
 done_testing();

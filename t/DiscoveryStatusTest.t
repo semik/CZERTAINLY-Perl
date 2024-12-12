@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::DiscoveryStatus');
+use_ok('CZERTAINLY::Object::DiscoveryStatus');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::DiscoveryStatus->new();
+#my $instance = CZERTAINLY::Object::DiscoveryStatus->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::DiscoveryStatus');
+#isa_ok($instance, 'CZERTAINLY::Object::DiscoveryStatus');
 
 
 done_testing();

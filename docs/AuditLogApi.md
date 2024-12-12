@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::AuditLogApi
+# CZERTAINLY::AuditLogApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::AuditLogApi;
+use CZERTAINLY::Object::AuditLogApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -23,11 +23,11 @@ Export Audit logs
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuditLogApi;
-my $api_instance = WWW::OpenAPIClient::AuditLogApi->new(
+use CZERTAINLY::AuditLogApi;
+my $api_instance = CZERTAINLY::AuditLogApi->new(
 );
 
-my $search_filter_request_dto = [WWW::OpenAPIClient::Object::ARRAY[SearchFilterRequestDto]->new()]; # ARRAY[SearchFilterRequestDto] | 
+my $search_filter_request_dto = [CZERTAINLY::Object::ARRAY[SearchFilterRequestDto]->new()]; # ARRAY[SearchFilterRequestDto] | 
 
 eval {
     my $result = $api_instance->export_audit_logs(search_filter_request_dto => $search_filter_request_dto);
@@ -67,8 +67,8 @@ Get Audit logs searchable fields information
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuditLogApi;
-my $api_instance = WWW::OpenAPIClient::AuditLogApi->new(
+use CZERTAINLY::AuditLogApi;
+my $api_instance = CZERTAINLY::AuditLogApi->new(
 );
 
 
@@ -107,11 +107,11 @@ List Audit logs
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuditLogApi;
-my $api_instance = WWW::OpenAPIClient::AuditLogApi->new(
+use CZERTAINLY::AuditLogApi;
+my $api_instance = CZERTAINLY::AuditLogApi->new(
 );
 
-my $search_request_dto = WWW::OpenAPIClient::Object::SearchRequestDto->new(); # SearchRequestDto | 
+my $search_request_dto = CZERTAINLY::Object::SearchRequestDto->new(); # SearchRequestDto | 
 
 eval {
     my $result = $api_instance->list_audit_logs(search_request_dto => $search_request_dto);
@@ -151,11 +151,11 @@ Purge Audit logs
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::AuditLogApi;
-my $api_instance = WWW::OpenAPIClient::AuditLogApi->new(
+use CZERTAINLY::AuditLogApi;
+my $api_instance = CZERTAINLY::AuditLogApi->new(
 );
 
-my $search_filter_request_dto = [WWW::OpenAPIClient::Object::ARRAY[SearchFilterRequestDto]->new()]; # ARRAY[SearchFilterRequestDto] | 
+my $search_filter_request_dto = [CZERTAINLY::Object::ARRAY[SearchFilterRequestDto]->new()]; # ARRAY[SearchFilterRequestDto] | 
 
 eval {
     $api_instance->purge_audit_logs(search_filter_request_dto => $search_filter_request_dto);

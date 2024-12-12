@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ScheduledJobsManagementApi');
+use_ok('CZERTAINLY::ScheduledJobsManagementApi');
 
-my $api = WWW::OpenAPIClient::ScheduledJobsManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ScheduledJobsManagementApi');
+my $api = CZERTAINLY::ScheduledJobsManagementApi->new();
+isa_ok($api, 'CZERTAINLY::ScheduledJobsManagementApi');
 
 #
 # delete_scheduled_job test

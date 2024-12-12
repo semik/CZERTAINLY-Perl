@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ConditionItemDto
+# CZERTAINLY::Object::ConditionItemDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ConditionItemDto;
+use CZERTAINLY::Object::ConditionItemDto;
 ```
 
 ## Properties

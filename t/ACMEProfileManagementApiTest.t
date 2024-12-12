@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ACMEProfileManagementApi');
+use_ok('CZERTAINLY::ACMEProfileManagementApi');
 
-my $api = WWW::OpenAPIClient::ACMEProfileManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ACMEProfileManagementApi');
+my $api = CZERTAINLY::ACMEProfileManagementApi->new();
+isa_ok($api, 'CZERTAINLY::ACMEProfileManagementApi');
 
 #
 # bulk_delete_acme_profile test

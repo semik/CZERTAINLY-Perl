@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AttributeMappingDto
+# CZERTAINLY::Object::AttributeMappingDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AttributeMappingDto;
+use CZERTAINLY::Object::AttributeMappingDto;
 ```
 
 ## Properties

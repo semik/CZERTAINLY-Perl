@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::GlobalMetadataApi');
+use_ok('CZERTAINLY::GlobalMetadataApi');
 
-my $api = WWW::OpenAPIClient::GlobalMetadataApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::GlobalMetadataApi');
+my $api = CZERTAINLY::GlobalMetadataApi->new();
+isa_ok($api, 'CZERTAINLY::GlobalMetadataApi');
 
 #
 # bulk_delete_global_metadata test

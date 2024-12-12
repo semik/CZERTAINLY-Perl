@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::EditLocationRequestDto
+# CZERTAINLY::Object::EditLocationRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::EditLocationRequestDto;
+use CZERTAINLY::Object::EditLocationRequestDto;
 ```
 
 ## Properties

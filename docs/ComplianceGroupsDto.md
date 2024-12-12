@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ComplianceGroupsDto
+# CZERTAINLY::Object::ComplianceGroupsDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ComplianceGroupsDto;
+use CZERTAINLY::Object::ComplianceGroupsDto;
 ```
 
 ## Properties

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CredentialAttributeContentData');
+use_ok('CZERTAINLY::Object::CredentialAttributeContentData');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CredentialAttributeContentData->new();
+#my $instance = CZERTAINLY::Object::CredentialAttributeContentData->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CredentialAttributeContentData');
+#isa_ok($instance, 'CZERTAINLY::Object::CredentialAttributeContentData');
 
 
 done_testing();

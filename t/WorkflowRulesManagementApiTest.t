@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::WorkflowRulesManagementApi');
+use_ok('CZERTAINLY::WorkflowRulesManagementApi');
 
-my $api = WWW::OpenAPIClient::WorkflowRulesManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::WorkflowRulesManagementApi');
+my $api = CZERTAINLY::WorkflowRulesManagementApi->new();
+isa_ok($api, 'CZERTAINLY::WorkflowRulesManagementApi');
 
 #
 # create_condition test

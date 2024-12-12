@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ApprovalProfileDetailDto
+# CZERTAINLY::Object::ApprovalProfileDetailDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ApprovalProfileDetailDto;
+use CZERTAINLY::Object::ApprovalProfileDetailDto;
 ```
 
 ## Properties

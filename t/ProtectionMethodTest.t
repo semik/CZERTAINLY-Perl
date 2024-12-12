@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ProtectionMethod');
+use_ok('CZERTAINLY::Object::ProtectionMethod');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ProtectionMethod->new();
+#my $instance = CZERTAINLY::Object::ProtectionMethod->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ProtectionMethod');
+#isa_ok($instance, 'CZERTAINLY::Object::ProtectionMethod');
 
 
 done_testing();

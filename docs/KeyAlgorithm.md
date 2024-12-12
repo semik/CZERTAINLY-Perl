@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyAlgorithm
+# CZERTAINLY::Object::KeyAlgorithm
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyAlgorithm;
+use CZERTAINLY::Object::KeyAlgorithm;
 ```
 
 ## Properties

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::VerifyDataResponseDto');
+use_ok('CZERTAINLY::Object::VerifyDataResponseDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::VerifyDataResponseDto->new();
+#my $instance = CZERTAINLY::Object::VerifyDataResponseDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::VerifyDataResponseDto');
+#isa_ok($instance, 'CZERTAINLY::Object::VerifyDataResponseDto');
 
 
 done_testing();

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::StatisticsDashboardApi');
+use_ok('CZERTAINLY::StatisticsDashboardApi');
 
-my $api = WWW::OpenAPIClient::StatisticsDashboardApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::StatisticsDashboardApi');
+my $api = CZERTAINLY::StatisticsDashboardApi->new();
+isa_ok($api, 'CZERTAINLY::StatisticsDashboardApi');
 
 #
 # get_statistics test

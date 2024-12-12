@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::TokenProfileManagementApi
+# CZERTAINLY::TokenProfileManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::TokenProfileManagementApi;
+use CZERTAINLY::Object::TokenProfileManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -32,12 +32,12 @@ Create Token Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
-my $add_token_profile_request_dto = WWW::OpenAPIClient::Object::AddTokenProfileRequestDto->new(); # AddTokenProfileRequestDto | 
+my $add_token_profile_request_dto = CZERTAINLY::Object::AddTokenProfileRequestDto->new(); # AddTokenProfileRequestDto | 
 
 eval {
     my $result = $api_instance->create_token_profile(token_instance_uuid => $token_instance_uuid, add_token_profile_request_dto => $add_token_profile_request_dto);
@@ -78,8 +78,8 @@ Delete Token Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Token Profile UUID
@@ -121,8 +121,8 @@ Delete Token Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
@@ -166,11 +166,11 @@ Delete multiple Token Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Profile UUIDs
 
 eval {
     $api_instance->delete_token_profiles(request_body => $request_body);
@@ -209,8 +209,8 @@ Disable Token Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
@@ -254,11 +254,11 @@ Disable multiple Token Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Profile UUIDs
 
 eval {
     $api_instance->disable_token_profiles(request_body => $request_body);
@@ -297,13 +297,13 @@ Edit Token Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $uuid = "uuid_example"; # string | Token Profile UUID
-my $edit_token_profile_request_dto = WWW::OpenAPIClient::Object::EditTokenProfileRequestDto->new(); # EditTokenProfileRequestDto | 
+my $edit_token_profile_request_dto = CZERTAINLY::Object::EditTokenProfileRequestDto->new(); # EditTokenProfileRequestDto | 
 
 eval {
     my $result = $api_instance->edit_token_profile(token_instance_uuid => $token_instance_uuid, uuid => $uuid, edit_token_profile_request_dto => $edit_token_profile_request_dto);
@@ -345,8 +345,8 @@ Enable Token Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
@@ -390,11 +390,11 @@ Enable multiple Token Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Profile UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Token Profile UUIDs
 
 eval {
     $api_instance->enable_token_profiles(request_body => $request_body);
@@ -433,8 +433,8 @@ Details of Token Profile
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
@@ -479,8 +479,8 @@ List of available Token Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $enabled = null; # boolean | 
@@ -523,13 +523,13 @@ Update Key Usage
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
-my $token_profile_key_usage_request_dto = WWW::OpenAPIClient::Object::TokenProfileKeyUsageRequestDto->new(); # TokenProfileKeyUsageRequestDto | 
+my $token_profile_key_usage_request_dto = CZERTAINLY::Object::TokenProfileKeyUsageRequestDto->new(); # TokenProfileKeyUsageRequestDto | 
 
 eval {
     $api_instance->update_key_usages(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, token_profile_key_usage_request_dto => $token_profile_key_usage_request_dto);
@@ -570,11 +570,11 @@ Update Key Usages for Multiple Token Profiles
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::TokenProfileManagementApi;
-my $api_instance = WWW::OpenAPIClient::TokenProfileManagementApi->new(
+use CZERTAINLY::TokenProfileManagementApi;
+my $api_instance = CZERTAINLY::TokenProfileManagementApi->new(
 );
 
-my $bulk_token_profile_key_usage_request_dto = WWW::OpenAPIClient::Object::BulkTokenProfileKeyUsageRequestDto->new(); # BulkTokenProfileKeyUsageRequestDto | 
+my $bulk_token_profile_key_usage_request_dto = CZERTAINLY::Object::BulkTokenProfileKeyUsageRequestDto->new(); # BulkTokenProfileKeyUsageRequestDto | 
 
 eval {
     $api_instance->update_keys_usages(bulk_token_profile_key_usage_request_dto => $bulk_token_profile_key_usage_request_dto);

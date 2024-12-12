@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::EnumsApi
+# CZERTAINLY::EnumsApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::EnumsApi;
+use CZERTAINLY::Object::EnumsApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -20,8 +20,8 @@ Get platform enums
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::EnumsApi;
-my $api_instance = WWW::OpenAPIClient::EnumsApi->new(
+use CZERTAINLY::EnumsApi;
+my $api_instance = CZERTAINLY::EnumsApi->new(
 );
 
 

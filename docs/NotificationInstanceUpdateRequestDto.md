@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::NotificationInstanceUpdateRequestDto
+# CZERTAINLY::Object::NotificationInstanceUpdateRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::NotificationInstanceUpdateRequestDto;
+use CZERTAINLY::Object::NotificationInstanceUpdateRequestDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::KeyItemDetailDto
+# CZERTAINLY::Object::KeyItemDetailDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::KeyItemDetailDto;
+use CZERTAINLY::Object::KeyItemDetailDto;
 ```
 
 ## Properties

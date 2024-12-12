@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::TokenInstanceStatusDetailDto
+# CZERTAINLY::Object::TokenInstanceStatusDetailDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::TokenInstanceStatusDetailDto;
+use CZERTAINLY::Object::TokenInstanceStatusDetailDto;
 ```
 
 ## Properties

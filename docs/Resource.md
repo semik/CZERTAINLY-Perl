@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::Resource
+# CZERTAINLY::Object::Resource
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::Resource;
+use CZERTAINLY::Object::Resource;
 ```
 
 ## Properties

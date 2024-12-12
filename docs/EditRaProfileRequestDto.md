@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::EditRaProfileRequestDto
+# CZERTAINLY::Object::EditRaProfileRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::EditRaProfileRequestDto;
+use CZERTAINLY::Object::EditRaProfileRequestDto;
 ```
 
 ## Properties

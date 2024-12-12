@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::SearchRequestDto
+# CZERTAINLY::Object::SearchRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::SearchRequestDto;
+use CZERTAINLY::Object::SearchRequestDto;
 ```
 
 ## Properties

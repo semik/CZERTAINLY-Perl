@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::HealthDto');
+use_ok('CZERTAINLY::Object::HealthDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::HealthDto->new();
+#my $instance = CZERTAINLY::Object::HealthDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::HealthDto');
+#isa_ok($instance, 'CZERTAINLY::Object::HealthDto');
 
 
 done_testing();

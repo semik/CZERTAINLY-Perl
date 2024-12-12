@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AttributeValueTarget
+# CZERTAINLY::Object::AttributeValueTarget
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AttributeValueTarget;
+use CZERTAINLY::Object::AttributeValueTarget;
 ```
 
 ## Properties

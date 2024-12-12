@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ExternalNotificationManagementApi');
+use_ok('CZERTAINLY::ExternalNotificationManagementApi');
 
-my $api = WWW::OpenAPIClient::ExternalNotificationManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ExternalNotificationManagementApi');
+my $api = CZERTAINLY::ExternalNotificationManagementApi->new();
+isa_ok($api, 'CZERTAINLY::ExternalNotificationManagementApi');
 
 #
 # create_notification_instance test

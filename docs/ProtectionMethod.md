@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ProtectionMethod
+# CZERTAINLY::Object::ProtectionMethod
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ProtectionMethod;
+use CZERTAINLY::Object::ProtectionMethod;
 ```
 
 ## Properties

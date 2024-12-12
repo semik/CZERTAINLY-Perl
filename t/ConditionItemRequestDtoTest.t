@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ConditionItemRequestDto');
+use_ok('CZERTAINLY::Object::ConditionItemRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ConditionItemRequestDto->new();
+#my $instance = CZERTAINLY::Object::ConditionItemRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ConditionItemRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ConditionItemRequestDto');
 
 
 done_testing();

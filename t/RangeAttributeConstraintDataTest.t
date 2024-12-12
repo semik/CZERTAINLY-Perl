@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::RangeAttributeConstraintData');
+use_ok('CZERTAINLY::Object::RangeAttributeConstraintData');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::RangeAttributeConstraintData->new();
+#my $instance = CZERTAINLY::Object::RangeAttributeConstraintData->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::RangeAttributeConstraintData');
+#isa_ok($instance, 'CZERTAINLY::Object::RangeAttributeConstraintData');
 
 
 done_testing();

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::EditRaProfileRequestDto');
+use_ok('CZERTAINLY::Object::EditRaProfileRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::EditRaProfileRequestDto->new();
+#my $instance = CZERTAINLY::Object::EditRaProfileRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::EditRaProfileRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::EditRaProfileRequestDto');
 
 
 done_testing();

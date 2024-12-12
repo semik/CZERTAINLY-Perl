@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AuthMethod
+# CZERTAINLY::Object::AuthMethod
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AuthMethod;
+use CZERTAINLY::Object::AuthMethod;
 ```
 
 ## Properties

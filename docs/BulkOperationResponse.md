@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::BulkOperationResponse
+# CZERTAINLY::Object::BulkOperationResponse
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::BulkOperationResponse;
+use CZERTAINLY::Object::BulkOperationResponse;
 ```
 
 ## Properties

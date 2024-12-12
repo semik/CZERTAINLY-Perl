@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::StatisticsDashboardApi
+# CZERTAINLY::StatisticsDashboardApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::StatisticsDashboardApi;
+use CZERTAINLY::Object::StatisticsDashboardApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -20,8 +20,8 @@ Get Dashboard/Statistics Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::StatisticsDashboardApi;
-my $api_instance = WWW::OpenAPIClient::StatisticsDashboardApi->new(
+use CZERTAINLY::StatisticsDashboardApi;
+my $api_instance = CZERTAINLY::StatisticsDashboardApi->new(
 );
 
 

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CryptographicOperationsControllerApi');
+use_ok('CZERTAINLY::CryptographicOperationsControllerApi');
 
-my $api = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CryptographicOperationsControllerApi');
+my $api = CZERTAINLY::CryptographicOperationsControllerApi->new();
+isa_ok($api, 'CZERTAINLY::CryptographicOperationsControllerApi');
 
 #
 # decrypt_data test

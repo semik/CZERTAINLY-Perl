@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::RandomDataRequestDto
+# CZERTAINLY::Object::RandomDataRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::RandomDataRequestDto;
+use CZERTAINLY::Object::RandomDataRequestDto;
 ```
 
 ## Properties

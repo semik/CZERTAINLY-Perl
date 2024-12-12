@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CertificateKeyGroupApi
+# CZERTAINLY::CertificateKeyGroupApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateKeyGroupApi;
+use CZERTAINLY::Object::CertificateKeyGroupApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -25,11 +25,11 @@ Delete multiple Groups
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateKeyGroupApi;
-my $api_instance = WWW::OpenAPIClient::CertificateKeyGroupApi->new(
+use CZERTAINLY::CertificateKeyGroupApi;
+my $api_instance = CZERTAINLY::CertificateKeyGroupApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Group UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Group UUIDs
 
 eval {
     $api_instance->bulk_delete_group(request_body => $request_body);
@@ -68,11 +68,11 @@ Create Group
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateKeyGroupApi;
-my $api_instance = WWW::OpenAPIClient::CertificateKeyGroupApi->new(
+use CZERTAINLY::CertificateKeyGroupApi;
+my $api_instance = CZERTAINLY::CertificateKeyGroupApi->new(
 );
 
-my $group_request_dto = WWW::OpenAPIClient::Object::GroupRequestDto->new(); # GroupRequestDto | 
+my $group_request_dto = CZERTAINLY::Object::GroupRequestDto->new(); # GroupRequestDto | 
 
 eval {
     my $result = $api_instance->create_group(group_request_dto => $group_request_dto);
@@ -112,8 +112,8 @@ Delete Group
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateKeyGroupApi;
-my $api_instance = WWW::OpenAPIClient::CertificateKeyGroupApi->new(
+use CZERTAINLY::CertificateKeyGroupApi;
+my $api_instance = CZERTAINLY::CertificateKeyGroupApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Group UUID
@@ -155,12 +155,12 @@ Edit Group
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateKeyGroupApi;
-my $api_instance = WWW::OpenAPIClient::CertificateKeyGroupApi->new(
+use CZERTAINLY::CertificateKeyGroupApi;
+my $api_instance = CZERTAINLY::CertificateKeyGroupApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Group UUID
-my $group_request_dto = WWW::OpenAPIClient::Object::GroupRequestDto->new(); # GroupRequestDto | 
+my $group_request_dto = CZERTAINLY::Object::GroupRequestDto->new(); # GroupRequestDto | 
 
 eval {
     my $result = $api_instance->edit_group(uuid => $uuid, group_request_dto => $group_request_dto);
@@ -201,8 +201,8 @@ Group details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateKeyGroupApi;
-my $api_instance = WWW::OpenAPIClient::CertificateKeyGroupApi->new(
+use CZERTAINLY::CertificateKeyGroupApi;
+my $api_instance = CZERTAINLY::CertificateKeyGroupApi->new(
 );
 
 my $uuid = "uuid_example"; # string | 
@@ -245,8 +245,8 @@ List Groups
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CertificateKeyGroupApi;
-my $api_instance = WWW::OpenAPIClient::CertificateKeyGroupApi->new(
+use CZERTAINLY::CertificateKeyGroupApi;
+my $api_instance = CZERTAINLY::CertificateKeyGroupApi->new(
 );
 
 

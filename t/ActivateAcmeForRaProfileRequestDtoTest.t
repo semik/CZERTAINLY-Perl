@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ActivateAcmeForRaProfileRequestDto');
+use_ok('CZERTAINLY::Object::ActivateAcmeForRaProfileRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ActivateAcmeForRaProfileRequestDto->new();
+#my $instance = CZERTAINLY::Object::ActivateAcmeForRaProfileRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ActivateAcmeForRaProfileRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ActivateAcmeForRaProfileRequestDto');
 
 
 done_testing();

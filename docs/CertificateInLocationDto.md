@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CertificateInLocationDto
+# CZERTAINLY::Object::CertificateInLocationDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateInLocationDto;
+use CZERTAINLY::Object::CertificateInLocationDto;
 ```
 
 ## Properties

@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ACMEAccountManagementApi');
+use_ok('CZERTAINLY::ACMEAccountManagementApi');
 
-my $api = WWW::OpenAPIClient::ACMEAccountManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ACMEAccountManagementApi');
+my $api = CZERTAINLY::ACMEAccountManagementApi->new();
+isa_ok($api, 'CZERTAINLY::ACMEAccountManagementApi');
 
 #
 # bulk_disable_acme_account test

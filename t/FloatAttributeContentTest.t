@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::FloatAttributeContent');
+use_ok('CZERTAINLY::Object::FloatAttributeContent');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::FloatAttributeContent->new();
+#my $instance = CZERTAINLY::Object::FloatAttributeContent->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::FloatAttributeContent');
+#isa_ok($instance, 'CZERTAINLY::Object::FloatAttributeContent');
 
 
 done_testing();

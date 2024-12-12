@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ActivateCmpForRaProfileRequestDto
+# CZERTAINLY::Object::ActivateCmpForRaProfileRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ActivateCmpForRaProfileRequestDto;
+use CZERTAINLY::Object::ActivateCmpForRaProfileRequestDto;
 ```
 
 ## Properties

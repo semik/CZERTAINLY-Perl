@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::LocationManagementApi
+# CZERTAINLY::LocationManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::LocationManagementApi;
+use CZERTAINLY::Object::LocationManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -34,12 +34,12 @@ Add Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
-my $add_location_request_dto = WWW::OpenAPIClient::Object::AddLocationRequestDto->new(); # AddLocationRequestDto | 
+my $add_location_request_dto = CZERTAINLY::Object::AddLocationRequestDto->new(); # AddLocationRequestDto | 
 
 eval {
     my $result = $api_instance->add_location(entity_uuid => $entity_uuid, add_location_request_dto => $add_location_request_dto);
@@ -80,8 +80,8 @@ Delete Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -125,8 +125,8 @@ Disable Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -170,13 +170,13 @@ Edit Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
 my $location_uuid = "location_uuid_example"; # string | Location UUID
-my $edit_location_request_dto = WWW::OpenAPIClient::Object::EditLocationRequestDto->new(); # EditLocationRequestDto | 
+my $edit_location_request_dto = CZERTAINLY::Object::EditLocationRequestDto->new(); # EditLocationRequestDto | 
 
 eval {
     my $result = $api_instance->edit_location(entity_uuid => $entity_uuid, location_uuid => $location_uuid, edit_location_request_dto => $edit_location_request_dto);
@@ -218,8 +218,8 @@ Enable Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -263,8 +263,8 @@ Get Location Details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -309,8 +309,8 @@ Get Locations searchable fields information
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 
@@ -349,13 +349,13 @@ Issue Certificate to Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
 my $location_uuid = "location_uuid_example"; # string | Location UUID
-my $issue_to_location_request_dto = WWW::OpenAPIClient::Object::IssueToLocationRequestDto->new(); # IssueToLocationRequestDto | 
+my $issue_to_location_request_dto = CZERTAINLY::Object::IssueToLocationRequestDto->new(); # IssueToLocationRequestDto | 
 
 eval {
     my $result = $api_instance->issue_certificate_to_location(entity_uuid => $entity_uuid, location_uuid => $location_uuid, issue_to_location_request_dto => $issue_to_location_request_dto);
@@ -397,8 +397,8 @@ Get CSR Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -443,11 +443,11 @@ List Locations
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
-my $search_request_dto = WWW::OpenAPIClient::Object::SearchRequestDto->new(); # SearchRequestDto | 
+my $search_request_dto = CZERTAINLY::Object::SearchRequestDto->new(); # SearchRequestDto | 
 
 eval {
     my $result = $api_instance->list_locations(search_request_dto => $search_request_dto);
@@ -487,8 +487,8 @@ Get push Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -533,14 +533,14 @@ Push Certificate to Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
 my $location_uuid = "location_uuid_example"; # string | Location UUID
 my $certificate_uuid = "certificate_uuid_example"; # string | Certificate UUID
-my $push_to_location_request_dto = WWW::OpenAPIClient::Object::PushToLocationRequestDto->new(); # PushToLocationRequestDto | 
+my $push_to_location_request_dto = CZERTAINLY::Object::PushToLocationRequestDto->new(); # PushToLocationRequestDto | 
 
 eval {
     my $result = $api_instance->push_certificate(entity_uuid => $entity_uuid, location_uuid => $location_uuid, certificate_uuid => $certificate_uuid, push_to_location_request_dto => $push_to_location_request_dto);
@@ -583,8 +583,8 @@ Remove Certificate from Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -631,8 +631,8 @@ Renew Certificate in Location
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID
@@ -679,8 +679,8 @@ Sync Location content
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::LocationManagementApi;
-my $api_instance = WWW::OpenAPIClient::LocationManagementApi->new(
+use CZERTAINLY::LocationManagementApi;
+my $api_instance = CZERTAINLY::LocationManagementApi->new(
 );
 
 my $entity_uuid = "entity_uuid_example"; # string | Entity UUID

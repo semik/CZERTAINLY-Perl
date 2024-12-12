@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ClientOperationsV2Api');
+use_ok('CZERTAINLY::ClientOperationsV2Api');
 
-my $api = WWW::OpenAPIClient::ClientOperationsV2Api->new();
-isa_ok($api, 'WWW::OpenAPIClient::ClientOperationsV2Api');
+my $api = CZERTAINLY::ClientOperationsV2Api->new();
+isa_ok($api, 'CZERTAINLY::ClientOperationsV2Api');
 
 #
 # issue_certificate test

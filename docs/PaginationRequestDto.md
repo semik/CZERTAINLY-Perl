@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::PaginationRequestDto
+# CZERTAINLY::Object::PaginationRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::PaginationRequestDto;
+use CZERTAINLY::Object::PaginationRequestDto;
 ```
 
 ## Properties

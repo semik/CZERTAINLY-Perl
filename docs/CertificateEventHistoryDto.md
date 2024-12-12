@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CertificateEventHistoryDto
+# CZERTAINLY::Object::CertificateEventHistoryDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateEventHistoryDto;
+use CZERTAINLY::Object::CertificateEventHistoryDto;
 ```
 
 ## Properties

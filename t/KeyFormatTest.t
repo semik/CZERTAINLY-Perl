@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::KeyFormat');
+use_ok('CZERTAINLY::Object::KeyFormat');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::KeyFormat->new();
+#my $instance = CZERTAINLY::Object::KeyFormat->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::KeyFormat');
+#isa_ok($instance, 'CZERTAINLY::Object::KeyFormat');
 
 
 done_testing();

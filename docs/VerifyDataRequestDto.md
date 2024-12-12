@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::VerifyDataRequestDto
+# CZERTAINLY::Object::VerifyDataRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::VerifyDataRequestDto;
+use CZERTAINLY::Object::VerifyDataRequestDto;
 ```
 
 ## Properties

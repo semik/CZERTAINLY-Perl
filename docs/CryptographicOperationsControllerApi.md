@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CryptographicOperationsControllerApi
+# CZERTAINLY::CryptographicOperationsControllerApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CryptographicOperationsControllerApi;
+use CZERTAINLY::Object::CryptographicOperationsControllerApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -27,15 +27,15 @@ Decrypt data using a Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
 my $uuid = "uuid_example"; # string | Key UUID
 my $key_item_uuid = "key_item_uuid_example"; # string | Key Item UUID
-my $cipher_data_request_dto = WWW::OpenAPIClient::Object::CipherDataRequestDto->new(); # CipherDataRequestDto | 
+my $cipher_data_request_dto = CZERTAINLY::Object::CipherDataRequestDto->new(); # CipherDataRequestDto | 
 
 eval {
     my $result = $api_instance->decrypt_data(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, uuid => $uuid, key_item_uuid => $key_item_uuid, cipher_data_request_dto => $cipher_data_request_dto);
@@ -79,15 +79,15 @@ Encrypt data using a Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
 my $uuid = "uuid_example"; # string | Key UUID
 my $key_item_uuid = "key_item_uuid_example"; # string | Key Item UUID
-my $cipher_data_request_dto = WWW::OpenAPIClient::Object::CipherDataRequestDto->new(); # CipherDataRequestDto | 
+my $cipher_data_request_dto = CZERTAINLY::Object::CipherDataRequestDto->new(); # CipherDataRequestDto | 
 
 eval {
     my $result = $api_instance->encrypt_data(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, uuid => $uuid, key_item_uuid => $key_item_uuid, cipher_data_request_dto => $cipher_data_request_dto);
@@ -131,15 +131,15 @@ List of cipher Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
 my $uuid = "uuid_example"; # string | Key UUID
 my $key_item_uuid = "key_item_uuid_example"; # string | Key Item UUID
-my $algorithm = new WWW::OpenAPIClient.KeyAlgorithm(); # KeyAlgorithm | Cryptographic algorithm
+my $algorithm = new CZERTAINLY.KeyAlgorithm(); # KeyAlgorithm | Cryptographic algorithm
 
 eval {
     my $result = $api_instance->list_cipher_attributes(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, uuid => $uuid, key_item_uuid => $key_item_uuid, algorithm => $algorithm);
@@ -183,8 +183,8 @@ List of random generator Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
@@ -227,15 +227,15 @@ List of signature Attributes
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
 my $uuid = "uuid_example"; # string | Key instance UUID
 my $key_item_uuid = "key_item_uuid_example"; # string | Key Item UUID
-my $algorithm = new WWW::OpenAPIClient.KeyAlgorithm(); # KeyAlgorithm | Cryptographic algorithm
+my $algorithm = new CZERTAINLY.KeyAlgorithm(); # KeyAlgorithm | Cryptographic algorithm
 
 eval {
     my $result = $api_instance->list_signature_attributes(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, uuid => $uuid, key_item_uuid => $key_item_uuid, algorithm => $algorithm);
@@ -279,12 +279,12 @@ Generate random data
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
-my $random_data_request_dto = WWW::OpenAPIClient::Object::RandomDataRequestDto->new(); # RandomDataRequestDto | 
+my $random_data_request_dto = CZERTAINLY::Object::RandomDataRequestDto->new(); # RandomDataRequestDto | 
 
 eval {
     my $result = $api_instance->random_data(token_instance_uuid => $token_instance_uuid, random_data_request_dto => $random_data_request_dto);
@@ -325,15 +325,15 @@ Sign data using a Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
 my $uuid = "uuid_example"; # string | Key UUID
 my $key_item_uuid = "key_item_uuid_example"; # string | Key Item UUID
-my $sign_data_request_dto = WWW::OpenAPIClient::Object::SignDataRequestDto->new(); # SignDataRequestDto | 
+my $sign_data_request_dto = CZERTAINLY::Object::SignDataRequestDto->new(); # SignDataRequestDto | 
 
 eval {
     my $result = $api_instance->sign_data(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, uuid => $uuid, key_item_uuid => $key_item_uuid, sign_data_request_dto => $sign_data_request_dto);
@@ -377,15 +377,15 @@ Verify data using a Key
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CryptographicOperationsControllerApi;
-my $api_instance = WWW::OpenAPIClient::CryptographicOperationsControllerApi->new(
+use CZERTAINLY::CryptographicOperationsControllerApi;
+my $api_instance = CZERTAINLY::CryptographicOperationsControllerApi->new(
 );
 
 my $token_instance_uuid = "token_instance_uuid_example"; # string | Token Instance UUID
 my $token_profile_uuid = "token_profile_uuid_example"; # string | Token Profile UUID
 my $uuid = "uuid_example"; # string | Key UUID
 my $key_item_uuid = "key_item_uuid_example"; # string | Key Item UUID
-my $verify_data_request_dto = WWW::OpenAPIClient::Object::VerifyDataRequestDto->new(); # VerifyDataRequestDto | 
+my $verify_data_request_dto = CZERTAINLY::Object::VerifyDataRequestDto->new(); # VerifyDataRequestDto | 
 
 eval {
     my $result = $api_instance->verify_data(token_instance_uuid => $token_instance_uuid, token_profile_uuid => $token_profile_uuid, uuid => $uuid, key_item_uuid => $key_item_uuid, verify_data_request_dto => $verify_data_request_dto);

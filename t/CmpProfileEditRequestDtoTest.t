@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::CmpProfileEditRequestDto');
+use_ok('CZERTAINLY::Object::CmpProfileEditRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::CmpProfileEditRequestDto->new();
+#my $instance = CZERTAINLY::Object::CmpProfileEditRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::CmpProfileEditRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::CmpProfileEditRequestDto');
 
 
 done_testing();

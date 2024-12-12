@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::BulkCompromiseKeyRequestDto');
+use_ok('CZERTAINLY::Object::BulkCompromiseKeyRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::BulkCompromiseKeyRequestDto->new();
+#my $instance = CZERTAINLY::Object::BulkCompromiseKeyRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::BulkCompromiseKeyRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::BulkCompromiseKeyRequestDto');
 
 
 done_testing();

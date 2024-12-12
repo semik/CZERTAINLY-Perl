@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::SubjectPermissionsDto
+# CZERTAINLY::Object::SubjectPermissionsDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::SubjectPermissionsDto;
+use CZERTAINLY::Object::SubjectPermissionsDto;
 ```
 
 ## Properties

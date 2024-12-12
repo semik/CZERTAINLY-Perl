@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ComplianceRuleStatus
+# CZERTAINLY::Object::ComplianceRuleStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ComplianceRuleStatus;
+use CZERTAINLY::Object::ComplianceRuleStatus;
 ```
 
 ## Properties

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::RandomDataResponseDto');
+use_ok('CZERTAINLY::Object::RandomDataResponseDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::RandomDataResponseDto->new();
+#my $instance = CZERTAINLY::Object::RandomDataResponseDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::RandomDataResponseDto');
+#isa_ok($instance, 'CZERTAINLY::Object::RandomDataResponseDto');
 
 
 done_testing();

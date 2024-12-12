@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::ConnectorAuthenticationApi');
+use_ok('CZERTAINLY::ConnectorAuthenticationApi');
 
-my $api = WWW::OpenAPIClient::ConnectorAuthenticationApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::ConnectorAuthenticationApi');
+my $api = CZERTAINLY::ConnectorAuthenticationApi->new();
+isa_ok($api, 'CZERTAINLY::ConnectorAuthenticationApi');
 
 #
 # get_api_key_auth_attributes test

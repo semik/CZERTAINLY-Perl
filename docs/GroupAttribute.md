@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::GroupAttribute
+# CZERTAINLY::Object::GroupAttribute
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::GroupAttribute;
+use CZERTAINLY::Object::GroupAttribute;
 ```
 
 ## Properties

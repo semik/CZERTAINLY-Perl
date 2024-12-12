@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::KeyType');
+use_ok('CZERTAINLY::Object::KeyType');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::KeyType->new();
+#my $instance = CZERTAINLY::Object::KeyType->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::KeyType');
+#isa_ok($instance, 'CZERTAINLY::Object::KeyType');
 
 
 done_testing();

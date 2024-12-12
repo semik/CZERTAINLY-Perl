@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::BulkCompromiseKeyItemRequestDto
+# CZERTAINLY::Object::BulkCompromiseKeyItemRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::BulkCompromiseKeyItemRequestDto;
+use CZERTAINLY::Object::BulkCompromiseKeyItemRequestDto;
 ```
 
 ## Properties

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::UpdateKeyUsageRequestDto');
+use_ok('CZERTAINLY::Object::UpdateKeyUsageRequestDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::UpdateKeyUsageRequestDto->new();
+#my $instance = CZERTAINLY::Object::UpdateKeyUsageRequestDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::UpdateKeyUsageRequestDto');
+#isa_ok($instance, 'CZERTAINLY::Object::UpdateKeyUsageRequestDto');
 
 
 done_testing();

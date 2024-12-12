@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CmpProfileDto
+# CZERTAINLY::Object::CmpProfileDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CmpProfileDto;
+use CZERTAINLY::Object::CmpProfileDto;
 ```
 
 ## Properties

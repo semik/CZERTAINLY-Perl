@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::CredentialManagementApi
+# CZERTAINLY::CredentialManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::CredentialManagementApi;
+use CZERTAINLY::Object::CredentialManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -27,11 +27,11 @@ Delete multiple Credentials
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
-my $request_body = [WWW::OpenAPIClient::Object::ARRAY[string]->new()]; # ARRAY[string] | Credential UUIDs
+my $request_body = [CZERTAINLY::Object::ARRAY[string]->new()]; # ARRAY[string] | Credential UUIDs
 
 eval {
     $api_instance->bulk_delete_credential(request_body => $request_body);
@@ -70,11 +70,11 @@ Add Credential
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
-my $credential_request_dto = WWW::OpenAPIClient::Object::CredentialRequestDto->new(); # CredentialRequestDto | 
+my $credential_request_dto = CZERTAINLY::Object::CredentialRequestDto->new(); # CredentialRequestDto | 
 
 eval {
     my $result = $api_instance->create_credential(credential_request_dto => $credential_request_dto);
@@ -114,8 +114,8 @@ Delete Credential
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Credential UUID
@@ -157,8 +157,8 @@ Disable Credential
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Credential UUID
@@ -200,12 +200,12 @@ Edit Credential
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Credential UUID
-my $credential_update_request_dto = WWW::OpenAPIClient::Object::CredentialUpdateRequestDto->new(); # CredentialUpdateRequestDto | 
+my $credential_update_request_dto = CZERTAINLY::Object::CredentialUpdateRequestDto->new(); # CredentialUpdateRequestDto | 
 
 eval {
     my $result = $api_instance->edit_credential(uuid => $uuid, credential_update_request_dto => $credential_update_request_dto);
@@ -246,8 +246,8 @@ Enable Credential
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Credential UUID
@@ -289,8 +289,8 @@ Details of a Credentials
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
 my $uuid = "uuid_example"; # string | Credential UUID
@@ -333,8 +333,8 @@ List of All Credentials
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::CredentialManagementApi;
-my $api_instance = WWW::OpenAPIClient::CredentialManagementApi->new(
+use CZERTAINLY::CredentialManagementApi;
+my $api_instance = CZERTAINLY::CredentialManagementApi->new(
 );
 
 

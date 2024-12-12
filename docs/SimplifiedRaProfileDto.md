@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::SimplifiedRaProfileDto
+# CZERTAINLY::Object::SimplifiedRaProfileDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::SimplifiedRaProfileDto;
+use CZERTAINLY::Object::SimplifiedRaProfileDto;
 ```
 
 ## Properties

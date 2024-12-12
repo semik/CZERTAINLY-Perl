@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::AuthType
+# CZERTAINLY::Object::AuthType
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::AuthType;
+use CZERTAINLY::Object::AuthType;
 ```
 
 ## Properties

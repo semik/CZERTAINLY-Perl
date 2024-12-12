@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::DataAttribute');
+use_ok('CZERTAINLY::Object::DataAttribute');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::DataAttribute->new();
+#my $instance = CZERTAINLY::Object::DataAttribute->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::DataAttribute');
+#isa_ok($instance, 'CZERTAINLY::Object::DataAttribute');
 
 
 done_testing();

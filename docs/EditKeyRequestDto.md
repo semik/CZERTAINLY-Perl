@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::EditKeyRequestDto
+# CZERTAINLY::Object::EditKeyRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::EditKeyRequestDto;
+use CZERTAINLY::Object::EditKeyRequestDto;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ConnectorStatus
+# CZERTAINLY::Object::ConnectorStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ConnectorStatus;
+use CZERTAINLY::Object::ConnectorStatus;
 ```
 
 ## Properties

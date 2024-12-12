@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CustomAttributeCreateRequestDto
+# CZERTAINLY::Object::CustomAttributeCreateRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CustomAttributeCreateRequestDto;
+use CZERTAINLY::Object::CustomAttributeCreateRequestDto;
 ```
 
 ## Properties

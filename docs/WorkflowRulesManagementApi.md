@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::WorkflowRulesManagementApi
+# CZERTAINLY::WorkflowRulesManagementApi
 
 ## Load the API package
 ```perl
-use WWW::OpenAPIClient::Object::WorkflowRulesManagementApi;
+use CZERTAINLY::Object::WorkflowRulesManagementApi;
 ```
 
 All URIs are relative to *http://localhost:45309*
@@ -29,11 +29,11 @@ Create Condition
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
-my $condition_request_dto = WWW::OpenAPIClient::Object::ConditionRequestDto->new(); # ConditionRequestDto | 
+my $condition_request_dto = CZERTAINLY::Object::ConditionRequestDto->new(); # ConditionRequestDto | 
 
 eval {
     my $result = $api_instance->create_condition(condition_request_dto => $condition_request_dto);
@@ -73,11 +73,11 @@ Create Rule
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
-my $rule_request_dto = WWW::OpenAPIClient::Object::RuleRequestDto->new(); # RuleRequestDto | 
+my $rule_request_dto = CZERTAINLY::Object::RuleRequestDto->new(); # RuleRequestDto | 
 
 eval {
     my $result = $api_instance->create_rule(rule_request_dto => $rule_request_dto);
@@ -117,8 +117,8 @@ Delete Condition
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
 my $condition_uuid = "condition_uuid_example"; # string | Condition UUID
@@ -160,8 +160,8 @@ Delete Rule
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
 my $rule_uuid = "rule_uuid_example"; # string | Rule UUID
@@ -203,8 +203,8 @@ Get Condition details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
 my $condition_uuid = "condition_uuid_example"; # string | Condition UUID
@@ -247,8 +247,8 @@ Get Rule details
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
 my $rule_uuid = "rule_uuid_example"; # string | Rule UUID
@@ -291,11 +291,11 @@ List Conditions
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | 
+my $resource = new CZERTAINLY.Resource(); # Resource | 
 
 eval {
     my $result = $api_instance->list_conditions(resource => $resource);
@@ -335,11 +335,11 @@ List Rules
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
-my $resource = new WWW::OpenAPIClient.Resource(); # Resource | 
+my $resource = new CZERTAINLY.Resource(); # Resource | 
 
 eval {
     my $result = $api_instance->list_rules(resource => $resource);
@@ -379,12 +379,12 @@ Update Condition
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
 my $condition_uuid = "condition_uuid_example"; # string | Condition UUID
-my $update_condition_request_dto = WWW::OpenAPIClient::Object::UpdateConditionRequestDto->new(); # UpdateConditionRequestDto | 
+my $update_condition_request_dto = CZERTAINLY::Object::UpdateConditionRequestDto->new(); # UpdateConditionRequestDto | 
 
 eval {
     my $result = $api_instance->update_condition(condition_uuid => $condition_uuid, update_condition_request_dto => $update_condition_request_dto);
@@ -425,12 +425,12 @@ Update Rule
 ### Example
 ```perl
 use Data::Dumper;
-use WWW::OpenAPIClient::WorkflowRulesManagementApi;
-my $api_instance = WWW::OpenAPIClient::WorkflowRulesManagementApi->new(
+use CZERTAINLY::WorkflowRulesManagementApi;
+my $api_instance = CZERTAINLY::WorkflowRulesManagementApi->new(
 );
 
 my $rule_uuid = "rule_uuid_example"; # string | Rule UUID
-my $update_rule_request_dto = WWW::OpenAPIClient::Object::UpdateRuleRequestDto->new(); # UpdateRuleRequestDto | 
+my $update_rule_request_dto = CZERTAINLY::Object::UpdateRuleRequestDto->new(); # UpdateRuleRequestDto | 
 
 eval {
     my $result = $api_instance->update_rule(rule_uuid => $rule_uuid, update_rule_request_dto => $update_rule_request_dto);

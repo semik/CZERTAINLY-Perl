@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AttributeContentType');
+use_ok('CZERTAINLY::Object::AttributeContentType');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AttributeContentType->new();
+#my $instance = CZERTAINLY::Object::AttributeContentType->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AttributeContentType');
+#isa_ok($instance, 'CZERTAINLY::Object::AttributeContentType');
 
 
 done_testing();

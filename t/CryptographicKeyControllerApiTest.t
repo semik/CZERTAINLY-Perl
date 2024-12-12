@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CryptographicKeyControllerApi');
+use_ok('CZERTAINLY::CryptographicKeyControllerApi');
 
-my $api = WWW::OpenAPIClient::CryptographicKeyControllerApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CryptographicKeyControllerApi');
+my $api = CZERTAINLY::CryptographicKeyControllerApi->new();
+isa_ok($api, 'CZERTAINLY::CryptographicKeyControllerApi');
 
 #
 # compromise_key test

@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::DiscoveryCertificateDto');
+use_ok('CZERTAINLY::Object::DiscoveryCertificateDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::DiscoveryCertificateDto->new();
+#my $instance = CZERTAINLY::Object::DiscoveryCertificateDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::DiscoveryCertificateDto');
+#isa_ok($instance, 'CZERTAINLY::Object::DiscoveryCertificateDto');
 
 
 done_testing();

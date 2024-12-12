@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::HealthStatus
+# CZERTAINLY::Object::HealthStatus
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::HealthStatus;
+use CZERTAINLY::Object::HealthStatus;
 ```
 
 ## Properties

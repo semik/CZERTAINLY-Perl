@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CertificateComplianceCheckDto
+# CZERTAINLY::Object::CertificateComplianceCheckDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateComplianceCheckDto;
+use CZERTAINLY::Object::CertificateComplianceCheckDto;
 ```
 
 ## Properties

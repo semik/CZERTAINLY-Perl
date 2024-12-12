@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::EntityInstanceDto');
+use_ok('CZERTAINLY::Object::EntityInstanceDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::EntityInstanceDto->new();
+#my $instance = CZERTAINLY::Object::EntityInstanceDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::EntityInstanceDto');
+#isa_ok($instance, 'CZERTAINLY::Object::EntityInstanceDto');
 
 
 done_testing();

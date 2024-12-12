@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::ResourceEventDto');
+use_ok('CZERTAINLY::Object::ResourceEventDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::ResourceEventDto->new();
+#my $instance = CZERTAINLY::Object::ResourceEventDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::ResourceEventDto');
+#isa_ok($instance, 'CZERTAINLY::Object::ResourceEventDto');
 
 
 done_testing();

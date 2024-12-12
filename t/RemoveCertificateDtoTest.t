@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::RemoveCertificateDto');
+use_ok('CZERTAINLY::Object::RemoveCertificateDto');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::RemoveCertificateDto->new();
+#my $instance = CZERTAINLY::Object::RemoveCertificateDto->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::RemoveCertificateDto');
+#isa_ok($instance, 'CZERTAINLY::Object::RemoveCertificateDto');
 
 
 done_testing();

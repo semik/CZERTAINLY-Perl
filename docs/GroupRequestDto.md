@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::GroupRequestDto
+# CZERTAINLY::Object::GroupRequestDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::GroupRequestDto;
+use CZERTAINLY::Object::GroupRequestDto;
 ```
 
 ## Properties

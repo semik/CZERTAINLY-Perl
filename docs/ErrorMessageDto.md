@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ErrorMessageDto
+# CZERTAINLY::Object::ErrorMessageDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ErrorMessageDto;
+use CZERTAINLY::Object::ErrorMessageDto;
 ```
 
 ## Properties

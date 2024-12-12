@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::DecryptDataResponseDto
+# CZERTAINLY::Object::DecryptDataResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::DecryptDataResponseDto;
+use CZERTAINLY::Object::DecryptDataResponseDto;
 ```
 
 ## Properties

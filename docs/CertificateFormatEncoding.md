@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CertificateFormatEncoding
+# CZERTAINLY::Object::CertificateFormatEncoding
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CertificateFormatEncoding;
+use CZERTAINLY::Object::CertificateFormatEncoding;
 ```
 
 ## Properties

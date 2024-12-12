@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::FilterFieldSource
+# CZERTAINLY::Object::FilterFieldSource
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::FilterFieldSource;
+use CZERTAINLY::Object::FilterFieldSource;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::FunctionGroupCode
+# CZERTAINLY::Object::FunctionGroupCode
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::FunctionGroupCode;
+use CZERTAINLY::Object::FunctionGroupCode;
 ```
 
 ## Properties

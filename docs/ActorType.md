@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::ActorType
+# CZERTAINLY::Object::ActorType
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::ActorType;
+use CZERTAINLY::Object::ActorType;
 ```
 
 ## Properties

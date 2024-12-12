@@ -24,10 +24,10 @@ use lib 'lib';
 use strict;
 use warnings;
 
-use_ok('WWW::OpenAPIClient::CMPProfileManagementApi');
+use_ok('CZERTAINLY::CMPProfileManagementApi');
 
-my $api = WWW::OpenAPIClient::CMPProfileManagementApi->new();
-isa_ok($api, 'WWW::OpenAPIClient::CMPProfileManagementApi');
+my $api = CZERTAINLY::CMPProfileManagementApi->new();
+isa_ok($api, 'CZERTAINLY::CMPProfileManagementApi');
 
 #
 # bulk_delete_cmp_profile test

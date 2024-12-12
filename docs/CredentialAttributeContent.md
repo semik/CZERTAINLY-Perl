@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::CredentialAttributeContent
+# CZERTAINLY::Object::CredentialAttributeContent
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::CredentialAttributeContent;
+use CZERTAINLY::Object::CredentialAttributeContent;
 ```
 
 ## Properties

@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::BaseAttributeContentDto
+# CZERTAINLY::Object::BaseAttributeContentDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::BaseAttributeContentDto;
+use CZERTAINLY::Object::BaseAttributeContentDto;
 ```
 
 ## Properties

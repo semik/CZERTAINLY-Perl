@@ -1,8 +1,8 @@
-# WWW::OpenAPIClient::Object::SignDataResponseDto
+# CZERTAINLY::Object::SignDataResponseDto
 
 ## Load the model package
 ```perl
-use WWW::OpenAPIClient::Object::SignDataResponseDto;
+use CZERTAINLY::Object::SignDataResponseDto;
 ```
 
 ## Properties

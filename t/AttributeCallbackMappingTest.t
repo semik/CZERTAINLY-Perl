@@ -25,12 +25,12 @@ use strict;
 use warnings;
 
 
-use_ok('WWW::OpenAPIClient::Object::AttributeCallbackMapping');
+use_ok('CZERTAINLY::Object::AttributeCallbackMapping');
 
 # uncomment below and update the test
-#my $instance = WWW::OpenAPIClient::Object::AttributeCallbackMapping->new();
+#my $instance = CZERTAINLY::Object::AttributeCallbackMapping->new();
 #
-#isa_ok($instance, 'WWW::OpenAPIClient::Object::AttributeCallbackMapping');
+#isa_ok($instance, 'CZERTAINLY::Object::AttributeCallbackMapping');
 
 
 done_testing();

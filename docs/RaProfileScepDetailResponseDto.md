@@ -1,0 +1,19 @@
+# WWW::OpenAPIClient::Object::RaProfileScepDetailResponseDto
+
+## Load the model package
+```perl
+use WWW::OpenAPIClient::Object::RaProfileScepDetailResponseDto;
+```
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**uuid** | **string** | Object identifier | 
+**name** | **string** | Object Name | 
+**scep_available** | **boolean** | SCEP availability flag - true &#x3D; yes; false &#x3D; no | 
+**url** | **string** | SCEP URL | [optional] 
+**issue_certificate_attributes** | [**ARRAY[ResponseAttributeDto]**](ResponseAttributeDto.md) | List of Attributes to issue Certificate | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
